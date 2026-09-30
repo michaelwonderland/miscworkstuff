@@ -33,7 +33,7 @@
   .lede b { color: var(--purple); font-weight: 600; }
 
   .circles {
-    margin-top: 56px; display: grid;
+    margin-top: 80px; display: grid;
     grid-template-columns: 1fr 1fr 1fr; column-gap: 26px; position: relative;
   }
   .col { display: flex; flex-direction: column; align-items: center; text-align: center; }
@@ -61,20 +61,13 @@
   .a1 { left: calc(33.33% - 17px + 0px); }
   .a2 { left: calc(66.66% - 17px + 0px); }
 
-  .body { font-size: 20px; line-height: 1.5; margin-top: 28px; padding: 0; }
+  .body { font-size: 21px; line-height: 1.55; margin-top: 34px; padding: 0; }
   .body li { list-style: none; }
   .body li + li { margin-top: 6px; }
   .body .out { margin-top: 14px; color: var(--purple); font-weight: 600; }
 
-  .return { position: relative; height: 96px; margin-top: 14px; }
-  .return svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-  .return .rl {
-    position: absolute; left: 50%; top: 56px; transform: translateX(-50%);
-    background: #fff; padding: 0 16px; font-size: 17px; font-weight: 600;
-    letter-spacing: 0.1em; text-transform: uppercase; color: var(--purple);
-  }
   .loop {
-    margin-top: 10px; background: var(--navy); color: #fff;
+    margin-top: auto; background: var(--navy); color: #fff;
     border-radius: 18px; padding: 30px 40px;
     display: grid; grid-template-columns: auto 1fr; column-gap: 30px; align-items: center;
   }
@@ -86,10 +79,9 @@
   .loop .row span { color: var(--lilac); font-weight: 700; }
 
   .foot {
-    margin-top: 24px; display: flex; justify-content: space-between;
-    font-size: 18px; color: var(--grey); font-weight: 500;
+    margin-top: 32px; text-align: center;
+    font-size: 19px; color: var(--purple); font-weight: 700;
   }
-  .foot b { color: var(--navy); font-weight: 700; }
 </style>
 </head>
 <body>
@@ -127,18 +119,10 @@
       <ul class="body">
         <li>Pipeline review scores deals</li>
         <li>Handover lists commitments</li>
-        <li>Cohorts compare slipped deals</li>
+        <li>Cohorts compare slippage</li>
         <li class="out">Own logic, own loop</li>
       </ul>
     </div>
-  </div>
-
-  <div class="return">
-    <svg viewBox="0 0 952 96" preserveAspectRatio="none" fill="none">
-      <path d="M794 4 V52 Q794 72 774 72 H178 Q158 72 158 52 V18" stroke="#5B34E6" stroke-width="3" stroke-dasharray="9 8" stroke-linecap="round"/>
-      <path d="M146 26 L158 10 L170 26" stroke="#5B34E6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    <div class="rl">Flags route back</div>
   </div>
 
   <div class="loop">
@@ -151,9 +135,6 @@
     </div>
   </div>
 
-  <div class="foot">
-    <span>If you write something twice, make it a component.</span>
-    <b>Yorgos · Dexory</b>
-  </div>
+  <div class="foot">&ldquo;If you write something twice, make it a component.&rdquo;</div>
 </body>
 </html>
