@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What €1M on LinkedIn Ads Taught Us — v0.5 draft</title>
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,600;0,700;1,400&family=Carlito:wght@400;700&display=block" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  :root {
+    --pink: #E54D7B; --pink-dark: #C73D67; --pink-light: #F06A92; --pink-tint: #FCE9EF;
+    --ink: #1A1A1A; --black: #0A0A0A; --body: #4A4A4A; --muted: #8A8A8A;
+    --paper: #F8F7F5; --line: #E4E1DC; --card: #FFFFFF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--paper); }
+  body { font-family: Carlito, Calibri, sans-serif; color: var(--body); font-size: 10.6pt; line-height: 1.5;
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  h1, h2, h3, .serif { font-family: Gelasio, Georgia, serif; color: var(--ink); }
+
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always;
+          padding: 22mm 20mm 20mm; background: var(--paper); }
+  .page:last-child { page-break-after: auto; }
+  .page::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1.3mm; background: var(--pink); }
+  .dark { background: var(--black); color: #BDBDBD; }
+  .dark h1, .dark h2, .dark h3 { color: #fff; }
+
+  /* running furniture */
+  .hdr { position: absolute; top: 9mm; left: 20mm; right: 20mm; display: flex; justify-content: space-between;
+         font-size: 7.8pt; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .hdr b { color: var(--pink); font-weight: 700; }
+  .ftr { position: absolute; bottom: 9mm; left: 20mm; right: 20mm; display: flex; justify-content: space-between; align-items: center;
+         font-size: 7.8pt; color: var(--muted); }
+  .ftr img { height: 5mm; }
+  .draft { color: var(--pink); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+
+  /* cover */
+  .cover { padding: 26mm 22mm; }
+  .cover .logo { width: 20mm; }
+  .cover .kicker { margin-top: 44mm; font-size: 9pt; letter-spacing: .18em; text-transform: uppercase; color: var(--pink); font-weight: 700; }
+  .cover h1 { font-size: 40pt; line-height: 1.08; margin-top: 6mm; font-weight: 700; }
+  .cover h1 em { color: var(--pink); font-style: normal; }
+  .cover .sub { margin-top: 8mm; font-size: 14pt; line-height: 1.45; color: #9A9A9A; max-width: 140mm; }
+  .cover .meta { position: absolute; left: 22mm; bottom: 24mm; font-size: 9pt; color: var(--muted); line-height: 1.7; }
+  .stamp { display: inline-block; border: 1.2px solid var(--pink); color: var(--pink); padding: 1.6mm 3.2mm; border-radius: 1mm;
+           font-size: 8.5pt; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4mm; }
+  .dots { position: absolute; right: 24mm; bottom: 30mm; width: 34mm; height: 22mm; }
+  .dots i { position: absolute; border-radius: 50%; display: block; }
+
+  /* type */
+  .eyebrow { font-size: 8.4pt; letter-spacing: .16em; text-transform: uppercase; color: var(--pink); font-weight: 700; margin-bottom: 3mm; }
+  h2 { font-size: 22pt; line-height: 1.18; font-weight: 700; margin-bottom: 5mm; }
+  p + p { margin-top: 3mm; }
+  .lede { font-size: 12.2pt; line-height: 1.55; color: #3A3A3A; }
+  strong { color: var(--ink); }
+
+  /* pillar opener */
+  .pillar { padding: 0; }
+  .pillar .inner { position: absolute; left: 22mm; right: 22mm; top: 70mm; }
+  .pillar .num { font-family: Gelasio, Georgia, serif; font-size: 96pt; line-height: 1; color: var(--pink); font-weight: 700; }
+  .pillar h2 { font-size: 30pt; margin-top: 4mm; }
+  .pillar .lede { color: #A8A8A8; margin-top: 6mm; max-width: 150mm; }
+  .pillar ol { list-style: none; margin-top: 14mm; border-top: 1px solid #2A2A2A; }
+  .pillar li { display: flex; gap: 6mm; padding: 3.4mm 0; border-bottom: 1px solid #2A2A2A; color: #E8E8E8;
+               font-family: Gelasio, Georgia, serif; font-size: 12.5pt; }
+  .pillar li span { color: var(--pink); min-width: 9mm; font-weight: 700; }
+
+  /* insight */
+  .insight + .insight { margin-top: 6mm; padding-top: 6mm; border-top: 1px solid var(--line); }
+  .insight .n { font-family: Gelasio, Georgia, serif; font-weight: 700; color: var(--pink); font-size: 11pt; margin-bottom: 1.5mm; }
+  .insight h3 { font-size: 17.5pt; line-height: 1.22; font-weight: 700; margin-bottom: 4mm; }
+  .row { display: grid; grid-template-columns: 1fr 52mm; gap: 8mm; align-items: start; }
+  .stat { background: var(--card); border-left: 1.2mm solid var(--pink); padding: 4.5mm 4.5mm 4mm; }
+  .stat .big { font-family: Gelasio, Georgia, serif; font-size: 27pt; line-height: 1; color: var(--pink); font-weight: 700; }
+  .stat .cap { font-size: 8.8pt; line-height: 1.4; margin-top: 2mm; color: var(--body); }
+  .stat + .stat { margin-top: 4mm; }
+  .do { margin-top: 4mm; display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .do div { background: var(--card); padding: 4mm 4.5mm; }
+  .do h4 { font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; color: var(--pink); margin-bottom: 1.8mm; }
+  .do ul { list-style: none; }
+  .do li { padding-left: 3.6mm; position: relative; font-size: 9.7pt; line-height: 1.45; }
+  .do li + li { margin-top: 1.4mm; }
+  .do li::before { content: ""; position: absolute; left: 0; top: 2.1mm; width: 1.5mm; height: 1.5mm; border-radius: 50%; background: var(--pink); }
+
+  .note { margin-top: 4mm; border: 1px dashed var(--pink); background: var(--pink-tint); padding: 2.6mm 3.6mm; font-size: 8.8pt; line-height: 1.45; color: #6A2A3E; }
+  .note b { color: var(--pink-dark); letter-spacing: .06em; text-transform: uppercase; font-size: 7.8pt; margin-right: 1.5mm; }
+
+  table.diag { width: 100%; border-collapse: collapse; margin-top: 4mm; font-size: 9.6pt; background: var(--card); }
+  table.diag th { text-align: left; background: var(--black); color: #fff; font-weight: 700; padding: 2.4mm 3.4mm; font-size: 8.2pt; letter-spacing: .08em; text-transform: uppercase; }
+  table.diag td { padding: 2.4mm 3.4mm; border-bottom: 1px solid var(--line); }
+  table.diag td:last-child { color: var(--ink); font-weight: 700; }
+  .up { color: var(--pink); font-weight: 700; }
+
+  /* ladder */
+  .ladder { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin-top: 6mm; }
+  .ladder div { background: var(--card); padding: 4mm; border-top: 1mm solid var(--pink); font-size: 9.2pt; line-height: 1.4; }
+  .ladder div b { display: block; font-family: Gelasio, Georgia, serif; color: var(--ink); font-size: 10.4pt; margin-bottom: 1.4mm; }
+
+  .toc { margin-top: 5mm; display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .toc div { background: var(--card); padding: 4mm 5mm; }
+  .toc .p { font-size: 8pt; letter-spacing: .14em; text-transform: uppercase; color: var(--pink); font-weight: 700; }
+  .toc h3 { font-size: 13pt; margin: 1.5mm 0 2.5mm; }
+  .toc ol { list-style: none; font-size: 9.4pt; }
+  .toc li { padding: 1mm 0; border-top: 1px solid var(--line); }
+  .toc li span { color: var(--pink); font-weight: 700; display: inline-block; width: 6mm; }
+
+  .review { background: var(--card); padding: 6mm; margin-top: 6mm; }
+  .review ol { padding-left: 5mm; font-size: 9.8pt; }
+  .review li + li { margin-top: 2.4mm; }
+  .review li::marker { color: var(--pink); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<section class="page dark cover">
+  <img class="logo" src="logo.png" alt="Wonderland">
+  <div class="kicker">LinkedIn Ads · Field notes</div>
+  <h1>What €1M on LinkedIn Ads <em>taught us</em></h1>
+  <p class="sub">12 lessons, in 4 pillars, on why LinkedIn charges you more than it should, and what to do about it.</p>
+  <div class="meta">
+    <span class="stamp">v0.5 · Internal draft · Not for distribution</span><br>
+    Wonderland Marketing · September 2026<br>
+    For team review. Numbers are rounded and anonymised.
+  </div>
+  <div class="dots">
+    <i style="left:0;top:6mm;width:3mm;height:3mm;background:#E54D7B"></i>
+    <i style="left:6mm;top:15mm;width:2mm;height:2mm;background:#F06A92"></i>
+    <i style="left:12mm;top:3mm;width:4.5mm;height:4.5mm;background:#E54D7B"></i>
+    <i style="left:20mm;top:11mm;width:2.5mm;height:2.5mm;background:#C73D67"></i>
+  </div>
+</section>
+
+<!-- ============ INTRO ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Wonderland</b> · LinkedIn Ads field notes</span><span class="draft">v0.5 draft</span></div>
+  <div class="eyebrow">Why this exists</div>
+  <h2>LinkedIn will spend every euro you give it. That isn't the same as reaching more people.</h2>
+  <p class="lede">Most LinkedIn Ads advice is written by people who've managed a few thousand euros. This comes from managing more than a million, across several markets, funnel stages and most of the formats LinkedIn sells.</p>
+  <p style="margin-top:4mm">The pattern we kept running into: LinkedIn prices delivery very differently from Meta. It punishes small audiences, fragmented accounts and tired creative, and it does so quietly, by raising your CPM while your spend stays the same. The platform's own conversion numbers can hide the problem.</p>
+  <p>These are the 12 lessons that held up, grouped into 4 pillars.</p>
+
+  <div class="toc">
+    <div>
+      <div class="p">Pillar 1</div><h3>Audience size drives your costs</h3>
+      <ol><li><span>1</span>A ("perfect") audience is too expensive to reach</li><li><span>2</span>Your audience size sets your budget, not the other way round</li><li><span>3</span>Audience size decides how long your ads last</li><li><span>4</span>A CPM spike means your ad has run out of people</li><li><span>5</span>More ad sets on the same audience means a higher price for all of them</li></ol>
+    </div>
+    <div>
+      <div class="p">Pillar 2</div><h3>What LinkedIn is for</h3>
+      <ol><li><span>6</span>LinkedIn is a reach channel, not a demo machine</li><li><span>7</span>You don't need bottom-of-funnel ads on LinkedIn</li></ol>
+      <div class="p" style="margin-top:5mm">Pillar 3</div><h3>What earns attention in the feed</h3>
+      <ol><li><span>8</span>People beat logos</li><li><span>9</span>Document ads get 6x the clicks for a fifth of the price</li></ol>
+    </div>
+    <div style="grid-column: span 2">
+      <div class="p">Pillar 4</div><h3>Work with the algorithm, not against it</h3>
+      <ol style="columns:2; column-gap:6mm"><li><span>10</span>Every big change sends you back to the learning phase</li><li><span>11</span>Don't bid for conversions on a campaign shorter than the learning phase</li><li><span>12</span>LinkedIn's algorithm needs more signal than a small audience can give</li></ol>
+    </div>
+  </div>
+
+  <div class="ftr"><img src="logo.png" alt=""><span>2</span></div>
+</section>
+
+<!-- ============ PILLAR 1 OPENER ============ -->
+<section class="page dark pillar">
+  <div class="hdr"><span><b>Wonderland</b> · LinkedIn Ads field notes</span><span class="draft">v0.5 draft</span></div>
+  <div class="inner">
+    <div class="num">1</div>
+    <h2>Audience size drives your costs</h2>
+    <p class="lede">These five lessons build on each other. Targeting decides how big your audience is. Audience size decides how much you can usefully spend and how long your creative lasts. A CPM spike is the alarm that tells you you've hit one of those limits.</p>
+    <ol>
+      <li><span>01</span>A ("perfect") audience is too expensive to reach</li>
+      <li><span>02</span>Your audience size sets your budget, not the other way round</li>
+      <li><span>03</span>Audience size decides how long your ads last</li>
+      <li><span>04</span>A CPM spike means your ad has run out of people</li>
+      <li><span>05</span>More ad sets on the same audience means a higher price for all of them</li>
+    </ol>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>3</span></div>
+</section>
+
+<!-- ============ 1 + 2 ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Pillar 1</b> · Audience size drives your costs</span><span class="draft">v0.5 draft</span></div>
+
+  <div class="insight">
+    <div class="n">01</div>
+    <h3>A ("perfect") audience is too expensive to reach</h3>
+    <div class="row">
+      <div>
+        <p>Every targeting layer you add, such as an account list <em>and</em> job title <em>and</em> seniority <em>and</em> company size, shrinks the pool and raises the price of every impression in it. An account-list audience labelled "top of funnel" isn't prospecting. It's retargeting, and LinkedIn prices it that way.</p>
+        <p>The fix isn't Meta-style "go broad". Audience Expansion and the Audience Network both drift away from your buyer. The right audience is wide enough to deliver and tight enough to be relevant.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">12x</div><div class="cap">Higher CPM on the <strong>same ads</strong> once an account list was layered on top of function + company-size targeting.</div></div>
+      </div>
+    </div>
+    <div class="do">
+      <div><h4>Watch for</h4><ul><li>"Prospecting" audiences under a few tens of thousands of members</li><li>Account lists combined with AND logic on titles and seniority</li></ul></div>
+      <div><h4>Do instead</h4><ul><li>Target by job function + company size, then stop adding layers</li><li>Use account lists to measure engagement, not to drive conversions</li><li>Set a minimum size for anything you call prospecting</li></ul></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="n">02</div>
+    <h3>Your audience size sets your budget, not the other way round</h3>
+    <div class="row">
+      <div>
+        <p>Every audience has a limit on how much you can usefully spend on it. Past that limit, LinkedIn doesn't find you new people. Unless you're bid-capped, it keeps spending the full daily budget, shows your ads to fewer people and charges more for each impression.</p>
+        <p>From inside the account it looks like a healthy campaign: budget fully spent, CTR stable. The only signs are in delivery: impressions falling, CPM rising.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">−85%</div><div class="cap">Impressions on a <strong>flat budget</strong>. CPM rose roughly 6x over the same month.</div></div>
+      </div>
+    </div>
+    <div class="do">
+      <div><h4>Watch for</h4><ul><li>Spend flat, impressions down, CPM up</li><li>CTR and form completion holding steady. The ad isn't the problem; the pool is used up.</li></ul></div>
+      <div><h4>Do instead</h4><ul><li>Budget for a weekly frequency of about 3–4, then stop adding money</li><li>Need to spend more? Widen the audience, don't raise the budget</li><li>On a small audience, a campaign that doesn't spend its full budget is working as it should</li></ul></div>
+    </div>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>4</span></div>
+</section>
+
+<!-- ============ 3 + 4 ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Pillar 1</b> · Audience size drives your costs</span><span class="draft">v0.5 draft</span></div>
+
+  <div class="insight">
+    <div class="n">03</div>
+    <h3>Audience size decides how long your ads last</h3>
+    <div class="row">
+      <div>
+        <p>Creative doesn't wear out on a fixed timetable; it wears out at the rate your audience sees it. A small list sees the same ad over and over, so it tires in days. A broad audience can keep an ad working for weeks.</p>
+        <p>The narrower you target, the more creative you need in the pipeline. Plan and budget for that before launch, not after the CPM has already gone up.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">3 days</div><div class="cap">Until the best ad on a small account list stopped getting clicks. On broad audiences, ads lasted <strong>4–6 weeks</strong>.</div></div>
+      </div>
+    </div>
+    <div class="do">
+      <div><h4>Watch for</h4><ul><li>Frequency above ~3 per week</li><li>The launch-day winner turning into the worst performer</li></ul></div>
+      <div><h4>Do instead</h4><ul><li>Small lists: launch 8–10 variants, rotate every 5–7 days</li><li>Broad audiences: review creative from week 4</li></ul></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="n">04</div>
+    <h3>A CPM spike means your ad has run out of people</h3>
+    <div class="row">
+      <div>
+        <p>Check CPM daily, at the level of each ad. When an ad's CPM jumps to 4x or more of its own baseline, it has exhausted its audience. LinkedIn cuts how often it shows the ad. Unless you're bid-capped, it still spends your full budget, which is what drives the CPM up.</p>
+        <p>CPM usually shows fatigue before CTR does. By the time CTR drops, you've already been overpaying for days.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">4x+</div><div class="cap">CPM against the ad's own baseline. Pause or refresh <strong>the same day</strong>.</div></div>
+      </div>
+    </div>
+    <table class="diag">
+      <tr><th>CPM</th><th>Other signal</th><th>Most likely cause</th></tr>
+      <tr><td class="up">Rising</td><td>CTR falling</td><td>Creative fatigue</td></tr>
+      <tr><td class="up">Rising</td><td>CTR flat</td><td>Your own ad sets competing (see 05)</td></tr>
+      <tr><td class="up">Rising</td><td>Frequency rising, impressions falling</td><td>Audience used up</td></tr>
+      <tr><td class="up">High from day one</td><td>Frequency ~1</td><td>Audience too small to reach</td></tr>
+    </table>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>5</span></div>
+</section>
+
+<!-- ============ 5 ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Pillar 1</b> · Audience size drives your costs</span><span class="draft">v0.5 draft</span></div>
+
+  <div class="insight">
+    <div class="n">05</div>
+    <h3>More ad sets on the same audience means a higher price for all of them</h3>
+    <div class="row">
+      <div>
+        <p>Ad sets that target the same people enter the same auction and push up each other's price. Ten ad sets at €10 a day, all aimed at one retargeting pool, cost more per impression than one ad set at €100 a day.</p>
+        <p>It builds up gradually. Every new offer, market version or test gets its own small ad set until the account is bidding against itself. The giveaway is CPM climbing while CTR stays flat: nothing is wrong with the ads.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">~3x</div><div class="cap">CPM rise when dozens of small ad sets targeted one retargeting pool. CTR didn't move.</div></div>
+        <div class="stat"><div class="big">−45%</div><div class="cap">CPC within 10 days of consolidating the structure, with CTR +40%.</div></div>
+      </div>
+    </div>
+    <div class="do">
+      <div><h4>Watch for</h4><ul><li>Many ad sets sitting at LinkedIn's daily minimum</li><li>Near-identical market versions of the same ad splitting the budget</li></ul></div>
+      <div><h4>Do instead</h4><ul><li>One campaign per audience per objective</li><li>Fewer, properly funded ad sets with 5–6 ads each</li><li>Split a campaign out only when its goal is genuinely different</li></ul></div>
+    </div>
+  </div>
+
+  <div style="margin-top:12mm">
+    <div class="eyebrow">Pillar 1 in one line</div>
+    <div class="ladder">
+      <div><b>01 · Targeting</b>sets how big your audience is.</div>
+      <div><b>02 · Size</b>sets how much you can usefully spend.</div>
+      <div><b>03 · Size</b>sets how long your creative lasts.</div>
+      <div><b>04 · CPM</b>tells you, every day, when you've hit the limit.</div>
+    </div>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>6</span></div>
+</section>
+
+<!-- ============ PILLAR 2 ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Pillar 2</b> · What LinkedIn is for</span><span class="draft">v0.5 draft</span></div>
+  <div class="eyebrow">Pillar 2</div>
+  <h2 style="margin-bottom:4mm">What LinkedIn is for</h2>
+
+  <div class="insight">
+    <div class="n">06</div>
+    <h3>LinkedIn is a reach channel, not a demo machine</h3>
+    <div class="row">
+      <div>
+        <p>Most of the conversions LinkedIn reports are view-through: someone saw an ad, didn't click, and converted later through another route. With long attribution windows, LinkedIn will credit campaigns that were paused, and ads nobody clicked.</p>
+        <p>Judge LinkedIn on its cost per demo and it will always look expensive. Judge it on its own conversion numbers and it will look far better than it really is. Neither tells you what it's actually doing: putting you in front of your buyers, again and again.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">86–98%</div><div class="cap">Of reported conversions were view-through, not clicks.</div></div>
+        <div class="stat"><div class="big">~7x</div><div class="cap">The real cost per post-click conversion, compared with the CPA LinkedIn reported.</div></div>
+      </div>
+    </div>
+    <div class="do">
+      <div><h4>Watch for</h4><ul><li>Paused campaigns still "converting"</li><li>Dozens of tracked conversion events, from video views to downloads</li></ul></div>
+      <div><h4>Do instead</h4><ul><li>Report post-click and view-through conversions separately</li><li>Cut tracked conversion events to 2–3</li><li>Measure reach and frequency within your ideal buyers, plus influence on pipeline</li></ul></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="n">07</div>
+    <h3>You don't need bottom-of-funnel ads on LinkedIn</h3>
+    <div class="row">
+      <div>
+        <p>This is where most teams go wrong: they expect to use LinkedIn the way they use Meta. They bid for conversions, push demo requests and target narrowly to "only pay for buyers". LinkedIn's delivery engine isn't built for that.</p>
+        <p>What works is a steady mix of <strong>evergreen</strong> content, like benchmarks, guides and tools people keep coming back to, and <strong>seasonal</strong> content that gives people a reason to care now, like regulation changes, planning cycles and industry moments. Show it to an audience of your ideal buyers that's wide enough to sustain it. Sales closes the demo; LinkedIn makes sure the buyer already knows your name.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">70x+</div><div class="cap">More leads from a content offer than from a demo-request form, on the same lead gen setup.</div></div>
+        <div class="note"><b>Review note</b>Boldest claim in the piece. Add a line on where lead gen forms still fit (e.g. a small fixed share of budget for identifiable leads)?</div>
+      </div>
+    </div>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>7</span></div>
+</section>
+
+<!-- ============ PILLAR 3 ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Pillar 3</b> · What earns attention in the feed</span><span class="draft">v0.5 draft</span></div>
+  <div class="eyebrow">Pillar 3</div>
+  <h2 style="margin-bottom:4mm">What earns attention in the feed</h2>
+
+  <div class="insight">
+    <div class="n">08</div>
+    <h3>People beat logos</h3>
+    <div class="row">
+      <div>
+        <p>LinkedIn is a feed of people. Ads run from real people's posts (LinkedIn calls them Thought Leader ads) look like the rest of the feed, and ads from a company page look like ads. The auction reflects that: higher engagement, cheaper delivery.</p>
+        <p>They also last longer. On a broad top-of-funnel audience, a strong post can keep working for months. But not forever: the older ones eventually showed the same CPM spike as everything else. Treat them like any other creative: watch the CPM and refresh.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">~3x</div><div class="cap">The CTR of company page posts, at the <strong>lowest CPM</strong> of any format we ran.</div></div>
+      </div>
+    </div>
+    <div class="do">
+      <div><h4>Watch for</h4><ul><li>The whole budget going to brand-page posts</li><li>Thought Leader posts left running for months without anyone checking CPM</li></ul></div>
+      <div><h4>Do instead</h4><ul><li>Build a small group of people whose posts you can put spend behind</li><li>Promote posts that are already doing well organically</li><li>Apply the 4x CPM rule (04) to these too</li></ul></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="n">09</div>
+    <h3>Document ads get 6x the clicks for a fifth of the price</h3>
+    <div class="row">
+      <div>
+        <p>A document ad is a swipeable PDF that plays inside the feed. The reader gets real value without leaving LinkedIn, every swipe counts as engagement, and the experience is better than a landing page. That lines up with what LinkedIn wants: people staying on the platform.</p>
+        <p>The result: far more engagement for the money. If your offer is a guide, a report or a checklist, show a preview in the feed instead of hiding it behind a click.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">6x</div><div class="cap">The CTR of the <strong>same message</strong> as a single image, at about a fifth of the cost per click.</div></div>
+      </div>
+    </div>
+    <div class="note"><b>Review note</b>The advantage is per click, not per impression. In one week we compared, document ad CPMs were higher than single images. We don't have evidence that LinkedIn prioritises the format, so the wording above says it "lines up with" what LinkedIn wants rather than claiming priority.</div>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>8</span></div>
+</section>
+
+<!-- ============ PILLAR 4 ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Pillar 4</b> · Work with the algorithm, not against it</span><span class="draft">v0.5 draft</span></div>
+  <div class="eyebrow">Pillar 4</div>
+  <h2 style="margin-bottom:4mm">Work with the algorithm, not against it</h2>
+
+  <div class="insight">
+    <div class="n">10</div>
+    <h3>Every big change sends you back to the learning phase</h3>
+    <div class="row">
+      <div>
+        <p>Replace all your proven ads in one go, or move a large share of budget overnight, and the campaign starts learning again from scratch. Delivery drops, costs jump, and it can take one to two weeks to recover. Most teams read that dip as "the new creative doesn't work" and change something else, which resets it again.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">20x+</div><div class="cap">CPC rise after proven ads were swapped out all at once.</div></div>
+      </div>
+    </div>
+    <div class="do">
+      <div><h4>Watch for</h4><ul><li>A performance drop straight after a "refresh"</li><li>Several changes made in the same week</li></ul></div>
+      <div><h4>Do instead</h4><ul><li>Add new ads alongside your winners; retire the old ones gradually</li><li>Move budget in steps of about 25%, a week apart</li></ul></div>
+    </div>
+  </div>
+
+  <div class="insight">
+    <div class="n">11</div>
+    <h3>Don't bid for conversions on a campaign shorter than the learning phase</h3>
+    <p>A five-day burst for an event, a launch or an account-based push ends before the algorithm has learnt who converts. You pay the price of conversion bidding and never get the benefit. For short bursts, use maximum delivery, reach or engagement, and let the timing and the message do the work.</p>
+  </div>
+
+  <div class="insight">
+    <div class="n">12</div>
+    <h3>LinkedIn's algorithm needs more signal than a small audience can give</h3>
+    <div class="row">
+      <div>
+        <p>This is the other half of "don't use LinkedIn like Meta". Meta's algorithm can take a broad audience and find the buyers inside it. LinkedIn's isn't that sophisticated. Given a small audience and a conversion goal, it doesn't find anyone new; it just bids up the price of the few people it has, and most of the "conversions" it records are view-through.</p>
+      </div>
+      <div>
+        <div class="stat"><div class="big">+75%</div><div class="cap">Higher CPM in smaller markets under conversion bidding, for a smaller share of conversions.</div></div>
+      </div>
+    </div>
+    <div class="note"><b>Review note</b>We're currently testing whether optimising for website visits gets the same reach for less in these markets. Present it as a hypothesis until the results are in.</div>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>9</span></div>
+</section>
+
+<!-- ============ REVIEW PAGE ============ -->
+<section class="page">
+  <div class="hdr"><span><b>Internal</b> · For team review</span><span class="draft">v0.5 draft</span></div>
+  <div class="eyebrow">Before v1.0</div>
+  <h2>Open items for the team</h2>
+  <p class="lede">This page comes out before publication.</p>
+  <div class="review">
+    <ol>
+      <li><strong>Headline figure.</strong> Confirm total managed LinkedIn spend and currency (€ or $), and the time period. The cover says "€1M" with no time period for now.</li>
+      <li><strong>Anonymisation.</strong> Check that no stat, market reference or offer type can be traced back to any client. All numbers are rounded ratios; no absolute amounts, dates or market names.</li>
+      <li><strong>More than one account.</strong> Most of the evidence comes from one large account. If we can show the same patterns in two or three other accounts, the "this holds up broadly" claim gets much stronger.</li>
+      <li><strong>Thought Leader ad lifespan (08).</strong> The evidence supports "longer, but not forever". We can't give a number of weeks.</li>
+      <li><strong>Document ads (09).</strong> The advantage is in CTR and CPC, not CPM. Keep the wording as it is.</li>
+      <li><strong>Pending tests.</strong> The website-visits objective test (12) and the brand lift study. Add results if they arrive before we publish.</li>
+      <li><strong>Visuals.</strong> Candidates: a daily CPM line showing an exhausted audience (02/04), a bar chart of CPM with and without the account list (01), and the diagnostic table (04) as a one-page cheat sheet.</li>
+      <li><strong>CTA.</strong> Final page, e.g. an offer of a LinkedIn account audit or CPM health check.</li>
+    </ol>
+  </div>
+  <div class="ftr"><img src="logo.png" alt=""><span>10</span></div>
+</section>
+
+</body>
+</html>
