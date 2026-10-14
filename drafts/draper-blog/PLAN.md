@@ -33,8 +33,7 @@ Cross-links: 11 is the hub for 1, 4, 5 and 6. 12 links to 8 and 10. Each post li
 
 ## Rules for every post
 
-- **Attribution:** Dara's distinctive frameworks, numbers and positions are attributed to her by name, with a link to the specific video (URLs are in her knowledge files). Write "creative strategist Dara Denney", never imply she endorses Draper, and never present her ideas as Draper's. General practitioner knowledge needs no citation.
-- **Her disclosure rule:** she's Motion's Chief Evangelist. If a post cites a vendor-sourced stat she repeats (e.g. Marpipe's catalog figures), attribute it to the vendor.
+- **Attribution (revised by Michael):** Dara is mentioned *only* where a post uses one of her specific named frameworks (e.g. 5 Levels of Creative Diversity, golden-nugget review mining, her UGC formula). There she's credited once, with a short quote checked against her transcript and one link to the video. All general advice is written as our own reasoning with no mention of her. Brand stats, pay bands and benchmarks that only she reported are dropped or turned into labelled hypotheticals. Third parties reached through her videos (e.g. Marpipe) are dropped unless the claim is common knowledge. No Motion mentions.
 - **Draper claims:** only those in `profiles/draper-ads.md`. Partnership ads are **not** a launched Draper feature. Don't say Draper supports them.
 - **No invented first-hand data.** Draper has no published case data yet. Use worked arithmetic and Dara's cited examples instead, with at most one `[TK]` where first-hand proof would matter most.
 - **Retired tactics:** never present anything from the "retired" sections of her files as current advice (e.g. ad longevity as proof of performance).
