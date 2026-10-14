@@ -13,19 +13,21 @@ word_count: 0
 
 # Whitelisting vs Partnership Ads: Which One to Use Now
 
-In the whitelisting vs partnership ads choice, pick partnership ads. Whitelisting is the older route, and Meta is phasing it out.
+In the whitelisting vs partnership ads choice, pick partnership ads. Whitelisting is the older route, it's being phased out, and creative strategist Dara Denney, who asks every brand about partnership ads before anything else, treats it as retired advice.
 
-Most comparisons stop at setup steps. The difference that matters is who Meta shows the ad to first, and that's where whitelisting loses.
+Most comparisons stop at setup steps. The difference that matters is who Meta shows the ad to first.
+
+That's where whitelisting loses. Below: both definitions, a side-by-side table, setup, creator pay, and the math on your launch queue.
 
 ## What's the difference between whitelisting and partnership ads?
 
-**Whitelisting is when a creator gives a brand access to their account so the brand can run ads under the creator's name.** The brand gets Business Manager access to the creator's Page or Instagram account, then runs ads as the creator.
+**Whitelisting is when a creator gives a brand access to their account so the brand can run ads under the creator's name.** Setup runs through Business Manager.
 
 **Partnership ads are Meta's ad format that runs under both the creator's and the brand's names**, labeled as a paid partnership.
 
 They look similar in the feed; underneath, they work differently.
 
-Creative strategist Dara Denney puts the gap in one image: with whitelisting, the creator's handle is a mask over targeting that still runs on the brand's own pixel data. Partnership ads instead seed delivery from the creator's own audience, their "diehard cheerleader fans," and Meta builds lookalikes from there ([source](https://www.youtube.com/watch?v=9UBSGSS2Yuo&t=124s)).
+Dara puts the gap in one image: with whitelisting, the creator's handle is a mask over targeting that still runs on the brand's own pixel data. Partnership ads instead seed delivery from the creator's own audience, their "diehard cheerleader fans," and Meta builds lookalikes from there ([source](https://www.youtube.com/watch?v=9UBSGSS2Yuo&t=124s)).
 
 Call it **mask or seed: does the creator's handle change who Meta starts with, or only what the header says?**
 
@@ -41,13 +43,11 @@ The table follows Dara's [brand turnaround breakdown](https://www.youtube.com/wa
 
 ## Why partnership ads are the 2025 to 2026 priority
 
-The seed matters most for an account that has spent at scale for years.
+In Dara's telling, the seed matters most for an account that has spent at scale for years.
 
 Its pixel has narrowed onto the same repeat buyers. The creator's audience is a door to people it can't reach.
 
-Dara's position is blunt.
-
-She calls asking about partnership ads [the first question she asks every brand](https://x.com/DenneyDara/status/1945193813938688496), and says top accounts put [25 to 50% of Meta budget](https://x.com/DenneyDara/status/1948067399410061695) behind creator content run this way. Two of her case studies sit at the top of that range, with [Caraway](https://www.youtube.com/watch?v=Q_hhAfjEcW0) at 40% of Meta budget and [Pact](https://www.youtube.com/watch?v=R3Z1VvvgtzU) at about 50% of ad spend.
+Her position is blunt. She calls partnership ads [the first question she asks every brand](https://x.com/DenneyDara/status/1945193813938688496), and says top accounts put [25 to 50% of Meta budget](https://x.com/DenneyDara/status/1948067399410061695) behind creator content run this way. Two of her case studies sit at the top of that range, with [Caraway](https://www.youtube.com/watch?v=Q_hhAfjEcW0) at 40% of Meta budget and [Pact](https://www.youtube.com/watch?v=R3Z1VvvgtzU) at about 50% of ad spend.
 
 In [one of her interviews](https://www.youtube.com/shorts/SK4PQHOIm2c), Jones Road CEO Cody Plofker says they "hadn't had as much success with influencer whitelisting ads" as he wanted.
 
@@ -82,7 +82,7 @@ In her words, "the churn and burn of creator relationships is totally gone."
 
 ## The math: what a creator program does to your launch queue
 
-Say you spend $60K a month on Meta. Dara's 25% floor puts $15K behind partnership ads.
+Say you spend $60K a month on Meta. The low end of Dara's 25 to 50% range puts $15K behind partnership ads.
 
 Buy 8 raw pieces at $500 each and production costs $4,000.
 
@@ -92,7 +92,7 @@ That's before anything else in your [testing calendar](/blog/facebook-ads-testin
 
 Draper Ads doesn't create partnership ads today, so those go through Ads Manager. What we see is the other half. A working creator program multiplies the brand-side ads you need to launch, and the queue grows faster than the team.
 
-If you want to know what good creator content looks like before you brief it, start with [what UGC ads are and why they work](/blog/what-are-ugc-ads).
+Before you brief anyone, read [what UGC ads are and why they work](/blog/what-are-ugc-ads).
 
 Whitelisting borrowed a creator's face. Partnership ads borrow their audience, and that's the part worth paying for.
 

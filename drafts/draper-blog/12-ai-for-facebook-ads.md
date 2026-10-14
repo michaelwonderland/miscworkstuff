@@ -122,7 +122,7 @@ Launching gets no help at all from a static generator. Every extra ad still need
 Most searches for "Meta AI ads" are about the features inside Ads Manager. Dara reviewed a batch of them after Meta's 2025 Performance Summit and a Cannes press briefing ([video](https://www.youtube.com/watch?v=rqUuP-uc0SE&t=246s)). Her verdicts:
 
 - **Persona-based text generation:** use it after you find winning copy, to adapt that copy for broader or narrower audiences.
-- **Translation text generation:** the one she was most excited about. A founder on a panel she joined said ads in Spanish were a major growth lever for brands spending high six figures a year.
+- **Translation text generation:** the one she was most excited about. A founder on a panel she joined said ads in Spanish were a major growth lever for brands spending high six to low seven figures on Meta.
 - **Brand-aware image generation:** uses your logo, fonts, and colors. She expects mostly new brands without a creative team to use it.
 - **Video from multiple images:** worth a test with imagery that has already worked, especially for small teams.
 - **Virtual try-on:** for apparel, showing clothes on different body sizes.
@@ -222,7 +222,7 @@ Claims to verify:
 - "Her agency uses AI voiceovers a lot": KB static-and-ai-creative.md, no timestamp.
 - Monks x Headspace (460 assets, 1/3 time, 62% conversion-rate increase, 20 use cases): Meta Agency Awards, via 9SiRt3uvv-s. Third-party figures, attributed.
 - Meta feature list and verdicts: rqUuP-uc0SE (July 31, 2025). Feature names may have changed since; the post says to check what the account has.
-- Hype10 panel figure: "high six figures, low seven figures" on Meta; we wrote "high six figures a year", check against transcript (~5:07) and adjust if needed.
+- Hype10 panel figure: transcript says "high six figures, low seven figures on meta ads" with no time unit; the post keeps it unitless.
 - 16+ hours saved per week is a Draper site claim ("across teams"); 17+ clicks is the build-from-scratch unit, and the multi-ad-set math states it assumes a rebuild each time.
 - The 3-minutes-per-build input is a labelled hypothetical.
 Attribution and disclosures: Motion (Chief Evangelist), Gamma (partnership), Super Scale and Particle (sponsors) all disclosed where named. The 2024 ethical objection to deepfake/UGC-clone tools is presented as "not repeated, not retracted", per the KB's instruction to treat it as unresolved. The 2025 "dump 50-100 AI images into an ASC" tactic is deliberately not used (in tension with her 2026 position). The retired Ads-Library-copying tactic appears only as something she rejects.
