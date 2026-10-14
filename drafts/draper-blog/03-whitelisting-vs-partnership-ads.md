@@ -45,7 +45,7 @@ The table follows Dara's [brand turnaround breakdown](https://www.youtube.com/wa
 
 In Dara's telling, the seed matters most for an account that has spent at scale for years.
 
-Its pixel has narrowed onto the same repeat buyers. The creator's audience is a door to people it can't reach.
+Its pixel has narrowed onto the same repeat buyers over the years, and the creator's audience is a door to the people that pixel no longer finds.
 
 Her position is blunt. She calls partnership ads [the first question she asks every brand](https://x.com/DenneyDara/status/1945193813938688496), and says top accounts put [25 to 50% of Meta budget](https://x.com/DenneyDara/status/1948067399410061695) behind creator content run this way. Two of her case studies sit at the top of that range, with [Caraway](https://www.youtube.com/watch?v=Q_hhAfjEcW0) at 40% of Meta budget and [Pact](https://www.youtube.com/watch?v=R3Z1VvvgtzU) at about 50% of ad spend.
 
@@ -57,11 +57,11 @@ And whether bigger creators beat smaller ones is unsettled in Dara's own materia
 
 ## How to set up partnership ad access
 
-At a high level, in order:
+The steps, in order:
 
 1. Agree terms first: deliverables, fee, and how long you can run the content.
-2. Ask the creator to approve your brand as a partner from their Instagram settings, or send the request from your side.
-3. Choose the post: an existing post from their account, or your own cut of their footage, depending on what they've approved.
+2. Have the creator approve your brand as a partner in Instagram, or send the request yourself.
+3. Choose the content: an existing post of theirs, or your own cut of their footage.
 4. In Ads Manager, turn on the partnership ad option at the ad level and add the creator's identity next to yours.
 5. Put the creator in the ad name, so you can [rank creators later](/blog/ad-set-name-examples).
 
@@ -69,9 +69,9 @@ No creator budget yet? Dara names three free routes: the founder's own Instagram
 
 ## What to pay creators
 
-These are the bands from [Dara's creator system](https://www.youtube.com/watch?v=_VtpfVeB2Kc&t=1459s):
+The bands from [Dara's creator system](https://www.youtube.com/watch?v=_VtpfVeB2Kc&t=1459s):
 
-- **Raw UGC content:** $250 to $1,000 per piece, by creator caliber.
+- **Raw UGC content:** $250 to $1,000 per piece.
 - **Creator on retainer:** $1,000 for one or two assets, up to $3,000 to $4,000 a month.
 - **In-house creator:** $1,200 to $1,800 a month for two pieces of content a day ([source](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=612s)).
 - **Celebrity:** $5K to $60K, sometimes $100K.

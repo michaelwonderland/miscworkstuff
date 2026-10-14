@@ -35,7 +35,7 @@ In Dara's [2025 conversation with Dan Pantelo](https://www.youtube.com/watch?v=A
 
 ## Are catalog ads worth it?
 
-It depends on one number, your live SKU count. Dara's thresholds:
+It depends on one number, your live SKU count. The thresholds from Dara's catalog episodes:
 
 | Your catalog | Verdict |
 |---|---|
@@ -43,7 +43,7 @@ It depends on one number, your live SKU count. Dara's thresholds:
 | About 50 SKUs | Worth testing |
 | 250+ SKUs | A large gap if you're not running them |
 
-Apparel and beauty are the obvious fits, with marketplaces, travel or ticketing close behind. The less obvious one is high-AOV (average order value) products like jewelry and mattresses, which Dara calls out as working well.
+Apparel and beauty are the obvious fits, with marketplaces, travel or ticketing close behind. The less obvious one is high-AOV (average order value) products like jewelry and mattresses, which the episodes call out as working well.
 
 The scale argument comes from the vendor side, so weigh it that way. Pantelo says over 60% of all e-commerce ad spend now goes to catalog ads, and that they make up 40% of Meta's global ad revenue. He also puts about 95% of catalog ads in the plain product-on-white style.
 
@@ -53,7 +53,7 @@ Most e-commerce money runs through this format, and almost nobody designs for it
 
 ## Why boring catalog ads can beat video
 
-Dara opens the topic by apologizing for it, then argues it matters more than its reputation. Her case has three parts.
+Dara herself calls catalog ads boring, then argues they matter more than their reputation. The case has three parts.
 
 **First, a different algorithm.** Catalog delivery runs on product-level data, not creative-level data. A video or static can reasonably show about five products before it should become a bundle. A store with 400 SKUs can only represent its real inventory through the catalog.
 
@@ -117,12 +117,12 @@ The method holds regardless. Build several treatments on one feed and let spend 
 
 Two things to switch off or fix before you design anything:
 
-- **Meta's AI-generated backgrounds.** Pantelo says Meta turned these on by default for many advertisers. His complaint: "why is my couch SKU floating on a beach?" Check the setting.
+- **Meta's AI-generated backgrounds.** Pantelo says Meta switched these on by default for many advertisers, and his team keeps hearing some version of "why is my couch SKU floating on a beach?" Check the setting.
 - **Thin feed data.** Missing descriptions and categories mean worse matching. Enrich the feed before buying more templates.
 
 ## How to set up the campaign so it doesn't eat your account
 
-**Run catalog ads in their own campaign, separate from your main Advantage+ campaign.** Dara says Meta's guidance disagrees, and she runs it separate anyway, because merged catalog ads tend to absorb the spend. With a real catalog, that makes three campaigns: one to test, one to scale, one for the catalog.
+**Run catalog ads in their own campaign, separate from your main Advantage+ campaign.** Pantelo gave Dara that answer on air, against Meta's own guidance, and her [account-structure advice](https://www.youtube.com/watch?v=BIVnOWcGnfA) lands in the same place, because merged catalog ads tend to absorb the spend. With a real catalog, that makes three campaigns: one to test, one to scale, one for the catalog.
 
 Inside it, organize ad sets by product category. Pact, which runs about 500 SKUs, treats each category ad set "like an individual business," with its own product set and creative.
 
