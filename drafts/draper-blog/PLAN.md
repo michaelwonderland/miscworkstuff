@@ -1,8 +1,28 @@
 # Draper Ads blog: 12 articles answering the questions Meta advertisers ask
 
-**Angle:** Meta advertisers get their questions answered by Draper. Each post answers one question that creative strategist Dara Denney answers in her public content (YouTube and X, 2023 to 2026, distilled in `michaelwonderland/aimarketingschool/experts/dara-denney`). Each one is targeted at a keyword with 10+ US monthly searches (DataForSEO, October 2026).
+**Angle:** Meta advertisers get their questions answered by Draper.
+
+**Method (panel mode):**
+- **Question:** the questions come from what Dara Denney's audience asks most.
+- **Answer:** the answers come from the **collective** knowledge of the eight paid-social experts in `michaelwonderland/aimarketingschool`. Where they agree, that's stated as industry knowledge. Where they disagree, both sides are shown, with when each wins.
+- **No names:** no individual is named, quoted or linked in the articles.
+- **Targeting:** every article targets a keyword with 10+ US monthly searches (DataForSEO, October 2026).
 
 **Profile:** `draper-ads` (en-US). **Voice:** wonderblogwriter house voice (Julian Shapiro + Nat Eliason, Michael light).
+
+## The formula
+
+1. **Question.** A real practitioner question, matched to a validated keyword.
+2. **Panel brief** (`briefs/NN-slug.md`). All eight paid-social corpora are read for that question:
+   - consensus, splits (with the conditions where each side wins), number ranges, retired myths and single-source ideas;
+   - names and sources stay in the brief, for verification only.
+3. **Article** (`NN-slug.md`). The house voice is layered on the panel brief:
+   - consensus is the backbone;
+   - splits are shown without names, followed by "our take";
+   - Draper's angle comes where the answer touches launching volume.
+4. **Quality gates:**
+   - `lint.py --forbid "$(cat forbid.txt)"`: zero errors, which means no expert names or handles;
+   - an editor pass.
 
 ## How the questions were found
 
@@ -33,7 +53,8 @@ Cross-links: 11 is the hub for 1, 4, 5 and 6. 12 links to 8 and 10. Each post li
 
 ## Rules for every post
 
-- **Attribution (revised by Michael):** Dara is mentioned *only* where a post uses one of her specific named frameworks (e.g. 5 Levels of Creative Diversity, golden-nugget review mining, her UGC formula). There she's credited once, with a short quote checked against her transcript and one link to the video. All general advice is written as our own reasoning with no mention of her. Brand stats, pay bands and benchmarks that only she reported are dropped or turned into labelled hypotheticals. Third parties reached through her videos (e.g. Marpipe) are dropped unless the claim is common knowledge. No Motion mentions.
-- **Draper claims:** only those in `profiles/draper-ads.md`. Partnership ads are **not** a launched Draper feature. Don't say Draper supports them.
-- **No invented first-hand data.** Draper has no published case data yet. Use worked arithmetic and Dara's cited examples instead, with at most one `[TK]` where first-hand proof would matter most.
-- **Retired tactics:** never present anything from the "retired" sections of her files as current advice (e.g. ad longevity as proof of performance).
+- **No individual experts.** No names, handles, quotes or links to their content. Coined framework names that belong to one person are described instead of named. No brand stats, pay rates or results that only one expert relayed. No guests from their videos.
+- **Primary sources are fine.** Meta's own documentation can be cited and linked, but only exact URLs, never guessed ones.
+- **Draper claims:** only those in `profiles/draper-ads.md`. Partnership ads are **not** a launched Draper feature.
+- **No invented first-hand data.** Use worked arithmetic with labelled hypothetical inputs. At most one `[TK]` where first-hand proof matters most.
+- **Retired tactics** only ever appear as myths to stop.
