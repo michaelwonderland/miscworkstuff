@@ -8,84 +8,94 @@ locale: en-US
 profile: draper-ads
 format: E missing explainer
 byline: Draper Ads
-word_count: 0
+word_count: 943
 ---
 
 # Campaign Budget vs Ad Set Budget: CBO or ABO for Testing?
 
-Use campaign budget (CBO) for your scaling campaign and for any account small enough to run as one campaign. Use ad set budget (ABO) for a dedicated creative testing campaign once you spend around $1,000 a day, because it guarantees every new test gets money.
+In the campaign budget vs ad set budget choice, the job decides. Use campaign budget (CBO) for your scaling campaign and for any account small enough to run as one campaign. Use ad set budget (ABO) for a dedicated creative testing campaign once you spend around $1,000 a day, because it guarantees every new test gets money.
 
-Most guides stop at the definitions. The useful part is the verdict by situation, so that's what this page is for.
+Most guides stop at the definitions.
 
-## What's the difference between campaign budget and ad set budget?
+The useful part is the verdict for your situation, with the math behind it.
+
+## What's the difference?
 
 **Campaign budget lets Meta move one budget between your ad sets. Ad set budget fixes how much each ad set can spend.**
 
-With CBO, which Meta now calls Advantage campaign budget, you set $450 a day on the campaign and Meta decides each ad set's share, day by day. With ABO, you set $150 on each of three ad sets and each one spends its $150.
+With CBO, now labeled Advantage campaign budget, you set $450 a day on the campaign and Meta decides each ad set's share, shifting it as results come in. With ABO, you set $150 on each of three ad sets, and each spends its $150.
 
-One change since 2025 matters here. As creative strategist Dara Denney [pointed out in August 2025](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=60s), Advantage+ became the default for sales campaigns, and its machine learning runs under both budget types.
+One change since 2025 matters. As creative strategist Dara Denney [pointed out in August 2025](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=60s), Advantage+ became the default for sales campaigns, and its machine learning now runs under both budget types.
 
-So the choice is no longer "automated vs manual." It's who controls the split between ad sets: you or Meta.
+So the choice isn't "automated vs manual" anymore. It's who controls the split between ad sets.
 
 ## Which one should you use?
 
-**Pick by the job the campaign does, then by spend.** Here's the verdict for each situation:
+**Pick by the job the campaign does, then by spend.**
 
 | Situation | Use | Why |
 |---|---|---|
 | Lean account, $5K to $30K a month, one campaign | Campaign budget | Too little money to split by hand |
 | Testing campaign at ~$1,000 a day | Ad set budget | Each test gets a fixed, readable slice |
 | Testing campaign at $1M+ a month | Ad set budget, usually | Fast reads on many tests a week |
-| Scaling campaign with one ad set of winners | Either | With one ad set, there's nothing to split |
+| Scaling campaign with one ad set of winners | Either | One ad set leaves nothing to split |
 
-The testing rows are Denney's own calls. At the lean tier, she runs [one campaign with campaign budget and Advantage+ on](https://www.youtube.com/shorts/PVoC7H44A5w), with a new test ad set each week. At the growth tier, she calls the choice "a media buyer decision" but [uses ad set budgets herself](https://www.youtube.com/watch?v=7knQyPYLmfo&t=487s), throttling spend to get a read on new creative within a few days.
+The testing rows follow Denney's own calls. For small budgets, she runs [one campaign with campaign budget and Advantage+ on](https://www.youtube.com/shorts/PVoC7H44A5w), adding a new test ad set each week.
 
-At $1M+ a month, she says she has seen only a select few testing campaigns succeed with campaign budget. Her guess at the reason is that creative teams want a quick read so they can start iterating.
+Around $1,000 a day, she calls it "a media buyer decision" but [uses ad set budgets herself](https://www.youtube.com/watch?v=7knQyPYLmfo&t=487s), throttling spend to read new creative within a few days.
+
+Above $1M a month, she says only a select few of the testing campaigns she has seen succeed with campaign budget.
+
+Her guess at why: creative teams want a quick read so they can start iterating.
 
 ## Why ad set budget wins for a testing campaign
 
 **Under campaign budget, last week's test can starve this week's.**
 
-Say your testing campaign has three ad sets, one for each of the last three weeks. Labeled inputs:
+Say your testing campaign holds three ad sets, one per week. Labeled inputs:
 
 - Campaign budget: $450 a day
 - Target cost per purchase: $40
 - Ad set A, two weeks old, holds a clear winner
-- Ad set C launched today, with 20 new statics
+- Ad set C launched today with 20 new statics
 
-Meta favors what it already knows converts. So suppose it sends $320 a day to A, $90 to B and $40 to C.
+Meta favors what it already knows converts. Suppose it sends $320 a day to A, $90 to B and $40 to C.
 
-At $40 a day, C buys about one purchase a day. Reaching 50 purchases, a fair point to call a test, takes about 50 days.
+At $40 a day, C buys about one purchase a day, so reaching 50 purchases, a fair point to call a test, takes about 50 days.
 
-Put the same $450 on ad set budgets at $150 each. C now buys almost four purchases a day and reaches 50 in about 13 days.
+By then the test is stale.
 
-Same money, a read roughly four times sooner. That's the case for ad set budgets in testing, and it's the same math we use to size tests in our [Facebook ads testing handbook](/blog/facebook-ads-testing).
+Now put the same $450 on ad set budgets at $150 each, and C buys almost four purchases a day and reaches 50 in about 13 days.
 
-There's a related warning from Denney: dropping a creative test into an otherwise performing campaign tends to drag that campaign down. Keep testing and scaling in separate campaigns, whatever the budget type.
+Same money, a read nearly four times sooner. It's the same math we use to size tests in our [Facebook ads testing handbook](/blog/facebook-ads-testing).
 
-## When campaign budget is the right call
+Denney adds one more warning. A creative test dropped into an otherwise performing campaign tends to drag that campaign down, so keep testing and scaling apart whatever the budget type.
+
+## When is campaign budget the right call?
 
 **Below roughly $30K a month, campaign budget is the better default, testing included.**
 
-At $5,000 a month, you have about $165 a day. Split that into three $55 ad sets and none of them buys enough purchases to learn from. One campaign-budget campaign pools the money, and the new ad set each week competes inside it.
+At $5,000 a month you have about $165 a day. Split it into three $55 ad sets and none buys enough purchases to learn from; one pooled campaign gives the weekly test ad set a fighting chance.
 
-Campaign budget also suits a buyer who would rather trust Meta's allocation than force it. Denney's own [breakdown of Seed Health's testing](https://www.youtube.com/watch?v=hGCdGNP5oGE) describes a team that stopped forcing even spend across ads because it pushed money into creative the algorithm had already judged less scalable.
+It also suits a buyer who would rather trust Meta's allocation than force it. In [Denney's breakdown of Seed Health's testing](https://www.youtube.com/watch?v=hGCdGNP5oGE), the team stopped forcing even spend because it pushed money toward creative the algorithm had already judged less scalable.
 
-The same logic applies one level up. If an ad set gets little spend under campaign budget, that's information, not unfairness.
+Low spend under campaign budget is information, not unfairness.
 
-And in the scaling campaign, the question mostly disappears. Denney keeps [all winners in a single ad set](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=182s), growing to 50+ ads over time. With one ad set, campaign and ad set budgets do the same thing.
+And in the scaling campaign, the question mostly disappears. Denney keeps [all winners in a single ad set](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=182s), growing to 50+ ads over time.
+
+With one ad set, both budget types do the same thing.
 
 ## What the choice means for launching
 
 **Ad set budgets mean a new ad set for every test, every week.**
 
-That's the hidden cost. At Denney's current sizing of 10 to 25 ads per test ad set, each new test is 20 ads built inside a fresh ad set. In Ads Manager, building one ad from scratch inside one ad set takes 17+ clicks.
+At Denney's current sizing of 10 to 25 ads per test ad set, that's 20 ads built into a fresh ad set each time. Ads Manager takes 17+ clicks to build one ad from scratch inside one ad set.
 
-So a 20-ad weekly test is 20 × 17 = 340 clicks, before naming each ad and typing its UTMs. That's 1,360 clicks a month on one testing campaign.
+A 20-ad weekly test is 20 × 17 = 340 clicks, before names and UTMs. That's 1,360 clicks a month.
 
-If you launch a 10-ad test once a month, Ads Manager handles it fine. If it's every week, that's the job Draper Ads does: build the ad once, launch it to the right ad sets, with names and UTMs filled in.
+Launching one 10-ad test a month? Ads Manager handles it. Every week is the job Draper Ads does: build the ad once, send it to the right ad sets, with names and UTMs filled in.
 
-Pick the budget type for the read you need, not for the setup it saves.
+Pick the budget for the read, not the setup.
 
 *If launching new test ad sets is eating your week, Draper Ads is what we built to fix it.*
 
@@ -102,7 +112,7 @@ Claims to verify:
 - Aug 2025 video: Denney says she "really do[es] prefer to use [term dropped]" for the testing campaign; consistent with ABO but not quoted.
 - Timestamps t=60s, t=487s, t=182s derived from transcript segment markers (1:00, 8:07, 3:02).
 - The $320/$90/$40 split is a labeled hypothetical, not observed data.
-Lint: see final run.
+Lint: 0 errors, 0 warnings.
 Self-score: intro 8/10, average section 7.6/10.
 No first-hand account data; the post relies on Denney's cited positions and worked arithmetic.
 -->

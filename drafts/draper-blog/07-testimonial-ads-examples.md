@@ -154,6 +154,6 @@ Angle chosen: "The line, not the format" (counter-narrative). The SERP shows TV 
 Angles rejected: (1) "Names and verified badges don't matter" myth-bust (too narrow for 880/mo catalog intent; kept as an H2). (2) "Testimonial ads are a volume game" (Draper-first, weaker novelty; kept as the closing math section).
 Open TKs: 1 (Draper-launched testimonial batch).
 Claims to verify: before/after policy (Dara: not banned, extra restrictions on cosmetic procedures and weight loss; check Meta's current Advertising Standards before publishing). The 3x ROAS on $1M+ headline static is Dara's 2024 client claim (foundational tier). "$100 million" is her self-description in the name Short. Bullet-point stack: her source Short leans on ad longevity, which her knowledge base retires as evidence, so we cite only the 2026 low-fi creator static point. Quoted lines ("size 16 to 10", "best sex at 49", "50% fewer fights", hiking pants, t-shirt regret) are ads and reviews she showed on camera; brands not named. "Sarah, 52" is an illustrative format, not a real review.
-Lint: 0 errors. Warnings kept: parens rate (almost all are Markdown link URLs needed for attribution, which the lint counts as parentheses); open TK.
+Lint: 0 errors, 1 warning (the open TK, kept on purpose).
 Self-score: intro 8/10, average section 7.6
 -->

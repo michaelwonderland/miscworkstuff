@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: G handbook chapter
 byline: Draper Ads
-word_count: 3251
+word_count: 3271
 ---
 
 # Facebook Ads Testing: The Big-Swing Handbook
@@ -17,7 +17,7 @@ Facebook ads testing in 2026 means fewer tests with more in each one. Put 10 to 
 
 That is close to the opposite of the textbook, which says to change one variable, hold the rest equal and split spend evenly. That method assumes a delivery system Meta has since replaced.
 
-The cost of following it is quiet. A test of four near-identical ads can spend $2,000 over two weeks and teach you nothing.
+The cost of following it is quiet: a test of four near-identical ads can spend $2,000 over two weeks, produce a tidy-looking winner, and still teach you nothing you can use.
 
 As far as Meta could tell, it was one ad.
 
@@ -66,7 +66,7 @@ Compare two test ad sets with the same budget:
 - **Narrow test:** six versions of one founder video, each with a different first line of on-screen text. Same face, same kitchen, same lighting.
 - **Big-swing test:** the founder video, a customer testimonial filmed in a car, a green-screen reaction to a competitor, a us-vs-them static, a press-quote static and an illustrated before-and-after.
 
-The first asks Meta to choose between six identical-looking ads. The second hands it six different doors to six different buyers.
+The first asks Meta to choose between six identical-looking ads, while the second hands it six different doors that could each lead to a different buyer.
 
 Only the second gives the system something to learn from.
 
@@ -130,7 +130,7 @@ Whether the testing campaign uses campaign or ad set budgets is "a media buyer d
 
 ### 3. Scale: same structure, more tests
 
-Accounts spending $1M+ a month still tend to run one testing campaign, Denney says, even at $5M a month. Tests typically launch at $200 a day and run about seven days or until $1,000 is spent.
+Accounts spending $1M+ a month still tend to run a single testing campaign, Denney says, and she has worked on one spending $5M a month that did exactly that. Tests typically launch at $200 a day and run about seven days or until $1,000 is spent.
 
 Cost caps are common, because the target cost per purchase is already known.
 
@@ -301,7 +301,7 @@ Claims to verify:
 - Scale tier: the knowledge base says "nearly all use CBO" but the transcript (12:12) reads "nearly all brands are using [term dropped by transcription]... a select few ad accounts recently that were successfully using CBO at scale". That implies ABO is the norm in scale-tier testing campaigns. The pillar avoids stating either; the CBO vs ABO post states the transcript reading. Worth a listen to confirm.
 - "Skincare brand spending $1,000 a day" is a labelled illustration, not a client.
 Attribution: all Dara positions carry her name and a video/X link. No vendor stats used (Varos figures omitted). No retired tactics presented as advice (2-4 variations and forced-even-spend are mentioned only as replaced).
-Lint: 0 errors, 2 warnings. Kept: (1) parens 7.3/1k: every remaining parenthesis is a markdown link URL, which the lint counts as prose parentheses; the body has no other parentheses. (2) the one open TK.
+Lint: 0 errors, 1 warning (the one open TK, kept deliberately).
 Self-score: intro 8/10, average section 7.8/10. Peak section: the math of a test.
 No first-hand account data: the post carries itself on Dara's cited protocol and our worked math; one TK where first-hand proof would help most.
 -->

@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: G handbook chapter
 byline: Draper Ads
-word_count: 0
+word_count: 1564
 ---
 
 # What Are UGC Ads?
@@ -86,9 +86,9 @@ Run them now. Don't build your whole program on them.
 
 That's Dara's rule, and it settles the script-versus-freedom fight.
 
-A UGC creator paid per video gets a full storyboard, with a clip-by-clip script, setting, reference ad and recording rules, loosened only after they've proven themselves. An established influencer gets context and sends back their own concept for approval. An affiliate on commission gets no creative brief at all, because in a [2025 interview](https://www.youtube.com/watch?v=6i_UTkBrIiU&t=2868s) she says a brief robs them of the freedom they use to convert their own audience.
+A UGC creator paid per video gets a full storyboard: the clip-by-clip script plus the setting and recording rules, loosened only after they've proven themselves. An established influencer gets context and sends back their own concept for approval. An affiliate on commission gets no creative brief at all, because in a [2025 interview](https://www.youtube.com/watch?v=6i_UTkBrIiU&t=2868s) she says a brief robs them of the freedom they use to convert their own audience.
 
-The yapper format pushes everyone toward looser scripts.
+Won't a full storyboard make a creator sound scripted? Sometimes, and that's the trade-off. The yapper format pushes everyone toward looser scripts.
 
 If the creator can't make the lines sound like their own words, it won't read as a rant. It will read as an ad.
 
@@ -96,7 +96,7 @@ If the creator can't make the lines sound like their own words, it won't read as
 
 Start with **Meta's Creator Marketplace**, which Dara notes she isn't sponsored by.
 
-In her [2026 format round-up](https://www.youtube.com/watch?v=ePcEcT2PH8E&t=794s) she shows it surfacing a creator's organic hook rate, interaction rate and past partnership ads, with 50% and 7% as her example figures. That lets you judge whether someone can carry a yapper ad before you brief them.
+In her [2026 format round-up](https://www.youtube.com/watch?v=ePcEcT2PH8E&t=794s) she shows it surfacing a creator's organic hook rate and interaction rate, with 50% and 7% as her example figures, plus any past partnership ads. That lets you judge whether someone can carry a yapper ad before you brief them.
 
 Her other sources: scanning TikTok and Reels in your niche, UGC marketplaces such as Tribe and Influy, actor networks when creator content isn't landing, and your own customers, which she calls the highest-variance option of all. Budget roughly $250 to $1,000 per raw piece, by her pay bands.
 
@@ -110,9 +110,9 @@ Every UGC ad wears out, and nobody can tell you when.
 
 Dan Pantelo, founder of the catalog-ad company Marpipe, put it plainly in [a 2024 conversation with Dara](https://www.youtube.com/watch?v=MVg_o8WU6mo): no UGC ad lasts forever, and its decline is unpredictable. His pitch is that catalog ads are the steady line underneath, because they're built from your product feed and matched to shoppers at the product level.
 
-He sells catalog-ad tooling, so weigh it accordingly. The logic still holds.
+He sells catalog-ad tooling, so weigh it accordingly; the logic still holds.
 
-Keep a catalog campaign running so a dying hero video doesn't take the account down with it.
+So what holds the account up when the hero video dies? Keep a catalog campaign running underneath it.
 
 Dara's own answer is breadth. The same creator varies wildly from clip to clip, so you want several creators and longer partnerships, not one star. For the signs that an ad is done, see [what is ad fatigue](/blog/what-is-ad-fatigue).
 
@@ -124,11 +124,11 @@ That's our read of Dara's position. In 2024 she said she avoided deepfake and UG
 
 Look at the AI she does endorse.
 
-Her animated "AI slop" characters work, in her words, because they aren't trying to pass as real. The AI production tool she rates highest uses real actors and real footage, explicitly not avatars. And she points out that as avatar ads multiply, buyers lean harder on approval from someone they already trust.
+Her animated "AI slop" characters work, in her words, because they aren't trying to pass as real. The AI production tool she rates highest uses real actors and real footage, explicitly not avatars. And in her breakdown of Caraway's creator strategy, she notes that as avatar ads multiply, buyers lean harder on approval from someone they already trust.
 
 That's borrowed trust again. An avatar has none to lend.
 
-Use AI for hook variants, voiceovers, editing and research. Keep the face real.
+Use AI for hook variants and voiceovers, for editing, for research. Keep the face real.
 
 A UGC ad is only as good as the person in it, so the work that pays is finding the right people and testing enough of what they make.
 
@@ -140,6 +140,6 @@ Angles rejected: (1) "UGC is dead, long live creator content" (clickbait-adjacen
 Open TKs: none. The post lacks first-hand Draper proof; the modular-script arithmetic carries the practical layer instead.
 Claims to verify: the whitelisting/partnership mechanism is Dara's description, not Meta documentation. Creator Marketplace metrics as shown in her April 2026 video. $250 to $1,000 per raw UGC piece is her 2026 pay band. The micro/macro retirement is hers (2026). The catalog-ads fatigue argument is attributed to Dan Pantelo (Marpipe, vendor) per the PLAN.md vendor rule; the cold-open speaker in that 2024 video reads as Pantelo, so confirm on a re-listen. The 2024 ethics quote (youtube.com/watch?v=hvVPepEu7W8) is foundational tier and flagged in her KB as unresolved, not retired, so it's presented as "not retracted." Draper is not claimed to support partnership ads.
 Format note: handbook chapters normally run 2,000+ words. This one is held to the medium brief (1,300 to 1,750), so there's no recap block.
-Lint: see below.
+Lint: 0 errors, 0 warnings.
 Self-score: intro 8/10, average section 7.5
 -->
