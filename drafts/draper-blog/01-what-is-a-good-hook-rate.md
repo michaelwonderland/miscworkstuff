@@ -13,76 +13,83 @@ word_count: 0
 
 # What Is a Good Hook Rate?
 
-**Hook rate is a video metric: the share of impressions where someone watched at least three seconds of your ad.** The hook rate formula is 3-second video plays ÷ impressions × 100. It only exists for video. A static has no hook rate.
+**Hook rate is a video metric: the share of impressions where someone watched at least three seconds of your ad.** The hook rate formula is 3-second video plays ÷ impressions × 100. Statics don't have one.
 
-So what is a good hook rate? There's no universal number. For DTC video ads, experienced Meta buyers commonly report 25% to 30% as the low end and 35% to 45% as strong. Lead gen and B2B accounts often run far lower, under 10%, and can be perfectly healthy. The bar that holds is your own account average, read next to hold rate and cost per acquisition (CPA).
+So what is a good hook rate? There's no universal number. For DTC video, experienced Meta buyers commonly report 25% to 30% as the low end and 35% to 45% as strong, while lead gen and B2B accounts often run under 10% and stay perfectly healthy. The bar that holds is your own account average, read next to hold rate and cost per acquisition (CPA).
 
-And a high hook rate can be bad news. Most benchmark lists leave that part out.
+And a high hook rate can be bad news.
 
 ## What is hook rate, exactly?
 
 Hook rate is a custom metric. Ads Manager doesn't ship it as a column, so you build it from two columns it does have: 3-second video plays and impressions.
 
-Say a video gets 40,000 impressions and 12,000 three-second plays. That's a 30% hook rate. Seven in ten people who were shown the ad scrolled past before second three.
+Say a video gets 40,000 impressions and 12,000 three-second plays. That's a 30% hook rate. Seven in ten people shown the ad scrolled past before second three.
 
-**It answers one narrow question: did the opening stop people?** It says nothing about whether the ad sells.
+**It answers one narrow question: did the opening stop people?** Whether the ad sells is a different question.
 
-One warning before you compare numbers. Some tools divide by reach or by plays instead of impressions, and some call the same idea "thumb-stop rate." Two 30% figures from two formulas aren't the same 30%.
+Before you compare numbers, check the denominator. Some tools divide by reach or by plays instead of impressions, and some call the same idea "thumb-stop rate."
+
+Two 30% figures from two formulas aren't the same 30%.
 
 ## What is a good hook rate for your account?
 
-Practitioners agree on the formula and disagree on the number. The gap is real:
+Practitioners agree on the formula and disagree on the number:
 
 | Account type | What practitioners commonly report |
 |---|---|
 | DTC video | 25% to 30% low end, 35% to 45% strong |
 | Lead gen and B2B | Often under 10%, and still healthy |
 
-The formulas match, so the spread comes from the offer, the format, the placement mix, and who's watching. That spread is the best argument against universal benchmarks.
+The formulas match, so the spread comes from the offer, the format, the placements, and who's watching. That spread is the best argument against universal benchmarks.
 
-Pull your own baseline instead: the average hook rate of every video that spent past a set floor in the last 60 to 90 days, split by format. [TK: anonymized account averages by format from one Wonderland account]. Read any single ad against that line, and only once it has a few thousand impressions. Below that, the number is noise.
+Pull your own baseline instead: the average hook rate of every video that spent past a set floor in the last 60 to 90 days, split by format. [TK: anonymized account averages by format from one Wonderland account]. Read any single ad against that line once it has a few thousand impressions.
+
+Below that, it's noise.
 
 ## Is a high hook rate good?
 
 Experienced buyers split on this.
 
-One camp treats hook rate as an early signal with a bar to clear. A high number means the opening reaches the right people, so you make more hooks like it. That camp wins when you're iterating openings on a concept that already converts and need a read before CPA data arrives.
+One camp treats hook rate as an early signal with a bar to clear: a high number means the opening found the right people, so make more like it. That camp wins when you're iterating openings on a concept that already converts and need a read before CPA data arrives.
 
-The other camp won't decide anything on it. A shocking opener can buy a sky-high hook rate from people who will never buy. That camp judges on CPA and raw video drop-off, and it wins when the account has enough purchases to judge on cost directly.
+The other camp won't decide anything on it, because a shocking opener can buy a sky-high hook rate from people who will never buy. It wins when the account has enough purchases to judge on cost directly.
 
 **Our take: hook rate is a diagnostic, never a target.** The second camp has spotted a real failure, and it deserves a name.
 
-**An empty hook is an opening that stops plenty of people, but not the people who buy.** Hook rate climbs, CPA climbs with it, and the hook-rate column calls it a win. It's worse than a weak hook, because the opening also shapes whom Meta keeps delivering to. Reward an empty hook and delivery drifts toward people who enjoy being stopped.
+**An empty hook is an opening that stops plenty of people, but not the people who buy.** Hook rate climbs, CPA climbs with it, and the hook-rate column calls it a win. It's worse than a weak hook, because the opening also shapes whom Meta keeps delivering to.
 
-Read hook rate paired with CPA:
+Reward an empty hook and delivery drifts toward people who enjoy being stopped.
 
-- **High hook rate, CPA on target:** the hook works. Make more openings in that direction.
-- **High hook rate, CPA off target:** an empty hook, or a body that breaks the promise. Rewrite the opening in the buyer's own words so the wrong people scroll on, and check hold rate to see which problem you have.
-- **Low hook rate, CPA excellent:** your best candidate for new openings. The body sells to the few who stay.
-- **Low hook rate, CPA off target:** the concept isn't landing. Start again.
+So read hook rate paired with CPA:
+
+- **High hook, CPA on target:** the hook works. Make more openings in that direction.
+- **High hook, CPA off target:** an empty hook, or a body that breaks the promise. Check hold rate to see which, then rewrite the opening in the buyer's own words so the wrong people scroll on.
+- **Low hook, CPA excellent:** your best candidate for new openings.
+- **Low hook, CPA off target:** the concept isn't landing. Start again.
 
 ## Hold rate: check the denominator first
 
-Hold rate tells you whether the middle of the ad keeps the people the hook stopped. The catch is that practitioners compute it two ways:
+Hold rate tells you whether the middle of the ad keeps the people the hook stopped. Practitioners compute it two ways:
 
 - **Per impression:** 15-second plays (or ThruPlays) ÷ impressions. Buyers using this version commonly land around 7% to 15%.
-- **Per hooked viewer:** 15-second plays ÷ 3-second plays. The same ad reads several times higher.
+- **Per hooked viewer:** 15-second plays ÷ 3-second plays.
 
-Take that 40,000-impression ad again. 3,600 fifteen-second plays is a 9% hold rate on the first formula and 30% on the second. Same ad, same week. Pick one formula, label the column, and never judge it against a benchmark built the other way.
+Take that 40,000-impression ad again. With 3,600 fifteen-second plays, it has a 9% hold rate on the first formula and a 30% hold rate on the second, for the same ad in the same week.
+
+Pick one, label the column, and never judge it against a benchmark built the other way.
 
 ## What to stop doing
 
 - **Chasing the highest hook rate you can get.** That's how empty hooks get scaled.
-- **Pausing a good-CPA ad because its hook rate is low.** Give it new openings instead. Since most viewers never pass second three, some practitioners treat a lot of [ad fatigue](/blog/what-is-ad-fatigue) as a tired opening.
-- **Comparing hook rates across tools** without checking the denominator.
+- **Pausing a good-CPA ad over a low hook rate.** Give it new openings. Since most viewers never pass second three, some practitioners treat a lot of [ad fatigue](/blog/what-is-ad-fatigue) as a tired opening.
 
 ## New hooks are cheap to make and slow to launch
 
-Almost every reading above ends in the same action: make new openings. One body, five first-three-seconds, each aimed at a different buyer or problem. Five rewordings of one line don't count; Meta tends to treat near-identical ads as one.
+Almost every reading above ends in one action: new openings. One body, five first-three-seconds, each aimed at a different buyer or problem, because five rewordings of one line tend to get treated as one ad.
 
-Making them is the quick part. In Ads Manager, building one ad from scratch in one ad set takes 17+ clicks. Five openings across three ad sets is 15 ads, or about 255 clicks if you rebuild each one. And unless each ad's name carries its hook, the hook-rate column is unreadable a month later. Our [ad set name examples](/blog/ad-set-name-examples) show a scheme that keeps it readable, and our guide to [Facebook ads testing](/blog/facebook-ads-testing) covers how many to launch at once.
+In Ads Manager, building one ad from scratch in one ad set takes 17+ clicks. Five openings across three ad sets is 15 ads, or about 255 clicks if you rebuild each one. And unless each ad's name carries its hook, the column is unreadable a month later (our [ad set name examples](/blog/ad-set-name-examples) fix that, and our [Facebook ads testing](/blog/facebook-ads-testing) guide covers how many to launch).
 
-Draper Ads was built inside a paid social agency, by the media buyers who were doing those uploads. It pulls each hook file from Google Drive, names every ad from its file, and launches the batch to every ad set in one go.
+Draper Ads was built inside a paid social agency, by the media buyers doing those uploads. It pulls each hook file from Google Drive, names every ad from its file, and launches the batch to every ad set at once.
 
 Hook rate tells you where to look. CPA tells you whether you found anything.
 

@@ -23,7 +23,9 @@ Most accounts that say "statics don't work for us" tested 20 versions of one ide
 
 **Static ads are single-image ads: one picture, usually a headline on it, and the primary text above it.** No video, no carousel.
 
-Their job has changed. Practitioners agree that static image ads are the cheapest, fastest way to find out which message sells. A designer can make ten statics in the time it takes to brief one video. So you test messages as statics, then spend video money on the ones that won.
+Their job has changed. Practitioners agree that static image ads are the cheapest, fastest way to find out which message sells, because a designer can make ten statics in the time it takes to brief, shoot and edit one video.
+
+So you test messages as statics, then spend video money on the ones that won.
 
 That doesn't make statics a lesser format. A mediocre static usually beats a mediocre video, while the best video usually beats the best static. Most accounts that scale run both, side by side.
 
@@ -33,7 +35,7 @@ Every format here obeys the same handful of construction rules. Experienced buye
 
 - **One ad, one job.** One problem, one promise, one person. Two ideas in one image means neither lands.
 - **Clear in a second.** Cover the text and look at the image. Could a stranger say what's sold and who it's for?
-- **The headline does the work.** The image stops the scroll, the headline sells. Keep it short; a third line usually means a second idea.
+- **The headline does the work.** The image stops the scroll, the headline sells. Keep it short. A third line usually means a second idea.
 - **Native beats polished.** Brand fonts and studio gloss read as "ad." Plain doesn't mean careless, though.
 - **Customer words beat brand words.** Mine reviews for the line. If no customer would say it, cut it.
 - **Stack, don't spread.** A comparison with a review quote and press logos is one strong ad, not three weak ones.
@@ -45,51 +47,75 @@ These are the formats that show up in two or more practitioners' format librarie
 
 ### 1. The problem callout
 
-A bold headline that names the reader's problem in their words ("Still waking up at 3 a.m.?") over a simple product shot. It works cold because the headline does the targeting: only people with the problem stop. Write ten callouts from your reviews, pair each with the same clean image and let the words compete.
+A bold headline that names the reader's problem in their words ("Still waking up at 3 a.m.?") over a simple product shot. It works cold because the headline does the targeting: only people with the problem stop. 
+
+Write ten callouts from your reviews, pair each with the same clean image and let the words compete.
 
 ### 2. Us vs. them comparison
 
-Two columns, your product against "the usual option," with three or four ticks and crosses. The reader does the comparison in a glance, so it carries a reason to switch without a paragraph of copy. Pick the alternative your buyers already use, not a named competitor, and keep each row to three words.
+Two columns, your product against "the usual option," with three or four ticks and crosses. The reader does the comparison in a glance, so it carries a reason to switch without a paragraph of copy.
+
+Pick the alternative your buyers already use, not a named competitor, and keep each row to three words.
 
 ### 3. Reasons why
 
-A numbered list of three reasons to buy beside the product. Lists are fast to read and each reason is a hypothesis you can later split into its own ad. Three is plenty, and past five nobody reads to the end.
+A numbered list of three reasons to buy beside the product. Lists are fast to read and each reason is a hypothesis you can later split into its own ad.
+
+Three is plenty. Past five, nobody reads to the end.
 
 ### 4. Feature callout
 
-The product in the center with arrows or labels pointing to its best features. It suits products whose value sits in visible details: a seam, a valve, an ingredient. Cap it at four callouts and write each as a benefit ("No leaks in a bag"), not a spec.
+The product in the center with arrows or labels pointing to its best features. It suits products whose value sits in visible details: a seam, a valve, an ingredient.
+
+Cap it at four callouts and write each as a benefit ("No leaks in a bag"), not a spec.
 
 ### 5. Review card
 
-One customer quote, a star rating and a first name, laid out like a review screenshot. It works when the quote is specific and slightly imperfect, because polished quotes read as written by marketing. Pull the oddest, most concrete line from your reviews; our [testimonial ads examples](/blog/testimonial-ads-examples) go deeper on choosing it.
+One customer quote, a star rating and a first name, laid out like a review screenshot. It works when the quote is specific and slightly imperfect, because polished quotes read as written by marketing.
+
+Pull the oddest, most concrete line from your reviews; our [testimonial ads examples](/blog/testimonial-ads-examples) go deeper on choosing it.
 
 ### 6. The negative-review flip
 
-A one-star review whose complaint is secretly a benefit ("Too strong, I only needed half a scoop"). It stops the scroll because nobody expects an ad to show a bad review. Search your reviews for complaints about too much of a good thing.
+A one-star review whose complaint is secretly a benefit ("Too strong, I only needed half a scoop"). It stops the scroll because nobody expects an ad to show a bad review.
+
+Search your reviews for complaints about too much of a good thing.
 
 ### 7. Native screenshot
 
-A Notes page, a text conversation or a Stories frame with plain text and stickers. It looks like something a person posted, so it gets read before it gets judged as an ad. Build it in the real app and screenshot it rather than faking the interface in a design tool.
+A Notes page, a text conversation or a Stories frame with plain text and stickers. It looks like something a person posted, so it gets read before it gets judged as an ad.
+
+Build it in the real app and screenshot it rather than faking the interface in a design tool.
 
 ### 8. The ugly ad
 
-A sticky note, a handwritten sign or a phone photo on a kitchen counter. Ugly ads win when the polish was the thing telling people to scroll past. Ugly isn't sloppy, though. The words and the product still have to be legible.
+A sticky note, a handwritten sign or a phone photo on a kitchen counter. Ugly ads win when the polish was the thing telling people to scroll past.
+
+Ugly isn't sloppy, though. The words and the product still have to be legible.
 
 ### 9. How it works
 
-Three or four numbered steps with a small image each. It answers "but how?" for products that need a little education, and that's where statics usually struggle. Keep it to four steps; a fifth means you need a video.
+Three or four numbered steps with a small image each. It answers "but how?" for products that need a little education, and that's where statics usually struggle.
+
+Keep it to four steps. A fifth means you need a video.
 
 ### 10. Before and after
 
-Two states side by side, or a time label like "day 2 / day 42." The eye does the math, which is why transformation is one of the most persuasive layouts there is. Check Meta's rules for your category first. Body, skin and weight claims are restricted, so test after-only versions there.
+Two states side by side, or a time label like "day 2 / day 42." The eye does the math, which is why transformation is one of the most persuasive layouts there is.
+
+Check Meta's rules for your category first. Body, skin and weight claims are restricted, so test after-only versions there.
 
 ### 11. Product grid
 
-Four to nine products or colorways in a grid. It sells range, which suits apparel, multi-SKU and sale pushes. Shoot every item the same way so the grid reads as one picture, not a collage.
+Four to nine products or colorways in a grid. It sells range, which suits apparel, multi-SKU and sale pushes.
+
+Shoot every item the same way so the grid reads as one picture, not a collage.
 
 ### 12. Offer anchor
 
-The price, the deal and the deadline, tied to a real event (a restock, a season ending, a product being retired). It converts warm people who were waiting for a reason. A fake countdown teaches your buyers to ignore you.
+The price, the deal and the deadline, tied to a real event like a restock or a product being retired. It converts warm people who were waiting for a reason.
+
+A fake countdown teaches your buyers to ignore you.
 
 ## Can a static ad prospect, or does it only retarget?
 
@@ -111,7 +137,7 @@ Practitioners split here too. One camp treats a static that has run for months i
 
 Openly stylized AI work (cartoons, illustrated characters, scenes nobody would mistake for a photo) has support among practitioners, because it doesn't pretend to be real. Realistic AI images of people or results have almost none. Viewers spot them, and a fake "customer" photo is a trust problem before it's a performance problem.
 
-**Our take:** stylized is fine, fake-realistic isn't. Use image models as a draft generator, and ship only what a person has checked for product accuracy (labels, proportions, spelling) and for the one-second read. For the full workflow, see [AI for Facebook ads](/blog/ai-for-facebook-ads).
+**Our take:** stylized is fine, fake-realistic isn't. Use image models as a draft generator, and ship only what a person has checked for product accuracy, from label spelling to proportions, and for the one-second read. For the full workflow, see [AI for Facebook ads](/blog/ai-for-facebook-ads).
 
 ## Why more statics only helps if they're different
 
@@ -123,7 +149,9 @@ So which test teaches you more? Three images with eight headline tweaks each, or
 
 That second test is where the work moves. Say you run those 24 statics (3 messages × 8 distinct ads) into 2 ad sets. Assume each ad is built from scratch in each ad set: at 17+ clicks per ad in Ads Manager, that's 24 × 2 × 17 = 816+ clicks before anything goes live. Add a third ad set and it passes 1,200.
 
-Making statics got fast. Launching them didn't. [TK: one real static test batch from a Draper user or Wonderland, distinct messages vs cosmetic variants, with launch time]
+Making statics got fast.
+
+Launching them didn't. [TK: one real static test batch from a Draper user or Wonderland, distinct messages vs cosmetic variants, with launch time]
 
 That's the job [Draper Ads](https://draperads.com/) does: build each ad once, deploy it to every ad set, with names taken from the creative file so you can read results by message. If you launch a dozen statics a month, Ads Manager is fine. At 24 a week, it's most of a day.
 

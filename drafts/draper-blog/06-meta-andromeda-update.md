@@ -34,15 +34,17 @@ Everything in the second bucket is practitioner inference. Some of it is good in
 
 ## What experienced media buyers agree on
 
-Read enough practitioners on Andromeda and three points come up again and again, from people who agree on little else.
+Three points come up again and again, from people who agree on little else.
 
-**1. Andromeda is not why your ads are bad.** Nobody serious calls it a penalty or a tax on advertisers. If an ad stopped working when Andromeda arrived, the usual reading is that a weaker system was propping it up, or that a competitor with better ads got there first.
+**1. Andromeda is not why your ads are bad.** Nobody serious calls it a penalty. If an ad stopped working when Andromeda arrived, a weaker system was probably propping it up, or a competitor with better ads got there first.
 
-**2. Small variations of one asset no longer count as new ads.** A headline swap on the same image. A black-and-white filter. A new text overlay, thumbnail, or comment sticker. A new hook on the same footage. These used to buy a few extra weeks of reach. Now they tend to get served to roughly the same people as the original.
+**2. Small variations of one asset no longer count as new ads.** A headline swap on the same image, a filter, a new overlay or thumbnail, a new hook on the same footage. These used to buy a few extra weeks of reach.
 
-**3. Real diversity means a different person, not a different look.** Practitioners keep naming the same three levers: a new persona, a new reason to buy, or a new awareness stage (someone who has never thought about the problem versus someone comparing you with a competitor).
+Now they tend to reach roughly the same people as the original.
 
-Two corollaries follow. Volume without difference is waste, so 20 near-copies a week do less than 10 ads that sit far apart. And don't rebuild your account structure because of Andromeda. If your structure was working, it's probably compatible, because the targeting now lives in the creative.
+**3. Real diversity means a different person, not a different look.** Practitioners name the same three levers: a new persona, a new reason to buy, or a new awareness stage (someone who has never thought about the problem versus someone comparing you with a competitor).
+
+Two corollaries follow. Volume without difference is waste: 20 near-copies a week do less than 10 ads that sit far apart. And don't rebuild your account structure for Andromeda; if it was working, it's probably compatible, because the targeting now lives in the creative.
 
 That gives us a test worth naming. **The same-person test: before you launch an ad, ask whether it would reach a different person, for a different reason, than the ads already running.** If the honest answer is no, it's a variation, whatever the file name says.
 
@@ -50,19 +52,23 @@ That gives us a test worth naming. **The same-person test: before you launch an 
 
 Here practitioners split, and the split is about evidence, not tactics.
 
-**Camp one: observed account behavior.** These buyers start from what changed in their own accounts. Iterations of winners stopped beating the originals. Spend piled into one or two ads while frequency kept climbing. Their claim stays narrow: Meta seems to group visually similar ads and show them to roughly the same people. They won't publish a model of Meta's internals and tell you to check everything against your own data. This camp wins when you run a real account and can test the claim yourself.
+**Camp one: observed account behavior.** These buyers start from their own accounts, where iterations of winners stopped beating the originals and spend piled into one or two ads while frequency climbed. Their claim stays narrow: Meta seems to group visually similar ads and show them to roughly the same people. They publish no model of Meta's internals and tell you to check against your own data.
 
-**Camp two: a mechanistic theory.** Others build a full model of how Meta fingerprints each ad and counts the distinct ones, so an account running 50 ads might hold only a handful of "real" ones. It's vivid, and it makes "shoot it differently" feel necessary, which is why creative teams like it. But no Meta documentation describes that mechanism, and no Meta report shows you such a count. It wins as a teaching device. Treat it as theory.
+This camp wins when you run a real account and can test the claim yourself.
 
-**Camp three: consumer-first.** The third group says the algorithm story is beside the point. Different people buy for different reasons, so ads built on different reasons reach more buyers. The best advertisers were working this way long before anyone said "Andromeda." Brief for people, not for the algorithm.
+**Camp two: a mechanistic theory.** Others build a full model of how Meta fingerprints each ad and counts the distinct ones, so 50 ads might be only a handful of "real" ones. It's vivid, and it makes "shoot it differently" feel necessary. But no Meta documentation describes that mechanism, and no Meta report shows such a count. It wins as a teaching device for creative teams. Treat it as theory.
 
-**Our take: you don't need to pick a camp, because all three prescribe the same next action.** Make ads with a new reason to buy, for a new person, and make them look different. Those moves stand on their own merits even if every internal story about Meta turns out to be wrong. So act on the prescription, and judge it in your own account against blended results, not against someone's diagram.
+**Camp three: consumer-first.** The third group says the algorithm story is beside the point. Different people buy for different reasons, so ads built on different reasons reach more buyers. The best advertisers worked this way long before anyone said "Andromeda."
 
-One caution for all three camps. Don't expect spend to spread evenly across your new concepts; some practitioners report Meta concentrating spend into two or three ads in 2026, much as it did years ago. Diversity raises your odds of finding the next winner. It doesn't promise a flat split.
+**Our take: you don't need to pick a camp, because all three prescribe the same next action.** Make ads with a new reason to buy, for a new person, and make them look different. Those moves stand on their own merits even if every internal story about Meta turns out to be wrong. Judge them in your own account against blended results, not against someone's diagram.
+
+One caution. Don't expect spend to spread evenly across your new concepts. Some practitioners report Meta concentrating spend into two or three ads in 2026, much as it did years ago.
+
+Diversity raises your odds of finding the next winner. It doesn't promise a flat split.
 
 ## Visual difference or argument difference?
 
-The second split is about what "different" means. One camp says Meta only counts what it can see: change the message, keep the visuals, and the ad behaves like the old one. The other camp says visual changes only extend the life of an argument that already works, and that new arguments are what reach new people. Most teams, they point out, spend most of their effort on format when argument does more.
+The second split is about what "different" means. One camp says Meta only counts what it can see: change the message, keep the visuals, and the ad behaves like the old one. The other says visual changes only extend the life of an argument that already works, and new arguments are what reach new people.
 
 **Our take: each new argument gets its own visual treatment.** That satisfies both camps at once. Here's the difference for a hypothetical protein bar:
 
@@ -77,9 +83,9 @@ Hooks sit inside this. **Hooks optimize a concept; they don't diversify an accou
 
 Practitioners split here too, and the dividing line is the ad's stage.
 
-One camp protects ads that already carry spend. Turning off a spender throws away what Meta has learned about who it works for, adds volatility, and often leaves the wrong survivors. The further an ad's cost per acquisition (CPA) sits above the account average, the more evidence they want before acting.
+One camp protects ads that already carry spend. Turning off a spender throws away what Meta has learned about who it works for, adds volatility, and often leaves the wrong survivors.
 
-The other camp runs a fixed testing schedule and cuts new ads early, on thresholds set before launch, such as cost per add-to-cart far above target or spend reaching a multiple of order value with no sale. Even they don't kill ads they've carried to scale. And they warn against cutting a prospecting video that a retargeting image is quietly closing sales behind.
+The other camp runs a fixed testing schedule and cuts new ads early, on thresholds set before launch, such as cost per add-to-cart far above target. Even they don't kill ads they've carried to scale. And they warn against cutting a prospecting video that a retargeting image is quietly closing sales behind.
 
 **Our take, as an if/then:** if an ad is a new test, cut it early on thresholds you wrote down before launch. If it carries meaningful spend, don't turn it off on ad-level CPA alone. After any kill, check blended results over the next one to three days, and reverse it if they got worse. Our [ad fatigue explainer](/blog/what-is-ad-fatigue) covers what to check before you blame the creative.
 
