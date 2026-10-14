@@ -25,7 +25,9 @@ The rest of this page is why, with the math that tells you which side of the lin
 
 **Ad set budget means you set the spend for each ad set. Campaign budget means you set one figure and Meta moves it between ad sets.** With ABO, every concept gets the money you gave it, winner or not. With CBO, Meta shifts spend toward whatever looks best early.
 
-That trade is the whole debate. ABO buys a fair read and spends on losers. CBO saves money on losers and can starve a new idea before it gets a turn.
+That trade is the whole debate.
+
+ABO buys a fair read and spends on losers. CBO saves money on losers and can starve a new idea before it gets a turn.
 
 ## Where experienced buyers agree
 
@@ -46,9 +48,11 @@ Experienced buyers split three ways on this.
 
 **A second camp tests inside one CBO or Advantage+ campaign,** adding a new ad set per idea each week. With ABO, you decide where the money goes; with CBO, Meta does. Some in this camp found that winners from cheap ABO test ad sets faded once they moved into a big CBO. It wins when budget is small relative to the number of creatives, hit rate is low, or nobody will manage budgets daily.
 
-**A third camp says it doesn't matter.** With one ad set per campaign, it doesn't. At least one well-known buyer has switched sides publicly more than once, which tells you something about how decisive the setting is.
+**A third camp says it doesn't matter.** With one ad set per campaign, it doesn't. Even experienced buyers who've argued both sides in public within a few months end up saying some accounts thrive on CBO and others on ABO, which tells you how much the setting decides on its own.
 
-**Our take:** the first camp's switch condition is the right one, because it's arithmetic.
+Not much.
+
+**Our take:** the first camp's switch condition is the right one, because it's arithmetic rather than taste.
 
 ## The math: when do winners pay for losers?
 
@@ -56,10 +60,12 @@ Say your target CPA is $50. A fair read on a concept needs about ten conversions
 
 Under ABO, every concept spends its full read floor before you judge it:
 
-- **4 concepts a week, 1 winner:** $2,000 of testing, $1,500 of it on losers. One winner a week pays for that in most accounts that can afford $2,000 a week of testing.
+- **4 concepts a week, 1 winner:** $2,000 of testing, $1,500 of it on losers. If one winner earns back more than $1,500 in margin, ABO pays.
 - **10 concepts a week, 1 winner:** $5,000 of testing, $4,500 on losers, for the same single winner.
 
-At one win in ten, ABO is paying full price for nine verdicts you could have had cheaper. That's the point practitioners in the ABO camp switch to CBO, which cuts weak ads early at the cost of some ideas never getting a turn.
+At one win in ten, ABO is paying full price for nine verdicts you could have had cheaper.
+
+That's the point practitioners in the ABO camp switch to CBO, which cuts weak ads early at the cost of some ideas never getting a turn.
 
 Some buyers patch CBO testing with minimum spend per ad set. Treat that as a patch, not a default, and never combine it with a cost cap, which overrides the minimum.
 

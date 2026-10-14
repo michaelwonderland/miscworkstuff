@@ -15,22 +15,32 @@ word_count: 0
 
 The testimonial ads that convert on Meta follow one rule, whatever the format. Use a customer's real words, lead with the doubt they had before buying, put one believable person in each ad, and spend on production only what the purchase justifies. Below are eight testimonial ads examples built on that rule: what each one is, why it works, and how to make it.
 
-Most testimonial Facebook ads break the rule in the first line. "Highly recommend!" over a smiling stock model reads as an ad, and people scroll past ads.
+Most testimonial Facebook ads break the rule in the first line.
+
+"Highly recommend" over a smiling stock model reads as an ad, and people have spent a decade learning to scroll past anything that reads as an ad.
 
 Experienced Meta buyers agree on more here than on most creative questions. Where they split (before/afters, ugly vs polished, where to dig for the words), we show both sides and pick one.
 
 ## What makes a testimonial ad convert?
 
-**A testimonial converts when it sounds like a customer and answers the doubt your next buyer has right now.** The format is packaging. Practitioners agree on four parts:
+**A testimonial converts when it sounds like a customer and answers the doubt your next buyer has right now.**
+
+The format is packaging. Practitioners agree on four parts:
 
 1. **Mine the real words.** The best line is found, not written. Specific beats glowing.
 2. **Lead with the objection.** A converted skeptic outsells a fan, because the viewer holds the same doubt the skeptic did.
 3. **One believable person per ad.** Ten testimonials make ten ads, not one crowded one.
 4. **Match production to what the purchase costs.** A $20 impulse buy and a $2,000 treatment need different cameras.
 
-The first part carries the rest, so give it a name. **A found line is a sentence a customer wrote that no copywriter would have.** It holds a number, a timeframe, an age, an odd detail, or the thing they tried first. "Love it, highly recommend" isn't one. "I'm 54 and it's the first face cream that doesn't sting after I shave" is (an invented example, but you'll recognize the type).
+The first part carries the rest, so give it a name.
 
-Keep found lines raw. Leave the typos in, and don't set them in your brand font. A quote polished enough for a billboard stops sounding like a person.
+**A found line is a sentence a customer wrote that no copywriter would have.**
+
+It holds a number, a timeframe, an age, an odd detail, or the thing they tried first. "Love it, highly recommend" isn't one. "I'm 54 and it's the first face cream that doesn't sting after I shave" is (an invented example, but you'll recognize the type).
+
+Keep found lines raw. Leave the typos in, and don't set them in your brand font.
+
+A quote polished enough for a billboard stops sounding like a person.
 
 [TK: spend share of single-customer testimonial ads vs other formats in one Wonderland account]
 
@@ -38,9 +48,13 @@ Keep found lines raw. Leave the typos in, and don't set them in your brand font.
 
 Most practitioners start with reviews: your own and your competitors', five-star for the lines and one-to-three-star for the objections. A couple of hundred reviews is enough to start, and a few thousand is plenty. A good pass ends with 10 to 20 candidate found lines.
 
-Experienced buyers split on the order. The majority mine reviews first. A minority mine them last, because your reviews come only from people your current ads already convinced, so they mostly echo your current messaging back at you. A third view says negative ad comments beat reviews, since they come from the people who saw the ad and didn't buy.
+So which comes first, the reviews or the comments? Experienced buyers split on the order.
 
-**Our take: reviews for the lines, comments for the objections.** Mine ad comments and Reddit threads for the doubt, then find the review that answers it. Reviews tell you why your buyers bought; comments tell you why everyone else didn't.
+The majority mine reviews first. A minority mine them last, because your reviews come only from people your current ads already convinced, so they mostly echo your current messaging back at you. A third view says negative ad comments beat reviews, since they come from the people who saw the ad and didn't buy.
+
+**Our take: reviews for the lines, comments for the objections.**
+
+Mine ad comments and Reddit threads for the doubt, then find the review that answers it. Reviews tell you why your buyers bought; comments tell you why everyone else didn't.
 
 ## 8 examples of testimonial ads
 
@@ -50,15 +64,21 @@ A found line as the headline, over a plain shot of the product in use, with a fi
 
 ### 2. The real-review screenshot
 
-The review itself, styled as it appears on the review site or as a text to a friend, stars and typos included. The interface does the persuading: it reads as evidence, not copy. The rule is simple. Only use text a real customer wrote, and make sure any review count you show matches the reviews people can find.
+The review itself, styled as it appears on the review site or as a text to a friend, stars and typos included. The interface does the persuading: it reads as evidence, not copy. The rule is simple: only use text a real customer wrote, and make sure any review count you show matches the reviews people can find.
 
 ### 3. The phone-shot customer video
 
-A real customer, phone in hand, telling what happened. Nothing looks less like an ad. Expect most raw customer videos to be unusable, so ask far more customers than you need. The picture can be rough. The sound can't.
+A real customer, phone in hand, telling what happened. Nothing looks less like an ad. Expect most raw customer videos to be unusable, so ask far more customers than you need.
+
+The picture can be rough. The sound can't.
 
 ### 4. The converted skeptic
 
-The ad opens on the doubt. "I thought $60 for a pillow was a scam." Then it walks through what changed their mind. An enthusiast talks past the viewer's objection, while a skeptic walks through it with them. Price is the most common objection, so make it the hook instead of hiding it. Search your reviews for "I was skeptical," "didn't expect," and the products people tried first.
+The ad opens on the doubt. "I thought $60 for a pillow was a scam." Then it walks through what changed their mind.
+
+Why does that outsell a fan? An enthusiast talks past the viewer's objection, while a skeptic walks through it with them, one doubt at a time, until the viewer arrives at the same conclusion without feeling sold to.
+
+Price is the most common objection, so make it the hook instead of hiding it. Search your reviews for "I was skeptical," "didn't expect," and the products people tried first.
 
 ### 5. The complaint that sells
 
@@ -66,9 +86,13 @@ A low-star review where the complaint is the benefit. "Two stars. My kids finish
 
 ### 6. The before/after, or the after alone
 
-This is the format practitioners fight about most. One camp calls a missing transformation the biggest gap in most accounts: show the change, don't describe it, and stop believing before/afters are banned. Another camp has downgraded the format, keeps the pair on the product page, and runs the after alone, having seen it win in skin categories. A third view says body transformations should run in sequence, not split screen, because Meta restricts them.
+This is the format practitioners fight about most.
 
-**Our take is an if/then.** Body, skin, hair, teeth, or weight: show the after or a day-1-to-day-30 progression, keep claims to what's typical, and check Meta's current policy before you build. Everywhere else (cleaning, home, anything where the product visibly does a job), a before/after is one of the strongest proof formats you have. Test it.
+One camp calls a missing transformation the biggest gap in most accounts: show the change, don't describe it, and stop believing before/afters are banned. Another camp has downgraded the format, keeps the pair on the product page, and runs the after alone, having seen it win in skin categories. A third view says body transformations should run in sequence, not split screen, because Meta restricts them.
+
+**Our take is an if/then.**
+
+Body, skin, hair, teeth, or weight: show the after or a day-1-to-day-30 progression, keep claims to what's typical, and check Meta's current policy before you build. Everywhere else (cleaning, home, anything where the product visibly does a job), a before/after is one of the strongest proof formats you have. Test it.
 
 ### 7. The reaction reel
 
@@ -82,9 +106,17 @@ A paid creator who used the product for weeks, telling the story in their own wo
 
 Practitioners agree a testimonial must not look like an ad. They split three ways on what that costs.
 
-One camp shoots everything on a phone. Ugly means real, not bad, and native footage is cheaper, so you can make more of it. A second camp wants native-looking but expensive: a studio, two people, several cameras, good microphones, and real money on casting a believable skeptic. They argue a cheap-looking podcast ad hurts the brand. The third camp says it depends on the stakes, and that's where we land.
+One camp shoots everything on a phone. Ugly means real, not bad, and native footage is cheaper, so you can make more of it. A second camp wants native-looking but expensive: a studio, two people, several cameras, good microphones, and real money on casting a believable skeptic. They argue a cheap-looking podcast ad hurts the brand. The third camp says it depends on the stakes.
 
-**The words stay raw everywhere. The production follows the price.** Low-ticket and impulse products: phone-shot, and spend the savings on more customers and creators. High-ticket or high-trust (health, finance, premium): pay for casting, sound, and setting, and keep the conversational look. Both cheap-and-native and expensive-and-native are live. Glossy and branded is the one option nobody defends.
+That's where we land.
+
+So does a testimonial need a studio? Only if the purchase does.
+
+**The words stay raw everywhere. The production follows the price.**
+
+Low-ticket and impulse products: phone-shot, and spend the savings on more customers and creators. High-ticket or high-trust (health, finance, premium): pay for casting, sound, and setting, and keep the conversational look.
+
+Both cheap-and-native and expensive-and-native are live. Glossy and branded is the one option nobody defends.
 
 ## The line no testimonial crosses
 
@@ -103,7 +135,11 @@ True testimonials carry risk too. A specific result with a timeframe ("lost 20 p
 
 Follow the rule and the work changes shape. A review-mining pass that ends with ten found lines gives you ten ads, each one person and one objection. Each needs testing in every ad set where it belongs.
 
-Here's the math. Say you test across four ad sets. That's 40 ads. Building one ad from scratch in one ad set takes 17+ clicks in Ads Manager, so if you rebuild each one, that's 680 clicks before anything spends. For three ads, Ads Manager is fine. At forty, it eats a morning.
+Here's the math. Say you test across four ad sets. That's 40 ads.
+
+Building one ad from scratch in one ad set takes 17+ clicks in Ads Manager, so if you rebuild each one, that's 680 clicks before anything spends.
+
+For three ads, Ads Manager is fine. At forty, it eats a morning.
 
 Naming matters just as much. Put the objection and the messenger in the file name (`price-objection_skeptic_v1`) and a month later you can see which *kind* of testimonial wins, not only which file. Our [ad set name examples](/blog/ad-set-name-examples) show a scheme that holds up.
 
