@@ -58,3 +58,25 @@ Cross-links: 11 is the hub for 1, 4, 5 and 6. 12 links to 8 and 10. Each post li
 - **Draper claims:** only those in `profiles/draper-ads.md`. Partnership ads are **not** a launched Draper feature.
 - **No invented first-hand data.** Use worked arithmetic with labelled hypothetical inputs. At most one `[TK]` where first-hand proof matters most.
 - **Retired tactics** only ever appear as myths to stop.
+
+## Status: 12 articles drafted in panel mode (October 2026)
+
+| # | Article | Words | Our concept | Open TK |
+|---|---|---|---|---|
+| 01 | What is a good hook rate | 947 | the empty hook | hook-rate averages by format from one account |
+| 02 | Ad set name examples | 944 | question-first naming | Draper screenshot: file name → ad name |
+| 03 | Whitelisting vs partnership ads | 950 | byline diversity | how many ads one creator batch became |
+| 04 | Campaign budget vs ad set budget | 947 | (reuses the read floor) | none |
+| 05 | What is ad fatigue | 937 | false fatigue | one fading winner walked through the 6 steps |
+| 06 | Meta Andromeda update | 1,695 | the same-person test | clicks to duplicate an ad into another ad set |
+| 07 | Testimonial ads examples | 1,743 | the found line | spend share of single-customer testimonial ads |
+| 08 | Static ads examples | 1,748 | the cosmetic variant | distinct vs cosmetic static batch, with launch time |
+| 09 | Meta catalog ads | 1,521 | harvest share | new vs existing split from one catalog campaign |
+| 10 | What are UGC ads | 1,694 | template UGC | none |
+| 11 | Facebook ads testing (hub) | 3,159 | the read floor | weekly batch launch time, manual vs Draper |
+| 12 | AI for Facebook ads | 3,052 | the judgment bottleneck | none |
+
+**Before publishing:**
+1. Fill the TKs with first-hand data from Draper or Wonderland, or cut those lines.
+2. Check each post's "Claims to verify" (in its editor notes) against Meta's documentation.
+3. Add Meta doc links where exact URLs are confirmed.
