@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: E missing explainer
 byline: Draper Ads
-word_count: 0
+word_count: 950
 ---
 
 # Whitelisting vs Partnership Ads: Which One to Use Now
@@ -102,8 +102,8 @@ Whitelisting borrowed a creator's face. Partnership ads borrow their audience, a
 Angle chosen: "Mask or seed" (elegant articulation of Dara's mechanism): the comparison isn't about setup steps, it's about whose audience Meta starts from. Verdict-first: use partnership ads.
 Angles rejected: (1) "Whitelisting is dead" myth-bust (counter-narrative, but needs first-hand test data we don't have); (2) "Partnership ads for free" (her three free routes; strong but too narrow for the comparison query).
 Open TKs: none. No first-hand Draper data; carried on Dara's cited positions and a labeled hypothetical budget.
-Claims to verify: (a) the definitions and setup steps (creator approves partner in Instagram settings or brand sends request; existing post vs brand-uploaded footage; partnership ad toggle at ad level in Ads Manager) are general practitioner knowledge, not from Dara's files; check against Meta's current help docs and link them. (b) "Meta is phasing it out" follows Dara's wording ("being phased out"); confirm Meta still offers classic Page/account access. (c) Partnership ads label wording ("Paid partnership").
+Claims to verify: (a) the definitions and setup steps (creator approves partner in Instagram settings or brand sends request; existing post vs brand-uploaded footage; partnership ad toggle at ad level in Ads Manager) are general practitioner knowledge, not from Dara's files; check against Meta's current help docs and link them. (b) "it's being phased out" (intro) follows Dara's wording ("being phased out"); confirm Meta still offers classic Page/account access. (c) Partnership ads label wording ("Paid partnership").
 Draper: post states plainly that Draper does not create partnership ads. Tie limited to creator content multiplying brand-side ads to launch.
-Lint: see final report.
+Lint: 0 errors, 0 warnings. Word count sits at the 950 ceiling for a short post.
 Self-score: intro 8/10, average section 7.5/10
 -->

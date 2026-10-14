@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: G handbook chapter
 byline: Draper Ads
-word_count: 0
+word_count: 1565
 ---
 
 # Meta Catalog Ads
@@ -47,7 +47,7 @@ Apparel and beauty are the obvious fits, with marketplaces, travel or ticketing 
 
 The scale argument comes from the vendor side, so weigh it that way. Pantelo says over 60% of all e-commerce ad spend now goes to catalog ads, and that they make up 40% of Meta's global ad revenue. He also puts about 95% of catalog ads in the plain product-on-white style.
 
-Read those two numbers together.
+Put the 60% next to the 95%.
 
 Most e-commerce money runs through this format, and almost nobody designs for it.
 
@@ -147,7 +147,7 @@ Ridge, Simple Modern and Hexclad each grew from a hero SKU into a full catalog a
 
 Catalog ads are the one part of a Meta account where the platform builds the ads for you. Your job shrinks to a clean feed and five templates, plus one campaign rule.
 
-That frees time for the ads Meta can't build, the concepts and statics your team still launches by hand into ad sets. Those are the ones that eat the week.
+That frees time for the ads Meta can't build, the concepts and statics your team still launches by hand into ad sets. Those are the ones that eat the week, and the job [Draper Ads](https://draperads.com/) was built for.
 
 Design the template once and let the feed do the volume.
 
@@ -157,8 +157,8 @@ Design the template once and let the feed do the volume.
 Angle chosen: "The template multiplier": setup guides stop at the feed; the real lever is creative, because ~95% of catalog ads (per Marpipe's founder) are plain product-on-white. One template turns every SKU into a new ad, a bigger diversity unlock than making ads by hand. Novelty: counter-narrative ("boring" catalog ads can beat video) + shock and awe (300 SKUs x 6 versions = 1,800 ads). Honesty against interest: catalog is where Meta does the bulk work, not Draper.
 Angles rejected: (1) "Catalog ads are 60% of e-commerce spend and you're ignoring them": vendor stat as the spine is weak sourcing. (2) "Separate your catalog campaign": a strong contrarian rule but too narrow for the head term.
 Open TKs: 1, first-hand raw vs. templated catalog result.
-Claims to verify: "Advantage+ catalog ads" as Meta's current name (general knowledge). All vendor figures attributed to Dan Pantelo/Marpipe: 60%+ of e-commerce ad spend, 40% of Meta global ad revenue, ~95% plain product-on-white, 200 products + 1 template = ~400 ads, 5-6 templates to start, product video "usually every time", AI backgrounds default-on, Cozy Earth 30 treatments / 90% / +220% / +60% ROAS (2024 interview, MVg_o8WU6mo). Dara's own: SKU thresholds, high-AOV fit, separate-campaign rule (AS0YfAioHT0 58:02; BIVnOWcGnfA), "always a performance win" (2024), Pact value bidding (R3Z1VvvgtzU). Pinterest/Snap/Reddit/CTV details from the Pantelo interview; CTV (Universal Ads) segment was a sponsor offer, so it's kept generic and unnamed. Marpipe is listed among Dara's sponsors; the post names Pantelo as a vendor wherever his figures appear. The 300-SKU store is a labelled hypothetical.
+Claims to verify: "Advantage+ catalog ads" as Meta's current name (general knowledge). All vendor figures attributed to Dan Pantelo/Marpipe: 60%+ of e-commerce ad spend, 40% of Meta global ad revenue, ~95% plain product-on-white, 200 products + 1 template = ~400 ads, 5-6 templates to start, product video "usually every time", AI backgrounds default-on, Cozy Earth 30 treatments / 90% / +220% / +60% ROAS (2024 interview, MVg_o8WU6mo). From Dara's catalog material (speaker not always separable from Pantelo, so the post says "Dara's catalog episodes"): SKU thresholds, high-AOV fit. Separate-campaign rule: in the transcript (AS0YfAioHT0 58:02) Pantelo answers "separate them" and Dara defers to him; her own reason (catalog absorbs spend) is from BIVnOWcGnfA, and the post attributes it that way. Dara's own: "always a performance win" (2024), Pact value bidding (R3Z1VvvgtzU). Pinterest/Snap/Reddit/CTV details from the Pantelo interview; CTV (Universal Ads) segment was a sponsor offer, so it's kept generic and unnamed. Marpipe is listed among Dara's sponsors; the post names Pantelo as a vendor wherever his figures appear. The 300-SKU store is a labelled hypothetical.
 No published Draper posts beyond the cluster; links to /blog/what-is-ad-fatigue and /blog/static-ads-examples per PLAN.md.
-Lint: see final run.
+Lint: 0 errors, 1 warning (the open TK, kept by design).
 Self-score: intro 8/10, average section 7.5/10. Peak: "Why boring catalog ads can beat video" (template multiplier maths).
 -->
