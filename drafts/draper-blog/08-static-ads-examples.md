@@ -27,11 +27,13 @@ Their job has changed. Practitioners agree that static image ads are the cheapes
 
 So you test messages as statics, then spend video money on the ones that won.
 
-That doesn't make statics a lesser format. A mediocre static usually beats a mediocre video, while the best video usually beats the best static. Most accounts that scale run both, side by side.
+That doesn't make statics a lesser format. A mediocre static usually beats a mediocre video, while the best video usually beats the best static, which is why most accounts that scale now run both side by side instead of picking one.
+
+Both. Not either.
 
 ## The rules every example below follows
 
-Every format here obeys the same handful of construction rules. Experienced buyers agree on them more than on almost anything else in creative:
+Experienced buyers agree on these construction rules more than on almost anything else in creative:
 
 - **One ad, one job.** One problem, one promise, one person. Two ideas in one image means neither lands.
 - **Clear in a second.** Cover the text and look at the image. Could a stranger say what's sold and who it's for?
@@ -43,7 +45,7 @@ Every format here obeys the same handful of construction rules. Experienced buye
 
 ## 12 static ads examples that work on Meta
 
-These are the formats that show up in two or more practitioners' format libraries. Each is a starting layout. The message is still yours to find.
+Each format below shows up in at least two practitioners' libraries. Each is a layout. The message is yours to find.
 
 ### 1. The problem callout
 
@@ -121,9 +123,11 @@ A fake countdown teaches your buyers to ignore you.
 
 **Experienced buyers split on this, and product type settles it.**
 
-One camp says statics prospect fine. Built for one awareness level and one narrow persona, a static reaches cold people and scales. Many start new accounts on statics for that reason. They win with self-explanatory products (clothing, jewelry, home goods), where one image and one line tell the whole story.
+One camp says statics prospect fine, because a static built for one awareness level and one narrow persona reaches cold people and scales, which is why many buyers start new accounts on statics. They win with self-explanatory products (clothing, jewelry, home goods), where one image and one line tell the whole story.
 
-The other camp says images mostly remind. For products that solve a problem (supplements, skincare, software), video prospects and images retarget. Their tell is frequency. When an image ad's frequency climbs well above 2, it's probably reaching people who already know you.
+The other camp says images mostly remind. For products that solve a problem, like supplements, skincare or software, video does the prospecting and images do the retargeting.
+
+Their tell is frequency. When an image ad's frequency climbs well above 2, it's probably reaching people who already know you.
 
 **Our take:** if a stranger understands your product from one image and one line, let statics prospect. If it needs explaining, use statics to find the message and video to teach it. Either way, check the share of new visitors before you call a static a prospecting winner.
 
@@ -135,7 +139,7 @@ Practitioners split here too. One camp treats a static that has run for months i
 
 ## Should you ship statics that look AI-made?
 
-Openly stylized AI work (cartoons, illustrated characters, scenes nobody would mistake for a photo) has support among practitioners, because it doesn't pretend to be real. Realistic AI images of people or results have almost none. Viewers spot them, and a fake "customer" photo is a trust problem before it's a performance problem.
+Openly stylized AI work has support among practitioners, whether that's cartoons, illustrated characters or scenes nobody would mistake for a photo, because it doesn't pretend to be real. Realistic AI images of people or results have almost none. Viewers spot them, and a fake "customer" photo is a trust problem before it's a performance problem.
 
 **Our take:** stylized is fine, fake-realistic isn't. Use image models as a draft generator, and ship only what a person has checked for product accuracy, from label spelling to proportions, and for the one-second read. For the full workflow, see [AI for Facebook ads](/blog/ai-for-facebook-ads).
 

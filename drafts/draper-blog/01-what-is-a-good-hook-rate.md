@@ -25,9 +25,9 @@ Hook rate is a custom metric. Ads Manager doesn't ship it as a column, so you bu
 
 Say a video gets 40,000 impressions and 12,000 three-second plays. That's a 30% hook rate. Seven in ten people shown the ad scrolled past before second three.
 
-**It answers one narrow question: did the opening stop people?** Whether the ad sells is a different question.
+**It answers one narrow question: did the opening stop people?**
 
-Before you compare numbers, check the denominator. Some tools divide by reach or by plays instead of impressions, and some call the same idea "thumb-stop rate."
+Check the denominator before comparing. Some tools divide by reach or by plays instead of impressions, and some call the same idea "thumb-stop rate."
 
 Two 30% figures from two formulas aren't the same 30%.
 
@@ -40,9 +40,9 @@ Practitioners agree on the formula and disagree on the number:
 | DTC video | 25% to 30% low end, 35% to 45% strong |
 | Lead gen and B2B | Often under 10%, and still healthy |
 
-The formulas match, so the spread comes from the offer, the format, the placements, and who's watching. That spread is the best argument against universal benchmarks.
+The formulas match, so the spread comes from offer, format, placements, and audience. That's the best argument against universal benchmarks.
 
-Pull your own baseline instead: the average hook rate of every video that spent past a set floor in the last 60 to 90 days, split by format. [TK: anonymized account averages by format from one Wonderland account]. Read any single ad against that line once it has a few thousand impressions.
+Pull your own baseline instead, from every video that spent past a set floor in the last 60 to 90 days, split by format. [TK: anonymized account averages by format from one Wonderland account]. Read any single ad against that line once it has a few thousand impressions.
 
 Below that, it's noise.
 
@@ -50,13 +50,13 @@ Below that, it's noise.
 
 Experienced buyers split on this.
 
-One camp treats hook rate as an early signal with a bar to clear: a high number means the opening found the right people, so make more like it. That camp wins when you're iterating openings on a concept that already converts and need a read before CPA data arrives.
+One camp treats hook rate as an early signal with a bar to clear; a high number means the opening found the right people, so make more like it. That camp wins when you're iterating openings on a concept that already converts and need a read before CPA data arrives.
 
 The other camp won't decide anything on it, because a shocking opener can buy a sky-high hook rate from people who will never buy. It wins when the account has enough purchases to judge on cost directly.
 
 **Our take: hook rate is a diagnostic, never a target.** The second camp has spotted a real failure, and it deserves a name.
 
-**An empty hook is an opening that stops plenty of people, but not the people who buy.** Hook rate climbs, CPA climbs with it, and the hook-rate column calls it a win. It's worse than a weak hook, because the opening also shapes whom Meta keeps delivering to.
+**An empty hook is an opening that stops plenty of people, but not the people who buy.** Hook rate climbs, CPA climbs with it, and the hook-rate column calls it a win. It's worse than a weak hook, because the opening also shapes whom Meta delivers to.
 
 Reward an empty hook and delivery drifts toward people who enjoy being stopped.
 
@@ -81,11 +81,11 @@ Pick one, label the column, and never judge it against a benchmark built the oth
 ## What to stop doing
 
 - **Chasing the highest hook rate you can get.** That's how empty hooks get scaled.
-- **Pausing a good-CPA ad over a low hook rate.** Give it new openings. Since most viewers never pass second three, some practitioners treat a lot of [ad fatigue](/blog/what-is-ad-fatigue) as a tired opening.
+- **Pausing a good-CPA ad over a low hook rate.** Give it new openings. Some practitioners treat a lot of [ad fatigue](/blog/what-is-ad-fatigue) as a tired opening.
 
 ## New hooks are cheap to make and slow to launch
 
-Almost every reading above ends in one action: new openings. One body, five first-three-seconds, each aimed at a different buyer or problem, because five rewordings of one line tend to get treated as one ad.
+Almost every reading above ends in new openings. One body, five first-three-seconds, each aimed at a different buyer or problem, because five rewordings of one line tend to get treated as one ad.
 
 In Ads Manager, building one ad from scratch in one ad set takes 17+ clicks. Five openings across three ad sets is 15 ads, or about 255 clicks if you rebuild each one. And unless each ad's name carries its hook, the column is unreadable a month later (our [ad set name examples](/blog/ad-set-name-examples) fix that, and our [Facebook ads testing](/blog/facebook-ads-testing) guide covers how many to launch).
 

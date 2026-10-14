@@ -87,32 +87,32 @@ One camp protects ads that already carry spend. Turning off a spender throws awa
 
 The other camp runs a fixed testing schedule and cuts new ads early, on thresholds set before launch, such as cost per add-to-cart far above target. Even they don't kill ads they've carried to scale. And they warn against cutting a prospecting video that a retargeting image is quietly closing sales behind.
 
-**Our take, as an if/then:** if an ad is a new test, cut it early on thresholds you wrote down before launch. If it carries meaningful spend, don't turn it off on ad-level CPA alone. After any kill, check blended results over the next one to three days, and reverse it if they got worse. Our [ad fatigue explainer](/blog/what-is-ad-fatigue) covers what to check before you blame the creative.
+**Our take, as an if/then:** if an ad is a new test, cut it early on thresholds you wrote down before launch. If it carries meaningful spend, don't turn it off on ad-level cost per acquisition (CPA) alone. After any kill, check blended results over the next one to three days, and reverse it if they got worse. Our [ad fatigue explainer](/blog/what-is-ad-fatigue) covers what to check before you blame the creative.
 
 ## What to stop doing
 
 Each of these was standard advice once. Practitioners have since retired all of them:
 
 - Writing ten headlines for one winning image.
-- Making four hook variants of a brand-new concept before you know the concept works.
-- Refreshing winners with overlays, new thumbnails, filters, or comment widgets.
+- Making four hook variants of a brand-new concept before you know it works.
+- Refreshing winners with overlays, thumbnails, filters, or comment widgets.
 - Capping ad sets at six ads. Current ranges run from 3 to 6 variations of one concept up to 20 or more ads when an ad set holds many concepts.
-- Stacking interests and lookalikes to do work the creative now does.
-- Building elaborate "Andromeda-proof" account structures.
-- Producing volume for its own sake.
+- Stacking interests and lookalikes, or building "Andromeda-proof" structures.
 - Giving up on a diversity fix after two weeks, when the problem took years to build.
 
 ## What Andromeda does to your launch week
 
 New concepts beat near-copies. That means more distinct ads, and every distinct ad has to be built and launched.
 
-Pace yourself to your hit rate, not to a quota. Say (hypothetically) 1 in 10 of your new concepts becomes a winner. Five concepts a week then finds about one winner a fortnight. Brief better, so that 1 in 4 wins, and the same five concepts find more than one winner a week. Some practitioners run 10 to 15 structurally distinct concepts every two weeks; others refuse to give a number at all.
+Pace yourself to your hit rate, not to a quota. Say (hypothetically) 1 in 10 new concepts becomes a winner. Five concepts a week then finds about one winner a fortnight. Brief better, so 1 in 4 wins, and the same five find more than one a week. Some practitioners run 10 to 15 distinct concepts every two weeks; others refuse to give a number.
 
-Now the launch math. Take 10 concepts a fortnight, each with 3 variations: 30 ads. Building one ad from scratch in one ad set takes 17+ clicks in Ads Manager. Assume each of the 30 is built from scratch and you're at 510+ clicks every two weeks. Launch each into three ad sets, rebuilding every time, and it's 1,530+. Duplicating instead of rebuilding is cheaper per ad, but still scales with every ad and ad set ([TK: click count to duplicate an existing ad into another ad set]).
+Now the launch math. Take 10 concepts a fortnight with 3 variations each: 30 ads. Building one ad from scratch in one ad set takes 17+ clicks in Ads Manager, so 30 from-scratch builds is 510+ clicks.
 
-Then comes the audit. To run the same-person test across a live account, you need to know which concept and angle every ad belongs to, and that only works if the ad name says so. Pull your top 10 spenders, group them by concept, and look at them side by side as thumbnails. If eight are the same argument, you're running two or three ads, not ten. Our [ad set naming examples](/blog/ad-set-name-examples) show a structure that makes this a filter instead of an afternoon.
+Launch each into three ad sets, rebuilding every time, and it's 1,530+. Duplicating is cheaper per ad but still scales with every ad set ([TK: click count to duplicate an existing ad into another ad set]).
 
-You can do all of it in Ads Manager with a naming template and patience, and at five ads a week that's fine. At 30 a fortnight, it's where [Draper Ads](https://draperads.com/) earns its place: it names every ad from its creative file and pulls the creative straight from Google Drive, so name the files by concept and angle and the audit comes free.
+Then the audit. To run the same-person test on a live account, every ad name has to say its concept and angle. Pull your top 10 spenders, group them by concept, and view them side by side as thumbnails. If eight share one argument, you're running two or three ads, not ten. Our [ad set naming examples](/blog/ad-set-name-examples) show a structure that turns this into a filter.
+
+At five ads a week, Ads Manager and a naming template are fine. At 30 a fortnight, [Draper Ads](https://draperads.com/) earns its place: it names every ad from its creative file and pulls creative straight from Google Drive, so files named by concept and angle make the audit free.
 
 Andromeda didn't change what wins. It stopped rewarding you for pretending to have more ads than you do.
 
