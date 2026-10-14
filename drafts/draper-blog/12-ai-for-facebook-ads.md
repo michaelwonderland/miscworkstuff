@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: G-handbook
 byline: Draper Ads
-word_count: 0
+word_count: 3052
 ---
 
 # AI for Facebook Ads
@@ -25,13 +25,15 @@ Below: each stage of the creative workflow, where AI earns its place and where i
 
 **AI is a multiplier on judgment, not a substitute for it.** Point it at a team with a clear view of its customer and it compresses days of work into hours. Point it at a team without one and it produces confident nonsense at speed.
 
+The tools have changed every few months for two years, but the gap between teams that feed AI their own customer evidence and teams that ask it to guess has held the whole time.
+
 Practitioners who use AI daily agree on three rules:
 
-1. **Nothing ships raw.** Every output gets a human pass for accuracy, claims, brand voice, and the tells that make an ad read as machine-made.
-2. **Cheap doesn't lower the bar.** An AI ad pays the same CPM as a shot one. It stops people or it doesn't; it sells or it doesn't.
+1. **Nothing ships raw.** Every output gets a human pass for accuracy and claims, and for the tells that make an ad read as machine-made.
+2. **Cheap doesn't lower the bar.** An AI ad pays the same CPM as a shot one. It stops people or it doesn't. It sells or it doesn't.
 3. **Distinct beats many.** Fifty rewordings of one hook are one ad to the person scrolling, and Meta tends to treat them that way too.
 
-The cost of making an ad has collapsed. Practitioners now report single dollars to tens of dollars per AI-made asset, against thousands for a traditional shoot. What hasn't got cheaper is deciding which ads deserve to exist, checking them, and getting them live.
+The cost of making an ad has collapsed. Practitioners now report single dollars to tens of dollars per AI-made asset, against thousands for a traditional shoot. What hasn't gotten cheaper is deciding which ads deserve to exist and getting them live.
 
 **The judgment bottleneck is when making ads stops being the slow part of the week, and choosing, checking, and launching genuinely different ones takes its place.** Think of a printing press arriving in a newsroom that still has one editor. The press isn't the problem. The editor's afternoon is.
 
@@ -55,7 +57,7 @@ There are seven stages in a creative workflow. AI's value falls, and the cost of
 
 Almost every practitioner who uses AI starts here: review mining, comment analysis, competitor ad-library summaries, sorting customer call transcripts, and first drafts of personas and angles. Work that took a strategist a day now takes an hour.
 
-The catch is that a general chatbot will invent what it doesn't have. **Fence it in: AI research is only as good as the evidence you restrict it to.** Ask about "women aged 30 to 45 who buy skincare" and you get the internet's average customer. Ask about your own 400 reviews, and only those, and you get something a competitor can't copy.
+The catch is that a general chatbot will invent what it doesn't have. A model asked about a customer it has never met fills the gap with the most common answer on the internet, which is the same answer your competitors get from the same model. **Fence it in: AI research is only as good as the evidence you restrict it to.** Ask about "women aged 30 to 45 who buy skincare" and you get the internet's average customer. Ask about your own 400 reviews, and only those, and you get something a competitor can't copy.
 
 The difference shows in the prompt:
 
@@ -64,7 +66,9 @@ The difference shows in the prompt:
 
 The second prompt gives the model no room to make things up, and it tells you when the evidence is thin.
 
-Here's the test to run on the output: can every claim be traced to a line you supplied? If not, it's invention, however well written. And if you only have a few dozen reviews, get more evidence first (a customer survey, five sales calls). A model will happily build a vivid persona off three reviews.
+Test the output by tracing it. Can every claim be traced to a line you supplied?
+
+If not, it's invention, however well written. And if you only have a few dozen reviews, get more evidence first (a customer survey, five sales calls). A model will happily build a vivid persona off three reviews.
 
 ### 2. Concepts and angles: vary what already works
 
@@ -78,25 +82,31 @@ Then a person chooses. The bar for "different" is what the person scrolling woul
 
 Experienced buyers split on this.
 
-One camp lets AI write the large majority of primary text, headlines, and scripts, then edits lightly. It wins when the input is strong: a research-fed brief, a library of past winners, and a voice the model can imitate.
+One camp lets AI write the large majority of primary text and scripts, then edits lightly. It wins when the input is strong: a research-fed brief and a library of past winners to imitate.
 
 The other camp treats AI copy as a rough first draft and rewrites it by hand, because raw output reads generic and occasionally promises things the product can't back. It wins when the brand voice is distinctive or the category is regulated.
 
 Both camps agree the input decides the output. A briefed, research-fed draft beats a cold prompt every time.
 
-**Our take: AI drafts, a person edits for voice, claims, and AI tells.** The tells are the stock phrases ("elevate your routine"), the rhythm of three, and the confident claim nobody checked. And if editing a draft takes longer than writing it, fix the brief rather than the model.
+**Our take: AI drafts, a person edits for voice, claims, and AI tells.** The tells are stock phrases ("say goodbye to dull skin") and the confident claim nobody checked.
+
+If editing a draft takes longer than writing it, fix the brief rather than the model.
 
 ### 4. Visuals and video: production-grade, with conditions
 
 B-roll and fill footage are production-grade now. Practitioners ask the model for a phone-shot look on purpose, because polished stock-style footage reads as an ad and gets scrolled past.
 
-The generation is the small part. Practitioners report that post-production (pacing, cuts, grain, voiceover sync) takes more of the work than generating the clips does. A few habits recur:
+The generation is the small part.
+
+Practitioners report that post-production (pacing, cuts, grain, voiceover sync) takes more of the work than generating the clips does. A few habits recur:
 
 - **Keep AI scenes short,** a few seconds each, so drift doesn't show.
 - **Never let the model render final on-screen text.** Add it in your editor.
 - **Check every frame of the product.** A label or shape that drifts is a claim you can't back.
 
-One pattern shows up across most corpora of experience: **AI that's honest about being AI beats AI pretending to be real.** Animation, a cartoon character, clay-style scenes, or deliberately rough AI visuals tend to outperform a realistic synthetic person posing as a customer. Viewers forgive a cartoon. They punish a fake.
+One pattern shows up in most practitioners' accounts: **AI that's honest about being AI beats AI pretending to be real.** Animation or a cartoon character tends to outperform a realistic synthetic person posing as a customer, even though the realistic version took far more work to make.
+
+Viewers forgive a cartoon. They punish a fake.
 
 #### Should you run realistic AI people or fully AI ads?
 
@@ -104,21 +114,23 @@ This is where experienced buyers split hardest.
 
 One camp runs AI-actor ads end to end: synthetic presenters matched to the customer, scripted in third person, launched in volume. It wins when speed matters, the offer doesn't depend on who's speaking, and the script never pretends.
 
-The other camp keeps real people as the face of the ad. It reports standard creator content still beating AI versions across many tests, calls fully AI ads a miss more often than not, and notes regulators starting to look at synthetic endorsers. It wins when trust carries the sale: skincare, health, and anything where the viewer is judging the person.
+The other camp keeps real people as the face of the ad. It reports standard creator content still beating AI versions across many tests, calls fully AI ads a miss more often than not, and notes regulators starting to look at synthetic endorsers. It wins when trust carries the sale, as in skincare or health, where the viewer is judging the person as much as the product.
 
 Neither side has shown a clean head-to-head against a human version. The evidence on both sides is account experience.
 
 **Our take:** if the AI is plainly AI (animation, a character, voiceover over B-roll), test it freely. If it's a realistic synthetic person, treat it as a discovery tool. Use it to find the script and the angle, then reshoot the winner with a real person.
 
-One rule holds whichever camp you're in. **Never let an AI person claim to have used the product.** "This problem is exhausting, here's what fixed it for thousands of customers" is a script. "I've used this for three months and my skin cleared up," from someone who doesn't exist, is a fake testimonial. The same goes for credentials: no AI dermatologists, no AI doctors. Check Meta's advertising policies and the endorsement rules in your market before you run either kind.
+One rule holds whichever camp you're in. **Never let an AI person claim to have used the product.**
+
+"This problem is exhausting, here's what fixed it for thousands of customers" is a script. "I've used this for three months and my skin cleared up," from someone who doesn't exist, is a fake testimonial. The same goes for credentials: no AI dermatologists, no AI doctors. Check Meta's advertising policies and the endorsement rules in your market before you run either kind.
 
 ### 5. Testing: cheap concepts, expensive winners
 
-AI's biggest effect on testing is economic. You can make a concept for a few dollars, test it, and spend real production money only on what the market already picked.
+AI's biggest effect on testing is economic. You can make a concept for a few dollars and test it. Real production money then goes only to what the market already picked.
 
 Say you have 10 concepts. Shooting each with a creator at a hypothetical $3,000 is $30,000 before you know which one works. Making AI versions at a hypothetical $20 each is $200. If one wins, you reshoot it properly for $3,000, and you've spent $3,200 on production instead of $30,000.
 
-Flex one variable. If AI versions undersell the concept (a weaker version of an idea that would have won), you lose some winners to false negatives. That's the honest cost, and it's why practitioners test the concept rather than the polish. A clear angle survives a rough execution.
+Flex one variable. If AI versions undersell the concept (a weaker version of an idea that would have won), you lose some winners to false negatives. That's the honest cost, and it's why practitioners test the concept rather than the polish. A clear angle survives a rough execution. If a rough AI version of an idea can't beat your control, a polished shoot of the same idea rarely rescues it, because the angle is the part doing the selling.
 
 Two cautions. The test still costs media spend, because AI changes the production budget, not the testing one. And near-identical variants are punished: our post on the [Meta Andromeda update](/blog/meta-andromeda-update) explains why similar ads tend to be treated as one. Some practitioners also report ads wearing out in roughly two weeks rather than six to eight, which raises how many distinct concepts you need each month.
 
@@ -128,19 +140,21 @@ For test structure and how many ads to put in each ad set, see our guide to [Fac
 
 Experienced buyers split on this too.
 
-One camp connects an AI agent to the ad account. It reads results, generates variants of the winners, and launches them, while a strategist curates the last stretch. It wins when tests are small and reversible, budgets are capped, and someone reviews the account daily.
+One camp connects an AI agent to the ad account. It reads results, generates variants of the winners, and launches them, while a strategist curates the last stretch. It wins when tests are small and reversible and someone reviews the account every day.
 
-The other camp keeps AI out of the account entirely. People make every launch, bid, and budget call. Some still key daily numbers by hand, because typing them is how they absorb them. It wins when spend is large or the account is fragile.
+The other camp keeps AI out of the account entirely. People make every launch and budget call. Some still key daily numbers by hand, because typing them is how they absorb them. It wins when spend is large or the account is fragile.
 
 What separates them is the cost of an error. A bad image costs one regeneration. A bad budget change spends real money before anyone notices. Even the agent camp keeps a human approval step somewhere.
 
-**Our take: AI drafts and reports; humans approve launches, budgets, and kills.** The test fits in one line: if the action spends money or stops spending it, a person clicks the button.
+**Our take: AI drafts and reports; humans approve launches, budgets, and kills.** The test fits in one line.
 
-Be most skeptical of AI advice on budgets. General chatbots give confident, outdated advice on Meta settings. Meta's own recommendations lean toward spending more, and some can be applied automatically if the account allows it. Check what your account is set to accept.
+If the action spends money or stops spending it, a person clicks the button.
+
+Be most skeptical of AI advice on budgets. General chatbots give confident, outdated advice on Meta settings. Meta's own assistant and recommendations have pushed budget increases practitioners didn't want, and some recommendations can be applied automatically if the account allows it. Check what your account is set to accept.
 
 ### 7. Reporting and analysis: automate the collection, not the conclusion
 
-Practitioners split on this one along working style. One camp automates heavily: a summary of yesterday's creative results in Slack every morning, weekly competitor scans, a year of audits mined for patterns. The other keeps daily numbers manual, because entering them is the review.
+Practitioners split on this one along working style. One camp automates heavily: a summary of yesterday's creative results in the team chat every morning, weekly competitor scans, a year of audits mined for patterns. The other keeps daily numbers manual, because entering them is the review.
 
 **Our take: automate collection and summaries, and keep "what does this mean and what do we do" human.** Then check each claim against the numbers. An AI summary that calls a post "viral" when its reach was paid is a small error that leads to a large wrong decision.
 
@@ -148,7 +162,7 @@ To compare AI-made ads with shot ones later, tag them at launch. Put "AI" or "sh
 
 ## What about Meta's own AI ad tools?
 
-Meta builds generative AI into Ads Manager itself. Under Advantage+ creative, optional creative enhancements can adjust images and video, generate image variations and backgrounds, expand images to fit placements, add music, and suggest text variations. Meta has also added an AI assistant that suggests changes. Feature names and defaults change often, so check what's on before every launch.
+Meta builds generative AI into Ads Manager itself. Under Advantage+ creative, optional creative enhancements can adjust images and video, generate image variations and backgrounds, expand images to fit placements, add music, and suggest text variations. Meta has also added an AI assistant that suggests changes. Feature names and defaults change often. Because these features change the ad after you've approved it, the safe habit is to preview every placement before launch and treat a new toggle as off until someone on the team has seen what it does.
 
 The old advice was all on or all off. Both are retired. Decide per toggle:
 
@@ -164,16 +178,16 @@ Five habits from the last two years have aged badly:
 - **"Generate hundreds of ads in minutes."** Practitioners who tested instant AI ad makers found they don't do what they promise, and volume of one idea is the failure mode anyway.
 - **"Ask a chatbot for ten ad ideas."** Vary your winners instead.
 - **"Dump 50 to 100 AI images into one campaign and see what sticks."** Most of them are one concept, and the account learns little.
-- **"AI will replace your creative strategist."** Every serious practitioner rejects this. The strategist's job moved toward choosing and checking.
+- **"AI will replace your creative strategist."** Practitioners who use AI daily reject it. The strategist's job moved toward choosing and checking.
 - **"Trust the chatbot on account settings."** Its Meta knowledge is often out of date and always confident.
 
 ## The judgment bottleneck: why launching becomes the slow part
 
-Here's the maths that changes once AI does the making.
+Here's the math that changes once AI does the making.
 
 Say your team uses AI to produce 20 distinct concepts this month, with 3 variants each, for 4 ad sets. That's 240 ads. At a hypothetical $20 per concept, production costs $400.
 
-Now launch them. In Ads Manager, building one ad from scratch in one ad set takes 17+ clicks. If you rebuild each ad, 240 ads × 17 clicks is 4,080 clicks. Say each click and its page load takes 5 seconds: that's about 5.7 hours of clicking for one month's tests.
+Now launch them. In Ads Manager, building one ad from scratch in one ad set takes 17+ clicks. If you rebuild each ad, 240 ads × 17 clicks is 4,080 clicks. Say each click and its page load takes 5 seconds. That's about 5.7 hours of clicking for one month's tests.
 
 Flex it. Cut to 10 concepts after review and it's still 2,040 clicks, nearly 3 hours.
 
@@ -196,7 +210,7 @@ The right amount of AI depends on who's using it:
 - **AI is a multiplier on judgment, not a substitute for it.** Nothing ships without a human pass.
 - **Research:** restrict AI to your own evidence, and trace every claim back to a line you supplied.
 - **Concepts:** vary proven structures. Distinct beats many.
-- **Copy:** AI drafts, a person edits for voice, claims, and AI tells.
+- **Copy:** AI drafts, a person edits. If editing takes longer than writing, fix the brief.
 - **Visuals:** obviously AI beats fake real. Never let an AI person claim to have used the product.
 - **Testing:** test concepts cheaply with AI, then produce the winners with people.
 - **Account:** AI drafts and reports. Humans approve launches, budgets, and kills.
@@ -227,6 +241,6 @@ Claims to verify:
 Tool-agnostic: no tools named; only categories (chatbot, model, AI agent, AI ad makers). No individual named or quoted.
 Draper claims used: 17+ clicks per ad built from scratch in one ad set (rebuild assumption stated), Google Drive pull, automatic naming from file, saved preferences incl. creative enhancements, create once deploy many, origin credential, beta CTA. Explicitly says Draper doesn't make creative; no "AI-powered" or AI implication.
 Lacks first-hand proof: yes; carried on panel consensus and labelled hypothetical arithmetic.
-Lint: see final run.
+Lint: 0 errors, 0 warnings
 Self-score: intro 8/10, average section 7.5/10
 -->

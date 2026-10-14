@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: E-explainer
 byline: Draper Ads
-word_count: 0
+word_count: 947
 ---
 
 # What Is a Good Hook Rate?
@@ -110,6 +110,6 @@ Claims to verify:
 - The delivery-feedback mechanism (the opening shapes whom Meta keeps delivering to) is practitioner reasoning, not Meta documentation.
 Draper claims used: 17+ clicks per ad built from scratch in one ad set (rebuild assumption stated), automatic naming from creative file, Google Drive pull, create once deploy many, origin credential, beta CTA.
 Lacks first-hand proof: yes; carried on panel consensus and labelled hypothetical arithmetic.
-Lint: see final run.
+Lint: 0 errors, 1 warnings (open-TK warning kept deliberately: one TK for first-hand account averages)
 Self-score: intro 8/10, average section 7.5/10
 -->
