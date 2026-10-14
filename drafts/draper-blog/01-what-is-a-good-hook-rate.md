@@ -1,102 +1,108 @@
 ---
-title: "What Is a Good Hook Rate? Formula, Benchmarks, Limits"
-meta_description: "A good hook rate on Meta video ads is about 35% or more. Here's the formula, the benchmarks with their dates, and why a higher hook rate can still lose money."
+title: "What Is a Good Hook Rate? Formula, Ranges, and the Trap"
+meta_description: "A good hook rate depends on your account: DTC video often lands at 25% to 45%, lead gen far lower. The formula, the ranges, and when a high one is bad news."
 slug: what-is-a-good-hook-rate
 primary_keyword: what is a good hook rate
 secondary_keywords: [hook rate formula, what is hook rate]
 locale: en-US
 profile: draper-ads
-format: E missing explainer
+format: E-explainer
 byline: Draper Ads
-word_count: 949
+word_count: 0
 ---
 
 # What Is a Good Hook Rate?
 
-A good hook rate on a Meta video ad is about 35% or higher. That's the floor creative strategist Dara Denney gives, with 40% as the point she calls impressive.
+**Hook rate is a video metric: the share of impressions where someone watched at least three seconds of your ad.** The hook rate formula is 3-second video plays ÷ impressions × 100. It only exists for video. A static has no hook rate.
 
-But a good hook rate is not the goal. **Hook rate tells you who stopped scrolling, not whether they bought.** An ad can hold half its viewers past three seconds and still lose money, and below we'll show the math for exactly how that happens, after the formula and the benchmarks.
+So what is a good hook rate? There's no universal number. For DTC video ads, experienced Meta buyers commonly report 25% to 30% as the low end and 35% to 45% as strong. Lead gen and B2B accounts often run far lower, under 10%, and can be perfectly healthy. The bar that holds is your own account average, read next to hold rate and cost per acquisition (CPA).
 
-## What is hook rate?
+And a high hook rate can be bad news. Most benchmark lists leave that part out.
 
-**Hook rate is the share of impressions where someone watched at least the first three seconds of a video ad.** That opening is more than the first line of the script. Dara [defines the hook](https://www.youtube.com/watch?v=I8tXqqfjIX4) as the whole package in those seconds: the on-screen text, the sound, the first frame, and the overall vibe. Two of her nine current hooks, a Snapchat filter and a whisper voiceover, aren't copy at all.
+## What is hook rate, exactly?
 
-Hook rate only exists for video. A static has no three-second mark, so never report one.
+Hook rate is a custom metric. Ads Manager doesn't ship it as a column, so you build it from two columns it does have: 3-second video plays and impressions.
 
-## The hook rate formula
+Say a video gets 40,000 impressions and 12,000 three-second plays. That's a 30% hook rate. Seven in ten people who were shown the ad scrolled past before second three.
 
-Hook rate is three-second video plays divided by impressions:
+**It answers one narrow question: did the opening stop people?** It says nothing about whether the ad sells.
 
-**Hook rate = 3-second video plays ÷ impressions × 100**
+One warning before you compare numbers. Some tools divide by reach or by plays instead of impressions, and some call the same idea "thumb-stop rate." Two 30% figures from two formulas aren't the same 30%.
 
-Ads Manager doesn't show it by default, so build it once as a custom metric and save it to a column preset. Its partner is hold rate, ThruPlays ÷ impressions: how many people stayed for 15 seconds, or for the whole ad if it's shorter.
+## What is a good hook rate for your account?
 
-## What is a good hook rate? The benchmarks, with dates
+Practitioners agree on the formula and disagree on the number. The gap is real:
 
-Every figure comes from Dara's videos, dated:
+| Account type | What practitioners commonly report |
+|---|---|
+| DTC video | 25% to 30% low end, 35% to 45% strong |
+| Lead gen and B2B | Often under 10%, and still healthy |
 
-| Reference point | Hook rate | Source |
-|---|---|---|
-| Median across Varos's data set, as Varos shared it with her | About 25% | [State of Meta Ads, October 2024](https://www.youtube.com/watch?v=QJ5YeT_yURU) |
-| Dara's own minimum | 35% | Same video |
-| What she calls impressive | 40% or more | Same video |
-| One account she walked through: average, then its strongest ad | About 30%, then nearly double | [Analyzing ads data, January 2025](https://www.youtube.com/watch?v=CCsty8R0UaA&t=1041s) |
-| Her agency's trigger-word hooks | 45% or more | [9 hooks, June 2026](https://www.youtube.com/watch?v=I8tXqqfjIX4) |
+The formulas match, so the spread comes from the offer, the format, the placement mix, and who's watching. That spread is the best argument against universal benchmarks.
 
-Treat these as reference points, not a pass mark, because they come from a DTC-heavy client mix and Dara benchmarks metrics like CPM by category rather than quoting one universal number.
+Pull your own baseline instead: the average hook rate of every video that spent past a set floor in the last 60 to 90 days, split by format. [TK: anonymized account averages by format from one Wonderland account]. Read any single ad against that line, and only once it has a few thousand impressions. Below that, the number is noise.
 
-Your own account average matters more. In her 2025 example, the signal wasn't clearing 35%. It was nearly doubling what that account usually got.
+## Is a high hook rate good?
 
-## Why a higher hook rate isn't always better
+Experienced buyers split on this.
 
-Dara files hook rate under [storytelling metrics](https://www.youtube.com/watch?v=CCsty8R0UaA&t=670s). They explain why an ad worked; they never decide on their own whether to scale or kill it. Spend, purchases, CPA, and ROAS make that call.
+One camp treats hook rate as an early signal with a bar to clear. A high number means the opening reaches the right people, so you make more hooks like it. That camp wins when you're iterating openings on a concept that already converts and need a read before CPA data arrives.
 
-Say two video ads each spend $300 on 20,000 impressions, a hypothetical $15 CPM:
+The other camp won't decide anything on it. A shocking opener can buy a sky-high hook rate from people who will never buy. That camp judges on CPA and raw video drop-off, and it wins when the account has enough purchases to judge on cost directly.
 
-| | Ad A | Ad B |
-|---|---|---|
-| 3-second plays | 9,000 | 5,600 |
-| Hook rate | 45% | 28% |
-| Purchases | 4 | 10 |
-| CPA | $75 | $30 |
+**Our take: hook rate is a diagnostic, never a target.** The second camp has spotted a real failure, and it deserves a name.
 
-Ad A wins the hook rate contest by 17 points. Ad B wins the business by $45 per customer.
+**An empty hook is an opening that stops plenty of people, but not the people who buy.** Hook rate climbs, CPA climbs with it, and the hook-rate column calls it a win. It's worse than a weak hook, because the opening also shapes whom Meta keeps delivering to. Reward an empty hook and delivery drifts toward people who enjoy being stopped.
 
-A hook does two jobs. It stops the scroll, and it tells Meta who to show the ad to, since Meta reads the opening seconds as a [targeting signal](https://www.youtube.com/watch?v=yNTlVKvuX0o&t=124s). So a curiosity-bait opening stops everyone, including the people who will never buy, and then teaches Meta to find more of them.
+Read hook rate paired with CPA:
 
-Call it **an empty hook: a high hook rate earned from people the product isn't for.**
+- **High hook rate, CPA on target:** the hook works. Make more openings in that direction.
+- **High hook rate, CPA off target:** an empty hook, or a body that breaks the promise. Rewrite the opening in the buyer's own words so the wrong people scroll on, and check hold rate to see which problem you have.
+- **Low hook rate, CPA excellent:** your best candidate for new openings. The body sells to the few who stay.
+- **Low hook rate, CPA off target:** the concept isn't landing. Start again.
 
-Dara uses this trap in hiring interviews: explain an ad with a 55% hook rate and a high CTR that didn't convert.
+## Hold rate: check the denominator first
 
-## How to read your hook rate
+Hold rate tells you whether the middle of the ad keeps the people the hook stopped. The catch is that practitioners compute it two ways:
 
-Dara's diagnostic matrix turns the number into a next step:
+- **Per impression:** 15-second plays (or ThruPlays) ÷ impressions. Buyers using this version commonly land around 7% to 15%.
+- **Per hooked viewer:** 15-second plays ÷ 3-second plays. The same ad reads several times higher.
 
-- **Low hook, low hold:** the creative isn't landing. Make a new concept rather than patching this one.
-- **High hook and hold, low CTR:** wrong audience, or the pool for this creative is too small.
-- **High hook on an ad that converts:** the opening reaches the right people. Make more hooks like it.
-- **High hook, poor CPA:** our addition to her matrix. It's an empty hook, so keep the message and change the opening.
+Take that 40,000-impression ad again. 3,600 fifteen-second plays is a 9% hold rate on the first formula and 30% on the second. Same ad, same week. Pick one formula, label the column, and never judge it against a benchmark built the other way.
 
-The fix for a weak hook rate is more hooks. Dara tests [3 to 6 hook variants per video](https://www.youtube.com/watch?v=I8tXqqfjIX4&t=551s), as big swings. Asked whether to change one word so the variable stays clean, she said no. Her method for making variants is to [inject trigger words into a hook structure that already converts](/blog/ai-for-facebook-ads), with an LLM doing the drafting.
+## What to stop doing
 
-## The cost the formula leaves out
+- **Chasing the highest hook rate you can get.** That's how empty hooks get scaled.
+- **Pausing a good-CPA ad because its hook rate is low.** Give it new openings instead. Since most viewers never pass second three, some practitioners treat a lot of [ad fatigue](/blog/what-is-ad-fatigue) as a tired opening.
+- **Comparing hook rates across tools** without checking the denominator.
 
-Hook variants are cheap to make. They're slow to launch. Take four new videos with five hooks each: 20 ads. Building each one from scratch in Ads Manager takes 17+ clicks, so one test ad set costs 340 clicks. Send the same ads to two more ad sets, rebuilding each time, and it's 1,020.
+## New hooks are cheap to make and slow to launch
 
-Then there's the reading. You can't compare hook rates across five variants all named "Video 3 copy 2," which is why Draper names every ad from its creative file. [TK: one real batch of hook variants launched through Draper, with ad count and time taken]
+Almost every reading above ends in the same action: make new openings. One body, five first-three-seconds, each aimed at a different buyer or problem. Five rewordings of one line don't count; Meta tends to treat near-identical ads as one.
 
-For test structure, start with [how to size a Facebook ads test](/blog/facebook-ads-testing).
+Making them is the quick part. In Ads Manager, building one ad from scratch in one ad set takes 17+ clicks. Five openings across three ad sets is 15 ads, or about 255 clicks if you rebuild each one. And unless each ad's name carries its hook, the hook-rate column is unreadable a month later. Our [ad set name examples](/blog/ad-set-name-examples) show a scheme that keeps it readable, and our guide to [Facebook ads testing](/blog/facebook-ads-testing) covers how many to launch at once.
 
-Chase the hook rate of the people you want as customers, not the highest one.
+Draper Ads was built inside a paid social agency, by the media buyers who were doing those uploads. It pulls each hook file from Google Drive, names every ad from its file, and launches the batch to every ad set in one go.
 
-*Draper Ads is free during beta. Connect your ad account, build the ad once, and launch every hook variant to every ad set in one go. No credit card, and [setup takes under two minutes](https://draperads.com/sign-up).*
+Hook rate tells you where to look. CPA tells you whether you found anything.
+
+_Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Get your time back from manual ad work](https://draperads.com/sign-up)._
 
 <!-- editor-notes
-Angle chosen: "A good hook rate is 35%+ by Dara's read, but hook rate is a diagnostic, not a goal" (counter-narrative to the 'push it higher' framing; agrees with the SERP's top LinkedIn post but adds the worked maths, the dated benchmarks and a named concept, the empty hook).
-Angles rejected: (1) "Hook rate is a targeting signal" (counter-intuitive, but too thin to carry a whole page for a 'what is' query; folded into the worked example). (2) "Hook variants are cheap to make, slow to launch" (the Draper angle; kept as the closing section rather than the lead, because the searcher wants the number first).
-Open TKs: 1. A real Draper batch of hook variants (count and time) in the final section.
-Claims to verify: (a) Hold rate as ThruPlays ÷ impressions: Dara's KB gives "15-second (or ThruPlay) ÷ impressions"; confirm the column name in current Ads Manager. (b) The 25% median is Varos's figure, spoken by the Varos guest on Dara's October 2024 video; Dara's own floor is 35% and 40% impressive (transcript ~12:18). (c) The ~30% account average and "nearly double" are from CCsty8R0UaA at ~17:21; the link uses t=1041s. (d) The 55% interview scenario is in her hiring material (career-and-hiring.md); no timestamp in the KB, so it is stated without a link. (e) 17+ clicks is the site's figure for building one ad from scratch; the 1,020 figure assumes a full rebuild per ad set, as stated in the text.
-Attribution: all Dara figures linked to the specific video. No retired tactics used (2-4 hook variants is retired; the post uses 3-6).
-Lint: 0 errors, 1 warning (the one deliberate open [TK]). One-sentence paragraphs 43%, sentence SD 7.8.
-Self-score: intro 8/10, average section 7.5/10. Lacks first-hand Draper proof (one TK).
+Angle chosen: "A high hook rate can be bad news" (counter-narrative), carried by the named concept "empty hook" (a high hook rate from the wrong people is a failure).
+Angles rejected: (1) "There is no good hook rate, only your average" (true but flat as a lead; kept as the answer). (2) "Hook rate vs hold rate: the denominator trap" (too narrow for the head term; kept as one section).
+Splits shown and verdicts:
+- Is a high hook rate good? Signal-with-a-bar camp vs won't-use-it camp. Verdict: diagnostic, never a target; read paired with CPA via four if/then rules.
+- What range is good? DTC 25-45% vs lead gen/B2B under 10%. Verdict: the spread proves the number is account-relative; set the bar from your own average.
+- Hold-rate denominator: per impression vs per 3-second viewer. Verdict: pick one, label it, never compare across formulas.
+Open TKs: 1. [TK: anonymized account averages by format from one Wonderland account].
+Claims to verify:
+- Meta's definition of "3-second video plays" (counts autoplay; for videos shorter than 3 seconds, Meta counts plays at ~97% of length) and of ThruPlay (15 seconds or completion if shorter). No URL cited; add Meta Business Help Center links if found.
+- That hook rate is not a native Ads Manager column (true as of the brief; Meta adds columns occasionally).
+- "Meta tends to treat near-identical ads as one" is phrased as practitioner observation, not documented mechanics (see /blog/meta-andromeda-update).
+- The delivery-feedback mechanism (the opening shapes whom Meta keeps delivering to) is practitioner reasoning, not Meta documentation.
+Draper claims used: 17+ clicks per ad built from scratch in one ad set (rebuild assumption stated), automatic naming from creative file, Google Drive pull, create once deploy many, origin credential, beta CTA.
+Lacks first-hand proof: yes; carried on panel consensus and labelled hypothetical arithmetic.
+Lint: see final run.
+Self-score: intro 8/10, average section 7.5/10
 -->

@@ -1,185 +1,135 @@
 ---
-title: "Meta Andromeda Update: What Changed and What to Do Now"
-meta_description: "The Meta Andromeda update changed how ads get picked. What Andromeda, GEM and Lattice do, what creative diversity means, and what to stop doing."
+title: "Meta Andromeda Update: What Changed, and What Didn't"
+meta_description: "The Meta Andromeda update changed how Meta picks ads, not what wins. What Meta documented, what counts as creative diversity, and what to stop doing."
 slug: meta-andromeda-update
 primary_keyword: meta andromeda update
 secondary_keywords: [meta andromeda creative diversity]
 locale: en-US
 profile: draper-ads
-format: E-explainer (leaning F, one named concept)
+format: F named-concept essay (explainer opening)
 byline: Draper Ads
-word_count: 1591
+word_count: 0
 ---
 
-# The Meta Andromeda Update: What Changed and What to Do About It
+# Meta Andromeda Update: What Changed, and What Didn't
 
-The Meta Andromeda update changed how Meta picks which ads a person could see, and it pushed nearly all of your targeting into the creative itself. The practical response is to give Meta more ads that look different from each other. Not more copies of the same ad with new headlines.
+The Meta Andromeda update changed how Meta picks which ads to consider for each person. It did not change what wins. The winners are still the ads that give a specific person a specific reason to buy.
 
-That last part is where most explainers stop. They tell you to "diversify your creative" and leave you to guess what counts.
+**Andromeda changed how Meta picks ads, not what wins.** What it did change is the payoff from faking variety. Ten near-identical versions of one ad now behave a lot like one ad.
 
-**Andromeda counts what it can see.** If two ads look the same at a glance, Meta treats them as one ad, however different the copy.
-
-Below: what the three new systems each do, as creative strategist Dara Denney explains them, the five levels of creative diversity, a two-minute test for your account, and the habits to drop. We built Draper Ads inside a paid social agency, by the media buyers who were doing the uploads, so we'll also show where this lands on your launch calendar.
+Below: what Meta has documented, what experienced media buyers agree on, three competing explanations for why creative diversity works (you don't have to pick one), and the habits to drop. We built Draper Ads inside a paid social agency, by the media buyers doing the uploads, so we'll finish on your launch week.
 
 ## What is the Meta Andromeda update?
 
-**Andromeda is the retrieval step in Meta's ad delivery: it narrows millions of eligible ads down to a small pool for each person, every time they open Facebook or Instagram.**
+**Andromeda is the retrieval stage of Meta's ad delivery. Before any auction ranks ads, it narrows every eligible ad down to a short list of candidates for each person.**
 
-It doesn't choose the final ad. Two other systems do that work.
+Meta announced it in an engineering article in December 2024. Later stages rank that short list and run the auction. The rollout was gradual, which is why most advertisers only started arguing about it in late 2025.
 
-Dara Denney's [Andromeda and GEM explainer](https://www.youtube.com/watch?v=x1b4h42HTG8) breaks the pipeline into three parts:
+So why does every explainer disagree? Because they mix two kinds of claim:
 
-| System | Its job | Dara's analogy |
-|---|---|---|
-| Andromeda | Retrieval: cuts millions of ads to a shortlist per user | A personal assistant pulling a few white t-shirts for you |
-| GEM (Generative Ads Recommendation Model) | Reads intent and narrows the shortlist further | The assistant who also knows you prefer linen to cotton |
-| Lattice | The library of Meta's models, GEM included, that makes the final pick | The one who hands you the shirt |
+- **What Meta has documented:** Andromeda exists, it handles retrieval, it runs at a much larger scale than the system before it, and it personalizes which ads each person is matched with.
+- **What Meta has not documented:** how it decides two ads are "the same," how many distinct ads your account holds, or any rule about thumbnails, hooks, or headlines.
 
-She also points out what Andromeda isn't. It isn't a new algorithm, and it isn't recent: it launched in December 2024.
+Everything in the second bucket is practitioner inference. Some of it is good inference. None of it is a spec.
 
-The change that matters is Lattice.
+## What experienced media buyers agree on
 
-Meta used to run interest targeting, lookalikes, and the prospecting-retargeting split as separate models, which is why splitting ad sets that way once paid off. Lattice merges them.
+Read enough practitioners on Andromeda and three points come up again and again, from people who agree on little else.
 
-Meaning, the ad set you built to "target" a segment is no longer where the targeting happens.
+**1. Andromeda is not why your ads are bad.** Nobody serious calls it a penalty or a tax on advertisers. If an ad stopped working when Andromeda arrived, the usual reading is that a weaker system was propping it up, or that a competitor with better ads got there first.
 
-## Did Andromeda kill your results?
+**2. Small variations of one asset no longer count as new ads.** A headline swap on the same image. A black-and-white filter. A new text overlay, thumbnail, or comment sticker. A new hook on the same footage. These used to buy a few extra weeks of reach. Now they tend to get served to roughly the same people as the original.
 
-Probably not.
+**3. Real diversity means a different person, not a different look.** Practitioners keep naming the same three levers: a new persona, a new reason to buy, or a new awareness stage (someone who has never thought about the problem versus someone comparing you with a competitor).
 
-Dara's position is blunt: if results dropped, the likely causes are competitors with bigger acquisition budgets outbidding you, and competitors shipping more and better ads.
+Two corollaries follow. Volume without difference is waste, so 20 near-copies a week do less than 10 ads that sit far apart. And don't rebuild your account structure because of Andromeda. If your structure was working, it's probably compatible, because the targeting now lives in the creative.
 
-Think about what retrieval rewards. Every session, Meta builds a shortlist.
+That gives us a test worth naming. **The same-person test: before you launch an ad, ask whether it would reach a different person, for a different reason, than the ads already running.** If the honest answer is no, it's a variation, whatever the file name says.
 
-An advertiser with 40 visually distinct ads has 40 ways onto it. An advertiser with 6 ads that all look alike has roughly one.
+## Why does creative diversity work? Three camps
 
-So the update didn't punish you. It made the gap between a thin ad library and a deep one show up faster.
+Here practitioners split, and the split is about evidence, not tactics.
 
-Her two hot takes from the same video follow from this. Targeting by interest or lookalike, and even the prospecting-retargeting split, is now "pretty much useless."
+**Camp one: observed account behavior.** These buyers start from what changed in their own accounts. Iterations of winners stopped beating the originals. Spend piled into one or two ads while frequency kept climbing. Their claim stays narrow: Meta seems to group visually similar ads and show them to roughly the same people. They won't publish a model of Meta's internals and tell you to check everything against your own data. This camp wins when you run a real account and can test the claim yourself.
 
-And account structure is "far less important" than it was.
+**Camp two: a mechanistic theory.** Others build a full model of how Meta fingerprints each ad and counts the distinct ones, so an account running 50 ads might hold only a handful of "real" ones. It's vivid, and it makes "shoot it differently" feel necessary, which is why creative teams like it. But no Meta documentation describes that mechanism, and no Meta report shows you such a count. It wins as a teaching device. Treat it as theory.
 
-## Why visual difference is the only diversity that counts
+**Camp three: consumer-first.** The third group says the algorithm story is beside the point. Different people buy for different reasons, so ads built on different reasons reach more buyers. The best advertisers were working this way long before anyone said "Andromeda." Brief for people, not for the algorithm.
 
-Here's the part that changes your testing. After two days at Meta's offices, Dara reported in [an April 2025 video](https://www.youtube.com/watch?v=kxLjzws-pNg&t=243s) that Andromeda only recognizes ads with unique visual differences as true creative diversity. Messaging-only variants don't register, even when the copy speaks to completely different people.
+**Our take: you don't need to pick a camp, because all three prescribe the same next action.** Make ads with a new reason to buy, for a new person, and make them look different. Those moves stand on their own merits even if every internal story about Meta turns out to be wrong. So act on the prescription, and judge it in your own account against blended results, not against someone's diagram.
 
-She notes this applies mainly to Advantage+ style campaigns rather than manual CBO.
+One caution for all three camps. Don't expect spend to spread evenly across your new concepts; some practitioners report Meta concentrating spend into two or three ads in 2026, much as it did years ago. Diversity raises your odds of finding the next winner. It doesn't promise a flat split.
 
-A bad/good pair makes it concrete, using one winning UGC video.
+## Visual difference or argument difference?
 
-**Five headline swaps.** Same creator, same kitchen, same first frame, five different text overlays. To Andromeda, that's close to one ad.
+The second split is about what "different" means. One camp says Meta only counts what it can see: change the message, keep the visuals, and the ad behaves like the old one. The other camp says visual changes only extend the life of an argument that already works, and that new arguments are what reach new people. Most teams, they point out, spend most of their effort on format when argument does more.
 
-**Five visual versions.** The original, a green-screen version in a new setting, a TikTok-style response bubble over the clip, a different creator demographic in the first three seconds, and a static built from the video's best frame. That's five ads.
+**Our take: each new argument gets its own visual treatment.** That satisfies both camps at once. Here's the difference for a hypothetical protein bar:
 
-Dara still runs the cheap messaging tests. They stopped counting as diversity, so they stopped being the first move.
+- **Weak set:** the same unboxing video three times, with headlines about taste, protein, and price.
+- **Strong set:** the taste argument as a street interview, the protein argument as a side-by-side label comparison, and the price argument as a static that does the per-bar math.
 
-## What creative diversity means in practice: the 5 levels
+The weak set has three messages and one look. The strong set has three reasons to buy, each shot differently.
 
-Dara's [5 Levels of Creative Diversity](https://www.youtube.com/watch?v=ZydGeio1DGQ) is a ladder, not a format list.
+Hooks sit inside this. **Hooks optimize a concept; they don't diversify an account.** Keep a few hook variants per concept to find its best opening (our [hook rate guide](/blog/what-is-a-good-hook-rate) covers how to read them), and count your diversity at the concept level.
 
-You find your level, then expand the next axis instead of adding more of the one you already have.
+## Should you turn off ads that underperform?
 
-### Level 0: statics or video
+Practitioners split here too, and the dividing line is the ad's stage.
 
-Statics only, video only, or a mix of the two and nothing more. Most accounts start here.
+One camp protects ads that already carry spend. Turning off a spender throws away what Meta has learned about who it works for, adds volatility, and often leaves the wrong survivors. The further an ad's cost per acquisition (CPA) sits above the account average, the more evidence they want before acting.
 
-### Level 1: format expansion
+The other camp runs a fixed testing schedule and cuts new ads early, on thresholds set before launch, such as cost per add-to-cart far above target or spend reaching a multiple of order value with no sale. Even they don't kill ads they've carried to scale. And they warn against cutting a prospecting video that a retargeting image is quietly closing sales behind.
 
-New visual containers for a proven message: green screen, response bubbles, split screens, statics pulled from video. Dara says this is where most advertisers stop, and calls format the lowest rung because very few breakout ads come from a format change alone.
+**Our take, as an if/then:** if an ad is a new test, cut it early on thresholds you wrote down before launch. If it carries meaningful spend, don't turn it off on ad-level CPA alone. After any kill, check blended results over the next one to three days, and reverse it if they got worse. Our [ad fatigue explainer](/blog/what-is-ad-fatigue) covers what to check before you blame the creative.
 
-If you need static formats to work with, our [static ad examples](/blog/static-ads-examples) cover the layouts that still convert.
+## What to stop doing
 
-### Level 2: awareness expansion
+Each of these was standard advice once. Practitioners have since retired all of them:
 
-Same product, different stage of awareness.
+- Writing ten headlines for one winning image.
+- Making four hook variants of a brand-new concept before you know the concept works.
+- Refreshing winners with overlays, new thumbnails, filters, or comment widgets.
+- Capping ad sets at six ads. Current ranges run from 3 to 6 variations of one concept up to 20 or more ads when an ad set holds many concepts.
+- Stacking interests and lookalikes to do work the creative now does.
+- Building elaborate "Andromeda-proof" account structures.
+- Producing volume for its own sake.
+- Giving up on a diversity fix after two weeks, when the problem took years to build.
 
-Her diagnostic: an ad that works for a week or two and then falls off a cliff is usually product-aware content that has used up the bottom-funnel audience. The fix is to move further up-funnel, not to kill the ad.
+## What Andromeda does to your launch week
 
-That pattern often gets misread as [ad fatigue](/blog/what-is-ad-fatigue).
+New concepts beat near-copies. That means more distinct ads, and every distinct ad has to be built and launched.
 
-### Level 3: desire and motivation
+Pace yourself to your hit rate, not to a quota. Say (hypothetically) 1 in 10 of your new concepts becomes a winner. Five concepts a week then finds about one winner a fortnight. Brief better, so that 1 in 4 wins, and the same five concepts find more than one winner a week. Some practitioners run 10 to 15 structurally distinct concepts every two weeks; others refuse to give a number at all.
 
-Messaging aimed at a core human motive, using Steven Reiss's 16 desires.
+Now the launch math. Take 10 concepts a fortnight, each with 3 variations: 30 ads. Building one ad from scratch in one ad set takes 17+ clicks in Ads Manager. Assume each of the 30 is built from scratch and you're at 510+ clicks every two weeks. Launch each into three ad sets, rebuilding every time, and it's 1,530+. Duplicating instead of rebuilding is cheaper per ad, but still scales with every ad and ad set ([TK: click count to duplicate an existing ad into another ad set]).
 
-Her audit question is a count: how many desires is your account actually marketing to? Most accounts land on one or two.
+Then comes the audit. To run the same-person test across a live account, you need to know which concept and angle every ad belongs to, and that only works if the ad name says so. Pull your top 10 spenders, group them by concept, and look at them side by side as thumbnails. If eight are the same argument, you're running two or three ads, not ten. Our [ad set naming examples](/blog/ad-set-name-examples) show a structure that makes this a filter instead of an afternoon.
 
-### Level 4: personas and use cases
+You can do all of it in Ads Manager with a naming template and patience, and at five ads a week that's fine. At 30 a fortnight, it's where [Draper Ads](https://draperads.com/) earns its place: it names every ad from its creative file and pulls the creative straight from Google Drive, so name the files by concept and angle and the audit comes free.
 
-New groups of people with different reasons to buy the same product. Her example splits one cosmetic into three buyers: busy moms, Gen Z after a no-makeup look, and millennials with dry skin.
+Andromeda didn't change what wins. It stopped rewarding you for pretending to have more ads than you do.
 
-### Level 5: true creative diversity
-
-All four levels across a full product range, usually backed by an organic content engine. This one is an organizational trait, not a campaign setting.
-
-## Run the squint test before you brief anything
-
-The fastest check is one Dara has used since 2024, described in [her creative diversity video](https://www.youtube.com/watch?v=U7T3_-NnHHg&t=122s). Here's how to run it:
-
-1. Pull your top 10 to 20 ads by spend.
-2. Put them on one page or slide.
-3. Sit back and squint.
-4. Count how many look clearly different in color, setting, person, and format.
-
-If 20 ads collapse into four looks, you have four ads.
-
-Your naming convention doesn't get a vote.
-
-## The number to manage: distinct ads per week
-
-This is where we'd add one thing to Dara's model.
-
-**Distinct ads per week is the number of new ads you launch that would pass the squint test against each other and against what's already live.**
-
-It's the weekly version of creative diversity, and unlike "diversity" it fits on a dashboard.
-
-Take a hypothetical brand launching 12 new ads a week:
-
-- **Plan A:** 3 concepts × 4 headline variants. Twelve ads, 3 distinct.
-- **Plan B:** 3 concepts × 4 visual versions (original, green screen, response bubble, static). Twelve ads, roughly 12 distinct.
-
-Same concept count. Four times the distinct ads.
-
-Plan B costs more editing time, so the honest question is where the week goes.
-
-Dara's own sizing is 10 to 25 ads per test ad set, as she lays out in [her account structure video](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=121s). Our [guide to Facebook ads testing](/blog/facebook-ads-testing) covers how to set that up.
-
-Now the launch side. Say those 12 ads go into 3 ad sets, and each one is built from scratch in Ads Manager at 17+ clicks per ad. That's 12 × 3 × 17 = 612 clicks a week before anyone looks at a result. Push to 20 ads and it's 1,020.
-
-That's the hidden cost of Andromeda. The algorithm wants more distinct ads, and Ads Manager charges you per ad, per ad set. It's the reason we built [Draper Ads](https://draperads.com/): build each ad once, then send it to every ad set in one go.
-
-One caveat Dara added in 2026 is a fair one.
-
-She [wrote](https://x.com/DenneyDara/status/2041506258008613177) that the most common mistake she sees is advertisers chasing diversity and volume while failing to double down on what's working.
-
-Distinct ads per week isn't a reason to abandon a winner. Iterate on the winner until it stops working, and make the iterations look different.
-
-## What to stop doing after the Andromeda update
-
-Six habits to drop:
-
-- **Stacking interests and lookalikes.** Lattice merged those models. The creative is the targeting now.
-- **Calling headline swaps "diversity."** Keep them as cheap tests. Don't count them toward the weekly number.
-- **Testing one variable at a time.** Asked whether to change one word to keep a test clean, Dara answered "Absolutely not." Take bigger swings.
-- **Splitting statics by message across ad sets.** She now puts all statics into one ad set.
-- **Copying competitors' longest-running ads.** She retired ad longevity as a signal in 2025, since a 200-day ad may be sitting untouched in a forgotten campaign.
-- **Blaming the update.** Run the squint test first. It's cheaper than a rebuild.
-
-Andromeda didn't change what good creative is; it changed how much of it you need live at once.
-
-## Get your launch time back
-
-More distinct ads per week means more ads to launch, and that's the part Draper Ads handles.
-
-It's free during beta: connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Try Draper Ads](https://draperads.com/sign-up).
+_Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Try Draper Ads](https://draperads.com/sign-up)._
 
 <!-- editor-notes
-Angle chosen: "Andromeda counts what it can see." Explain the three systems plainly (attributed to Dara Denney), then turn the visual-diversity rule into a weekly number, distinct ads per week, that ties to Draper's launch-volume angle. Novelty: elegant articulation (Andromeda counts what it can see) plus counter-narrative (Andromeda probably didn't kill your results; a thin ad library did).
-Angles rejected: (1) "Andromeda didn't kill your account" as a pure myth-bust: strong, but the SERP already half-says it and it doesn't give the concrete method the brief asks for. (2) "The 5 Levels of Creative Diversity explained" as the main frame: the framework is Dara's, so building the whole post on it would make the post a summary of her video with little of our own reasoning.
-Named concept: distinct ads per week (ours, defined in bold, reused in a heading and the close). Clearly labelled as our addition to Dara's model, not hers.
-Open TKs: none. The post lacks first-hand Draper account proof; the best place for it would be the "distinct ads per week" section (a real before/after squint count from an account). Draper has no published case data yet, so it's carried on worked arithmetic.
-Claims to verify: Andromeda launch date December 2024 and the Andromeda/GEM/Lattice division of labor are Dara's account (video 2025-12-21), not Meta documentation; consider linking Meta's engineering posts if the editor wants a primary source. The visual-diversity rule is reported from her Meta office visit (April 2025) and corroborated in her files by Seed Health's strategist; not in Meta docs. 17 clicks per ad assumes a from-scratch build each time, per the profile's unit note. Dara's "Jones Miracle Bomb" persona example was paraphrased generically as "one cosmetic" to avoid a possibly mis-transcribed product name.
-Deliberately left out: Meta's ">20 creatives in Advantage+ = 29% lower incremental cost per purchase" figure (in her knowledge files but I couldn't find it in the transcript; likely on-screen). Add it back with Meta's source if the editor can verify it. Motion's intended-audience tag left out, so no Motion disclosure needed.
-Retired tactics: 90/10 net-new ratio, ad longevity, segmenting statics by message, and the 3-level maturity model are not presented as advice (longevity and static segmentation appear only under "stop doing").
-Lint: 0 errors, 1 warning kept. Parens 8.8/1k: every counted parenthesis is the URL half of a Markdown link (11 inline links to sources and siblings); the prose has no real parentheses. Lint stats: one-sentence paragraphs 49%, sentence mean 13.1, SD 7.6, 1 semicolon.
-Self-score: intro 8/10, average section 7.8/10. Peak: "The number to manage: distinct ads per week."
+Angle chosen: "Andromeda changed how Meta picks ads, not what wins." Novelty: counter-narrative (Andromeda isn't why your ads are bad) plus elegant articulation (three camps disagree on why diversity works but prescribe the same action). Draper angle lands at the end via launch math and naming.
+Angles rejected: (1) "Andromeda explained: the three systems" (pipeline explainer): depends on undocumented detail (GEM, Lattice) we can't source to Meta yet. (2) "Your 50 ads are really 3 ads": built on one practitioner's mechanistic theory, which the brief says not to present as fact.
+Named concept: the same-person test (ours), defined in bold, reused in the launch-week section.
+Splits shown and verdicts:
+- Why diversity works (observed behavior vs mechanistic theory vs consumer-first). Verdict: all three prescribe the same action; act on it, test against blended results, treat mechanism as theory.
+- Visual vs argument difference. Verdict: each new argument gets its own visual treatment (bad/good protein-bar pair).
+- Kill discipline, split by ad stage. Verdict: cut new tests early on pre-set thresholds; don't kill a meaningful spender on ad-level CPA alone; recheck blended results 1 to 3 days after any kill.
+- Hook variants (folded in briefly). Verdict: hooks optimize a concept, they don't diversify an account.
+- Spend-concentration observation flagged as "some practitioners report," not as a split.
+Claims to verify:
+- Meta's December 2024 engineering article on Andromeda: exact URL, date (brief says 2024-12-02), and its wording that Andromeda is the retrieval stage, personalizes matching, and runs at a much larger scale than its predecessor. Referenced generally, not linked, per instructions. Consider linking once the URL is confirmed.
+- Gradual rollout by campaign type (practitioner account, not Meta).
+- Left out deliberately: the 29% lower cost per purchase (>20 creatives in Advantage+), "tens of millions to a few thousand" candidates, and the 45% four-exposure figure. Add only with a Meta source.
+- Left out: any claim that Meta counts visual difference only, GEM/Lattice detail, and the term "entity ID" (origin unsettled).
+- 17+ clicks per ad assumes a from-scratch build in one ad set (profile unit note).
+Open TKs: 1 (click cost of duplicating an existing ad into another ad set). Post lacks first-hand proof; the best place for it is the audit paragraph (a real top-10-spenders-by-concept count from an account).
+Internal links: /blog/what-is-a-good-hook-rate, /blog/what-is-ad-fatigue, /blog/ad-set-name-examples, https://draperads.com/, CTA to /sign-up.
+Lint: see final report.
+Self-score: intro 8/10, average section 7.8/10. Peak: "Why does creative diversity work? Three camps."
 -->

@@ -1,178 +1,152 @@
 ---
-title: "12 Static Ads Examples for Meta, and How to Make Each"
-meta_description: "12 static ads examples that work on Meta now, each with its anatomy, why it converts and how to make it, plus the squint test and a fast AI workflow."
+title: "Static Ads Examples: 12 Meta Formats and How to Make Each"
+meta_description: "12 static ads examples that work on Meta, each with its anatomy, why it works and how to make it, plus the rules that separate real tests from copies."
 slug: static-ads-examples
 primary_keyword: static ads examples
-secondary_keywords: [what are static ads, static image ads, best static ads]
+secondary_keywords: [what are static ads, static image ads]
 locale: en-US
 profile: draper-ads
-format: C catalogue listicle
+format: C catalog listicle
 byline: Draper Ads
-word_count: 1750
+word_count: 0
 ---
 
 # Static Ads Examples: 12 Meta Formats and How to Make Each
 
-**Static ads are single-image ads: one picture, one headline, no motion.** The static ads examples that work on Meta now aren't the prettiest ones in the galleries. They're the ones a stranger understands in about one second.
+The static ads examples that work on Meta now are plain: a comparison, a review card, a screenshot that looks like a friend's story. Each one says one thing to one person, and a stranger gets it in about a second.
 
-Below are 12 formats, each broken down so you can see why it works and how to build it fast, drawn mostly from creative strategist Dara Denney, who has worked on tens of thousands of statics over the past ten years.
+Below are 12 formats that experienced Meta buyers keep returning to, independently, with the anatomy of each, why it works and how to make it. We built Draper Ads inside a paid social agency, by the media buyers who were doing the uploads, so we'll also show where a static test goes wrong. It's rarely the design.
 
-The galleries that rank for this search show finished ads and skip the construction rules, so you copy the look and miss the reason it sold.
+Most accounts that say "statics don't work for us" tested 20 versions of one idea.
 
-They skip something else too.
+## What are static ads, and what are they for?
 
-AI now produces a usable static in minutes, which moves the bottleneck somewhere most teams don't expect. We built Draper Ads inside a paid social agency, by the media buyers doing the uploads, so we'll show you where it moves.
+**Static ads are single-image ads: one picture, usually a headline on it, and the primary text above it.** No video, no carousel.
 
-## What makes a static image ad work?
+Their job has changed. Practitioners agree that static image ads are the cheapest, fastest way to find out which message sells. A designer can make ten statics in the time it takes to brief one video. So you test messages as statics, then spend video money on the ones that won.
 
-A static works when it does one job for one person, and says so in the headline. Dara teaches it as [three layers](https://www.youtube.com/watch?v=5C5VhqW9HCc), in order:
+That doesn't make statics a lesser format. A mediocre static usually beats a mediocre video, while the best video usually beats the best static. Most accounts that scale run both, side by side.
 
-1. **Strategy.** Pick one goal (an offer, education or problem awareness), one narrow persona, one format and one awareness level.
-2. **Design.** Headline first, product second, everything else third. If a stranger can't tell what you sell in about a second, kill it.
-3. **Copy.** The layer she rates highest. A winner hits at least one of six levers: be specific, call out the audience by name, lean into taboo, tap a primal desire, open a curiosity loop, or name what the audience fears.
+## The rules every example below follows
 
-Her summary fits on a sticky note: "Clarity is always going to out beat creativity."
+Every format here obeys the same handful of construction rules. Experienced buyers agree on them more than on almost anything else in creative:
 
-Bad: "Premium skincare for every skin type."
+- **One ad, one job.** One problem, one promise, one person. Two ideas in one image means neither lands.
+- **Clear in a second.** Cover the text and look at the image. Could a stranger say what's sold and who it's for?
+- **The headline does the work.** The image stops the scroll, the headline sells. Keep it short; a third line usually means a second idea.
+- **Native beats polished.** Brand fonts and studio gloss read as "ad." Plain doesn't mean careless, though.
+- **Customer words beat brand words.** Mine reviews for the line. If no customer would say it, cut it.
+- **Stack, don't spread.** A comparison with a review quote and press logos is one strong ad, not three weak ones.
+- **Check safe zones.** Keep text clear of the areas that the interface covers in Stories and Reels.
 
-Good: "For women over 50 whose foundation settles into lines by noon."
+## 12 static ads examples that work on Meta
 
-The first talks to nobody. The second names a person and her worst moment of the day; everyone it doesn't describe scrolls past for free.
+These are the formats that show up in two or more practitioners' format libraries. Each is a starting layout. The message is still yours to find.
 
-## 12 static ads examples, with how to make each one
+### 1. The problem callout
 
-### 1. The headliner ad
+A bold headline that names the reader's problem in their words ("Still waking up at 3 a.m.?") over a simple product shot. It works cold because the headline does the targeting: only people with the problem stop. Write ten callouts from your reviews, pair each with the same clean image and let the words compete.
 
-One sentence of copy carries the whole ad.
+### 2. Us vs. them comparison
 
-- **Anatomy:** a big headline filling a third of the frame or more, the product small beneath it. Variants swap in a customer or press quote.
-- **Why it works:** Dara says the headline is the focal point nine times out of ten. It's the natural home for a taboo line competitors are too polite to say.
-- **Make it:** run your review export through an LLM and ask for "golden nugget" lines. Test five lines on one layout.
+Two columns, your product against "the usual option," with three or four ticks and crosses. The reader does the comparison in a glance, so it carries a reason to switch without a paragraph of copy. Pick the alternative your buyers already use, not a named competitor, and keep each row to three words.
 
-### 2. The benefits callout
+### 3. Reasons why
 
-- **Anatomy:** product in the center, at most four short benefits around it, each with an arrow.
-- **Why it works:** past four callouts, recall drops in a feed. Arrows pull the eye in. A plain line ends, and the eye stops with it ([Dara with Sarah Levinger](https://www.youtube.com/watch?v=SUGwiRl4xCg&t=1406s)).
-- **Make it:** a core-desire headline and four benefits lifted from reviews.
+A numbered list of three reasons to buy beside the product. Lists are fast to read and each reason is a hypothesis you can later split into its own ad. Three is plenty, and past five nobody reads to the end.
 
-### 3. Us vs. them
+### 4. Feature callout
 
-- **Anatomy:** your product against "the other kind," checks and crosses down three to five rows.
-- **Why it works:** it does the comparison the shopper was about to do anyway. Dara's verdict: "still cranking."
-- **Make it:** build rows from category complaints, and never name a competitor.
+The product in the center with arrows or labels pointing to its best features. It suits products whose value sits in visible details: a seam, a valve, an ingredient. Cap it at four callouts and write each as a benefit ("No leaks in a bag"), not a spec.
 
-### 4. The transformation ad
+### 5. Review card
 
-This is the one most accounts are missing.
+One customer quote, a star rating and a first name, laid out like a review screenshot. It works when the quote is specific and slightly imperfect, because polished quotes read as written by marketing. Pull the oddest, most concrete line from your reviews; our [testimonial ads examples](/blog/testimonial-ads-examples) go deeper on choosing it.
 
-- **Anatomy:** before and after in one frame, or day 1 next to day 30, with almost no copy.
-- **Why it works:** Dara calls it the single biggest gap she finds in ad accounts. Problem-aware shoppers want proof. And no, before/after ads aren't banned, though cosmetic procedures and weight loss carry extra restrictions.
-- **Make it:** use unedited customer photos over studio shoots.
+### 6. The negative-review flip
 
-### 5. The educational infographic
+A one-star review whose complaint is secretly a benefit ("Too strong, I only needed half a scoop"). It stops the scroll because nobody expects an ad to show a bad review. Search your reviews for complaints about too much of a good thing.
 
-- **Anatomy:** a labeled diagram of the product or its ingredients, built like a post someone would save.
-- **Why it works:** it reads as content, not an ad, which makes it strong with cold audiences.
-- **Make it:** ask what your persona would benefit from knowing. Draw one diagram with four to six labels.
+### 7. Native screenshot
 
-### 6. The grid
+A Notes page, a text conversation or a Stories frame with plain text and stickers. It looks like something a person posted, so it gets read before it gets judged as an ad. Build it in the real app and screenshot it rather than faking the interface in a design tool.
 
-- **Anatomy:** four to nine tiles, each a product or use, each with a short label.
-- **Why it works:** Dara's top-performing ad creative of 2024 was a grid, with [over $2M spent on a single grid ad](https://www.youtube.com/watch?v=_ZHS6tW3f_Q&t=61s). The eye runs a Z path through the tiles.
-- **Make it:** one grid per collection, saved for apparel, multi-SKU stores or sale periods.
+### 8. The ugly ad
 
-### 7. The founder's letter
+A sticky note, a handwritten sign or a phone photo on a kitchen counter. Ugly ads win when the polish was the thing telling people to scroll past. Ugly isn't sloppy, though. The words and the product still have to be legible.
 
-- **Anatomy:** a short signed note on a plain background. No product photo.
-- **Why it works:** Dara names it her [number one must-test for Black Friday](https://www.youtube.com/watch?v=OIwLprdPaOQ) or any sale. Clients get nervous about text-only ads. They perform anyway.
-- **Make it:** the founder writes 100 words on why the sale exists.
+### 9. How it works
 
-### 8. The first-frame screenshot
+Three or four numbered steps with a small image each. It answers "but how?" for products that need a little education, and that's where statics usually struggle. Keep it to four steps; a fifth means you need a video.
 
-The laziest format on the list, and one of the safest.
+### 10. Before and after
 
-- **Anatomy:** frame zero of a top-performing video, original text overlay included, run as a still.
-- **Why it works:** the visual and the message were validated already, with your money.
-- **Make it:** sort videos by lifetime spend over two to three years and screenshot about 30 first frames.
+Two states side by side, or a time label like "day 2 / day 42." The eye does the math, which is why transformation is one of the most persuasive layouts there is. Check Meta's rules for your category first. Body, skin and weight claims are restricted, so test after-only versions there.
 
-### 9. The low-fi creator static
+### 11. Product grid
 
-- **Anatomy:** a phone photo of a real person with the product, styled like an Instagram Story.
-- **Why it works:** Dara calls it the bucket most teams forget, and says it's moving the needle in her client accounts now. She admits she doesn't love how well her "hot girl stories" variant works.
-- **Make it:** pay creators for photos instead of video. Skip brand fonts, which "scream ad."
+Four to nine products or colorways in a grid. It sells range, which suits apparel, multi-SKU and sale pushes. Shoot every item the same way so the grid reads as one picture, not a collage.
 
-### 10. Tweet-style and Reddit-style
+### 12. Offer anchor
 
-- **Anatomy:** your copy laid out like a post on X or Reddit.
-- **Why it works:** only when the words sound like the platform. Willow Health used a Reddit-style ad to reach a broader GLP-1 audience.
-- **Make it:** borrow phrasing from real threads, and post as your brand, never as a fake stranger.
+The price, the deal and the deadline, tied to a real event (a restock, a season ending, a product being retired). It converts warm people who were waiting for a reason. A fake countdown teaches your buyers to ignore you.
 
-### 11. The negative-review contrarian
+## Can a static ad prospect, or does it only retarget?
 
-- **Anatomy:** one filled star and a mock complaint that's really praise. Dara's example: "Why you'll regret buying these t-shirts."
-- **Why it works:** negative marketing and a curiosity loop in one frame.
-- **Make it:** write three complaints that are secretly about the product being too good.
+**Experienced buyers split on this, and product type settles it.**
 
-### 12. David and Goliath
+One camp says statics prospect fine. Built for one awareness level and one narrow persona, a static reaches cold people and scales. Many start new accounts on statics for that reason. They win with self-explanatory products (clothing, jewelry, home goods), where one image and one line tell the whole story.
 
-- **Anatomy:** a headline that names an enemy, contrasts it with you, then proves why you're better.
-- **Why it works:** Dara tests it with every new client. Her clearest specimen is [three identical statics](https://www.youtube.com/watch?v=ePcEcT2PH8E) where only the enemy changes: the migraine industry, neurologists, big pharma.
-- **Make it:** build one layout, write three enemies, and test the enemy.
+The other camp says images mostly remind. For products that solve a problem (supplements, skincare, software), video prospects and images retarget. Their tell is frequency. When an image ad's frequency climbs well above 2, it's probably reaching people who already know you.
 
-Some statics reliably flop, and Dara keeps a ["never work" list](https://www.youtube.com/watch?v=Y2zEga0aptc) of them. The fake phone-notification ad, for one, got a 0.02% CTR in a real test.
+**Our take:** if a stranger understands your product from one image and one line, let statics prospect. If it needs explaining, use statics to find the message and video to teach it. Either way, check the share of new visitors before you call a static a prospecting winner.
 
-## Run the squint test before you launch
+## Should you remake competitors' long-running statics?
 
-Twelve formats only help if they look different.
+Practitioners split here too. One camp treats a static that has run for months in the Ad Library as proven, and remakes it for their own product. The other points out that run time proves little: plenty of long-running ads sit in campaigns nobody has touched, and a mature company's ad was built for an audience that already knows it.
 
-**In Dara's reading, Meta's Andromeda system counts visual difference as creative diversity, not message difference.** Ten statics with ten headlines on one beige layout read to Meta as one ad, ten times.
+**Our take:** borrow the layout, never the proof. A remake is a hypothesis to test, not a shortcut past testing. Your own winners are a better source; a screenshot of the first frame of your best video is a static with evidence behind it.
 
-[Dara's squint test](https://www.youtube.com/watch?v=U7T3_-NnHHg&t=122s) is the fastest manual check. Lay out your top 10 to 20 creatives and squint, and if they all share one color profile and one layout, you don't have diversity, whatever your naming convention says.
+## Should you ship statics that look AI-made?
 
-So when a message wins, give it a new format rather than a new headline, which is the practical upshot of [what the Meta Andromeda update changed](/blog/meta-andromeda-update).
+Openly stylized AI work (cartoons, illustrated characters, scenes nobody would mistake for a photo) has support among practitioners, because it doesn't pretend to be real. Realistic AI images of people or results have almost none. Viewers spot them, and a fake "customer" photo is a trust problem before it's a performance problem.
 
-## How to make AI static ads in minutes
+**Our take:** stylized is fine, fake-realistic isn't. Use image models as a draft generator, and ship only what a person has checked for product accuracy (labels, proportions, spelling) and for the one-second read. For the full workflow, see [AI for Facebook ads](/blog/ai-for-facebook-ads).
 
-Dara's current workflow runs in two tools, Claude and Super Scale, and she discloses on camera that Super Scale partnered on the video:
+## Why more statics only helps if they're different
 
-1. Build a "brand brain" context document in Claude and load it into Super Scale.
-2. Let it research your ads and competitors' first, which took about four minutes in her demo.
-3. Ask for three variations at a time, which she finds gives the best output.
-4. Fix problems in plain language. She removed an em dash and corrected a misspelled "deodorant."
-5. Run the one-second test on every output.
+Every rule above pushes you toward more statics per test. Most practitioners land between 10 and 25 per test, built around a few messages with two or three variations each.
 
-Step 5 is the one people skip.
+But there's a trap. **A cosmetic variant is when two statics differ in color, font or headline wording but make the same promise to the same person.** Meta treats near-identical ads as one ad, and practitioners agree most of them never get spend. Twenty cosmetic variants of one comparison is one test, not twenty.
 
-Dara is blunt that she'd never call an AI platform's output ready to launch as it comes, so humans stay the editors.
+So which test teaches you more? Three images with eight headline tweaks each, or 24 statics across 3 different messages, each built for a different person or reason to buy? The second one, every time.
 
-The wider workflow is in [how to use AI for Facebook ads](/blog/ai-for-facebook-ads).
+That second test is where the work moves. Say you run those 24 statics (3 messages × 8 distinct ads) into 2 ad sets. Assume each ad is built from scratch in each ad set: at 17+ clicks per ad in Ads Manager, that's 24 × 2 × 17 = 816+ clicks before anything goes live. Add a third ad set and it passes 1,200.
 
-## The launch gap: why fast statics stall
+Making statics got fast. Launching them didn't. [TK: one real static test batch from a Draper user or Wonderland, distinct messages vs cosmetic variants, with launch time]
 
-**The launch gap is when your team can make statics faster than it can get them live.** AI closed the production side of that gap and did nothing for the upload side.
+That's the job [Draper Ads](https://draperads.com/) does: build each ad once, deploy it to every ad set, with names taken from the creative file so you can read results by message. If you launch a dozen statics a month, Ads Manager is fine. At 24 a week, it's most of a day.
 
-Run the numbers.
+Make the statics different, then make launching them cheap. For how to structure the test itself, read our guide to [Facebook ads testing](/blog/facebook-ads-testing).
 
-One winning message goes into 12 formats at three variations each, for 36 statics. Dara sizes test ad sets at 10 to 25 ads, so you split them across three ad sets of 12, then run each static in your scaling campaign and one more ad set: 108 ad builds.
-
-Ads Manager takes 17+ clicks to build one ad from scratch in one ad set. Assume a rebuild each time and that's 1,836 clicks before anyone has typed an ad name or a UTM.
-
-Making the statics took an afternoon. Launching them takes the rest of the week.
-
-Volume for its own sake isn't the goal, and Dara warns that teams chasing it "are failing to double down on what is working." The answer is to exploit one winner across formats, then launch every variant the same day. [TK: Draper team time to launch a batch of 36 statics into three ad sets, vs. Ads Manager]
-
-If you launch ten statics a week into one ad set, the duplicate button in Ads Manager is fine. At dozens a week across ad sets, that's the job [Draper Ads](https://draperads.com/) does: you build the ad once, deploy it to every ad set in one go, and each ad takes its name from the creative file. Proof-led statics pair well with our [testimonial ads examples](/blog/testimonial-ads-examples).
-
-Statics got fast to make. Make sure launching them got fast too.
-
-*Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Get your time back](https://draperads.com/sign-up).*
+_Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Get your time back](https://draperads.com/sign-up)._
 
 <!-- editor-notes
-Angle chosen: "The launch gap": galleries show finished statics with no construction rules; we give 12 formats each with anatomy, why it works and how to make it (Dara's three layers, six copy levers, squint test), then show that AI-fast production moves the bottleneck to launching (worked 36 statics x 3 destinations maths). Novelty: counter-intuitive (after AI, the constraint is launching, not making) + elegant articulation (named concept "the launch gap").
-Angles rejected: (1) "Statics aren't a retargeting format" myth-bust (Dara's three myths) as the spine: strong, but a worse match for "examples" intent. (2) "The one-second test" ranking every example by comprehension: thinner, and no Draper angle.
-Open TKs: 1, Draper launch-time comparison for a 36-static batch.
-Claims to verify: Dara attributions and links (5C5VhqW9HCc masterclass 2026-06-25; SUGwiRl4xCg 23:26 arrows; _ZHS6tW3f_Q grid $2M+; OIwLprdPaOQ lazy formulas; ePcEcT2PH8E three enemies; Y2zEga0aptc never-work list; U7T3_-NnHHg 2:02 squint test). Super Scale sponsorship disclosed as in her video. Willow Health example from her 7 lazy formulas video. "Duplicate is fine at low volume" is general practitioner knowledge. 17+ clicks per ad is the profile figure; the rebuild assumption is stated in the text.
-No first-hand Draper data; the post carries on Dara's cited examples plus worked arithmetic.
-Lint: 0 errors, 2 warnings. Kept: parens rate (10.0/1k), inflated by markdown link syntax since every inline link counts as a parenthesis; the post has one parenthetical of its own. Open-TK warning kept by design.
-Self-score: intro 8/10, average section 7.5/10. Peak: the launch gap section.
+Angle chosen: "Twelve formats the panel agrees on, and the cosmetic-variant trap" (counter-narrative: most failing static accounts tested one idea many times, not too few formats). Named concept: cosmetic variant.
+Angles rejected: (1) "Statics are a message-testing tool, not a format" (strong, folded into the first H2). (2) "The construction rules matter more than the format" (kept as a section, too abstract to carry an examples query).
+Formats chosen (12, each in 2+ taxonomies): problem callout, comparison, reasons why, feature callout, review card, negative-review flip, native screenshot, ugly ad, how it works, before/after, product grid, offer anchor. Cut for length: press/authority badge (folded into "stack, don't spread"), meme (contested), founder letter.
+Splits shown and verdicts:
+- Can statics prospect? Verdict: yes for self-explanatory products; for products that need explaining, statics find the message and video teaches it; check new-visitor share and image frequency before calling a prospecting winner.
+- Remaking competitors' long-running statics. Verdict: borrow layout, never proof; a remake is a hypothesis; prefer your own winners (first-frame screenshots).
+- Visibly-AI statics. Verdict: stylized fine, fake-realistic not; AI as draft generator with human QA.
+- Before/after (split 3) is shown only as a one-line policy caveat inside format 10, not as a full split. AI-as-finished-vs-mockup (split 5) folded into the AI verdict.
+Claims to verify:
+- Meta's current before/after and personal-attribute policy by category (format 10 says body, skin and weight claims are restricted; confirm against Meta's Advertising Standards and link the exact URL).
+- Safe-zone guidance for Stories and Reels placements (link Meta's spec page if an exact URL is available).
+- "Meta treats near-identical ads as one ad": stated per the profile belief and the panel consensus; confirm wording against Meta's creative diversity guidance before linking anything.
+- Image-ad frequency "well above 2" as a warm-audience tell is a single-practitioner heuristic, presented as the other camp's tell, not as a rule.
+- Draper arithmetic assumes each ad is rebuilt from scratch in each ad set (17+ clicks per the profile); the duplicate cost is not claimed.
+Open TKs: 1 (real static test batch, distinct vs cosmetic, with launch time).
+Lint: see final report.
+Self-score: intro 8/10, average section 7.6
 -->

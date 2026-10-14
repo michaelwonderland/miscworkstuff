@@ -1,6 +1,6 @@
 ---
-title: "Whitelisting vs Partnership Ads: Which to Use in 2026"
-meta_description: "Whitelisting vs partnership ads on Meta: what each one is, why partnership ads won, how to set up access, and what creators cost in 2026."
+title: "Whitelisting vs Partnership Ads: When to Use Each"
+meta_description: "Whitelisting vs partnership ads on Meta: the rule for choosing, where experienced buyers split three ways, and the math on creator fees."
 slug: whitelisting-vs-partnership-ads
 primary_keyword: whitelisting vs partnership ads
 secondary_keywords: [partnership ads, meta partnership ads]
@@ -11,99 +11,89 @@ byline: Draper Ads
 word_count: 950
 ---
 
-# Whitelisting vs Partnership Ads: Which One to Use Now
+# Whitelisting vs Partnership Ads
 
-In the whitelisting vs partnership ads choice, pick partnership ads. Whitelisting is the older route, it's being phased out, and creative strategist Dara Denney, who asks every brand about partnership ads before anything else, treats it as retired advice.
+Whitelisting vs partnership ads comes down to one rule. For a new creator relationship, default to partnership ads and ask for permission at the advertiser level, so you can build your own ads under their name. Use whitelisting when the creator earns on an affiliate code, when you need full control of copy and variants, or when you already hold page access. No creator budget yet? Run ads from a page you own that's named for a problem or an audience, not your brand.
 
-Most comparisons stop at setup steps. The difference that matters is who Meta shows the ad to first.
+That rule settles the vehicle, but not the bigger question of how many identities your ads should run under at once.
 
-That's where whitelisting loses. Below: both definitions, a side-by-side table, setup, creator pay, and the math on your launch queue.
+Experienced buyers argue about the first and agree on the second.
 
 ## What's the difference between whitelisting and partnership ads?
 
-**Whitelisting is when a creator gives a brand access to their account so the brand can run ads under the creator's name.** Setup runs through Business Manager.
+**A partnership ad shows both the brand and the creator in the byline, with the creator's permission granted through Meta's partnership tools.** Whitelisting gives the brand access to run ads from a page that isn't its own, usually a creator's, with the brand writing the creative and the copy.
 
-**Partnership ads are Meta's ad format that runs under both the creator's and the brand's names**, labeled as a paid partnership.
-
-They look similar in the feed; underneath, they work differently.
-
-Dara puts the gap in one image: with whitelisting, the creator's handle is a mask over targeting that still runs on the brand's own pixel data. Partnership ads instead seed delivery from the creator's own audience, their "diehard cheerleader fans," and Meta builds lookalikes from there ([source](https://www.youtube.com/watch?v=9UBSGSS2Yuo&t=124s)).
-
-Call it **mask or seed: does the creator's handle change who Meta starts with, or only what the header says?**
-
-| | Whitelisting | Partnership ads |
+| | Partnership ads | Whitelisting |
 |---|---|---|
-| Name on the ad | Creator only | Creator and brand |
-| Setup | Business Manager access, multi-step | Creator approves the brand as a partner |
-| Who Meta starts with | The brand's pixel data (mask) | The creator's audience (seed) |
-| Small creators | Little benefit | Works |
-| Dara's status | Being phased out | Her current priority |
+| Byline | Brand and creator | The creator's page (or a page you own) |
+| Who writes the copy | Depends on the permission you get | The brand |
+| Set up through | Meta's partnership flow | Page access from the creator |
 
-The table follows Dara's [brand turnaround breakdown](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=365s), where she calls this "not your 2022 you should try whitelisting advice."
+People often call whitelisting the old name for partnership ads.
 
-## Why partnership ads are the 2025 to 2026 priority
+It isn't; plenty of practitioners run both today, as different mechanics.
 
-In Dara's telling, the seed matters most for an account that has spent at scale for years.
+## Where experienced buyers agree
 
-Its pixel has narrowed onto the same repeat buyers over the years, and the creator's audience is a door to the people that pixel no longer finds.
+We call the agreed part **byline diversity: the number of distinct identities your ads run under at the same time.** Practitioners agree on four things about it:
 
-Her position is blunt. She calls partnership ads [the first question she asks every brand](https://x.com/DenneyDara/status/1945193813938688496), and says top accounts put [25 to 50% of Meta budget](https://x.com/DenneyDara/status/1948067399410061695) behind creator content run this way. Two of her case studies sit at the top of that range, with [Caraway](https://www.youtube.com/watch?v=Q_hhAfjEcW0) at 40% of Meta budget and [Pact](https://www.youtube.com/watch?v=R3Z1VvvgtzU) at about 50% of ad spend.
+- **Ads from the brand page lose.** Ads that don't come from your brand page tend to beat ones that do. Practitioners report higher click-through rates and cheaper clicks, while CPM can go either way.
+- **You don't need a creator budget to start.** A page you own, named around a problem or a customer type, works. So does the founder's own profile.
+- **Own the asset and the rights.** Buy the raw footage with editing rights and no usage time limit, not a single post with a short usage window.
+- **Run several identities, not one.** One creator is a relationship. A program needs several live at once, so losing one doesn't stop it.
 
-In [one of her interviews](https://www.youtube.com/shorts/SK4PQHOIm2c), Jones Road CEO Cody Plofker says they "hadn't had as much success with influencer whitelisting ads" as he wanted.
+And you judge it as a program over weeks, not after two weeks of noise.
 
-One honest limit. Partnership ads don't rescue a weak creator.
+## The three-way split on which vehicle to use
 
-And whether bigger creators beat smaller ones is unsettled in Dara's own material. Pact and Caraway say smaller, Jones Road says bigger.
+**Camp one runs whitelisting by default and refuses partnership ads.** Page access lets them write direct-response copy in the creator's voice and run many variants behind one handle, and the ads never appear on the creator's feed. Their creators also earn on discount codes, so boosting the creator's own post means paying twice.
 
-## How to set up partnership ad access
+This camp wins when creators are on affiliate deals and you want copy control.
 
-The steps, in order:
+**Camp two runs partnership ads and has retired whitelisting.** Their case is that partnership ads seed delivery from the creator's own audience, which matters most for big spenders whose pixel has narrowed. It wins at scale, when you need new audiences and creators will grant permission.
 
-1. Agree terms first: deliverables, fee, and how long you can run the content.
-2. Have the creator approve your brand as a partner in Instagram, or send the request yourself.
-3. Choose the content: an existing post of theirs, or your own cut of their footage.
-4. In Ads Manager, turn on the partnership ad option at the ad level and add the creator's identity next to yours.
-5. Put the creator in the ad name, so you can [rank creators later](/blog/ad-set-name-examples).
+**Camp three runs both as one lever,** with permission granted at the advertiser level, and points spend at the brand's own audience. To them the creator supplies credibility, not reach.
 
-No creator budget yet? Dara names three free routes: the founder's own Instagram handle, a new Page named after the problem you solve, and in-house creators' handles.
+**Our take is the rule at the top.** Partnership ads are the supported, labeled route, so start there with new creators. Switch to page access when the deal or the copy demands it. Part of camp one's objection, that partnership ads could only boost an existing post, may be out of date, so check the current flow before you rule them out.
 
-## What to pay creators
+## Should you count on the creator's audience?
 
-The bands from [Dara's creator system](https://www.youtube.com/watch?v=_VtpfVeB2Kc&t=1459s):
+No.
 
-- **Raw UGC content:** $250 to $1,000 per piece.
-- **Creator on retainer:** $1,000 for one or two assets, up to $3,000 to $4,000 a month.
-- **In-house creator:** $1,200 to $1,800 a month for two pieces of content a day ([source](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=612s)).
-- **Celebrity:** $5K to $60K, sometimes $100K.
+The three camps can't agree on whether partnership ads reach the creator's followers in any meaningful way, so treat the identity, meaning the trust and the native feel, as the benefit you can rely on. Any audience boost is a bonus.
 
-She pays only after raw content is approved, and she's moved from one-off deals to retainers.
+## The math on creator fees
 
-In her words, "the churn and burn of creator relationships is totally gone."
+Count the fee as media spend. Say a creator ad spends $5,000 and returns $15,000 in revenue (hypothetical), a 3.0 ROAS. Add a $1,500 access fee and you've spent $6,500 for the same $15,000. That's a 2.3 ROAS.
 
-## The math: what a creator program does to your launch queue
+Commissions work the same way. A creator on a 20% commission costs you what buying media at a 5.0 ROAS would, because 1 ÷ 0.20 = 5. Check it against your ads before renewing.
 
-Say you spend $60K a month on Meta. The low end of Dara's 25 to 50% range puts $15K behind partnership ads.
+## Where Draper fits
 
-Buy 8 raw pieces at $500 each and production costs $4,000.
+Draper Ads does not launch partnership ads, and it doesn't run ads from a creator's page. Set those up in Ads Manager.
 
-Now the multiplier. Dara tests 3 to 6 hooks per video, so 8 pieces at 3 hooks is 24 ads. Turn each first frame into a static, one of her cheap ways to add visual range, and you're at 32. At 6 hooks it's 56.
+The tie is volume, because creator content multiplies the ads you launch. Four identities with five hooks each is 20 ads, and running them across three ad sets means 60 ad builds. At 17+ clicks to build each ad from scratch in Ads Manager, that's over 1,000 clicks.
 
-That's before anything else in your [testing calendar](/blog/facebook-ads-testing).
+The footage you own the rights to also runs as ordinary ads, and that's where [Draper](https://draperads.com/) helps: pull creative straight from Google Drive and deploy one ad to every ad set it belongs in. Each ad takes its name from the file, so you can [name ads by creator](/blog/ad-set-name-examples) and rank them later. If you're new to the format, start with [what UGC ads are](/blog/what-are-ugc-ads).
 
-Draper Ads doesn't create partnership ads today, so those go through Ads Manager. What we see is the other half. A working creator program multiplies the brand-side ads you need to launch, and the queue grows faster than the team.
+[TK: first-hand example of how many ads one creator batch became at launch]
 
-Before you brief anyone, read [what UGC ads are and why they work](/blog/what-are-ugc-ads).
+The vehicle is a detail. The number of faces your ads wear is the strategy.
 
-Whitelisting borrowed a creator's face. Partnership ads borrow their audience, and that's the part worth paying for.
-
-*Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Get your time back](https://draperads.com/sign-up).*
+*Draper Ads is free during beta. Connect your ad account, build the ad once, and [launch it to every ad set in one go](https://draperads.com/sign-up). No credit card, and setup takes under two minutes.*
 
 <!-- editor-notes
-Angle chosen: "Mask or seed" (elegant articulation of Dara's mechanism): the comparison isn't about setup steps, it's about whose audience Meta starts from. Verdict-first: use partnership ads.
-Angles rejected: (1) "Whitelisting is dead" myth-bust (counter-narrative, but needs first-hand test data we don't have); (2) "Partnership ads for free" (her three free routes; strong but too narrow for the comparison query).
-Open TKs: none. No first-hand Draper data; carried on Dara's cited positions and a labeled hypothetical budget.
-Claims to verify: (a) the definitions and setup steps (creator approves partner in Instagram settings or brand sends request; existing post vs brand-uploaded footage; partnership ad toggle at ad level in Ads Manager) are general practitioner knowledge, not from Dara's files; check against Meta's current help docs and link them. (b) "it's being phased out" (intro) follows Dara's wording ("being phased out"); confirm Meta still offers classic Page/account access. (c) Partnership ads label wording ("Paid partnership").
-Draper: post states plainly that Draper does not create partnership ads. Tie limited to creator content multiplying brand-side ads to launch.
-Lint: 0 errors, 0 warnings. Word count sits at the 950 ceiling for a short post.
+Angle chosen: answer-first verdict rule (partnership ads for new creators, whitelisting for affiliate deals or copy control, owned page with no budget), with "byline diversity" as our concept: the vehicle matters less than how many identities run at once.
+Angles rejected: (1) "Whitelisting is dead": one practitioner's view, not the panel's. (2) "Partnership ads won": the old single-expert angle; overstates consensus.
+Splits shown and verdicts:
+- Split A, three-way vehicle split (whitelisting only / partnership only / both): verdict is the opening if/then rule.
+- Split B, is whitelisting dead: folded in (camp two retired it; others run it; myth "old name for partnership ads" rejected).
+- Split D, whose audience: verdict, don't count on the creator's audience; identity is the reliable benefit.
+- Split C (share of spend) left out for length; no single figure presented as benchmark.
+Claims to verify: Meta's current Partnership Ads capabilities (can the advertiser build its own creative and copy under the partner identity; advertiser-level permission via the Partnership Ads Hub; whether ads appear on the creator's profile). Whether page-access whitelisting remains supported and policy-compliant, and disclosure rules (paid-partnership label, FTC). Meta's authenticity rules for brand-owned community pages. No Meta URLs cited because exact URLs weren't verified.
+Draper: stated plainly that it doesn't launch partnership ads or run ads from creator pages. Claims used: create once deploy many, Google Drive pull, automatic naming from file, 17+ clicks per ad built from scratch (rebuild assumption stated).
+Open TKs: 1 (first-hand creator batch count).
+Lacks first-hand proof: carried on panel consensus and hypothetical fee math.
+Lint: 0 errors, 1 warning (open TK, kept deliberately until Draper has a real batch count).
 Self-score: intro 8/10, average section 7.5/10
 -->
