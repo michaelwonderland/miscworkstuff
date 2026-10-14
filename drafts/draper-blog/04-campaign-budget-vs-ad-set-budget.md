@@ -1,118 +1,90 @@
 ---
 title: "Campaign Budget vs Ad Set Budget: Which to Use for Testing"
-meta_description: "Campaign budget vs ad set budget on Meta: use CBO to scale and on small accounts, ABO for a testing campaign at $1,000+ a day. The math behind each verdict."
+meta_description: "Campaign budget vs ad set budget only matters for testing. Use ad set budget if winners pay for losers, campaign budget if budget is thin, and scale on CBO."
 slug: campaign-budget-vs-ad-set-budget
 primary_keyword: campaign budget vs ad set budget
 secondary_keywords: []
 locale: en-US
 profile: draper-ads
-format: E missing explainer
+format: E explainer
 byline: Draper Ads
-word_count: 943
+word_count: 0
 ---
 
-# Campaign Budget vs Ad Set Budget: CBO or ABO for Testing?
+# Campaign Budget vs Ad Set Budget
 
-In the campaign budget vs ad set budget choice, the job decides. Use campaign budget (CBO) for your scaling campaign and for any account small enough to run as one campaign. Use ad set budget (ABO) for a dedicated creative testing campaign once you spend around $1,000 a day, because it guarantees every new test gets money.
+Campaign budget vs ad set budget is only a real choice when you're testing. Here's the rule:
 
-Most guides stop at the definitions.
+- **Test on ad set budget (ABO)** if you can fund each new concept to a readable spend and enough tests win to pay for the losers.
+- **Test inside one campaign-budget campaign (CBO, now Advantage campaign budget, or an Advantage+ campaign)** if your budget is thin for the number of ideas, or most of your tests fail.
+- **Scale on campaign budget either way.**
 
-The useful part is the verdict for your situation, with the math behind it.
+The rest of this page is why, with the math that tells you which side of the line you're on.
 
 ## What's the difference?
 
-**Campaign budget lets Meta move one budget between your ad sets. Ad set budget fixes how much each ad set can spend.**
+**Ad set budget means you set the spend for each ad set. Campaign budget means you set one figure and Meta moves it between ad sets.** With ABO, every concept gets the money you gave it, winner or not. With CBO, Meta shifts spend toward whatever looks best early.
 
-With CBO, now labeled Advantage campaign budget, you set $450 a day on the campaign and Meta decides each ad set's share, shifting it as results come in. With ABO, you set $150 on each of three ad sets, and each spends its $150.
+That trade is the whole debate. ABO buys a fair read and spends on losers. CBO saves money on losers and can starve a new idea before it gets a turn.
 
-One change since 2025 matters. As creative strategist Dara Denney [pointed out in August 2025](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=60s), Advantage+ became the default for sales campaigns, and its machine learning now runs under both budget types.
+## Where experienced buyers agree
 
-So the choice isn't "automated vs manual" anymore. It's who controls the split between ad sets.
+We compared how eight experienced Meta buyers set budgets. They agree on more than the forums suggest:
 
-## Which one should you use?
+- **Fewer campaigns.** Every one of them has moved to one to three campaigns per account.
+- **One ad set makes the question disappear.** If a campaign holds a single ad set, the two settings behave the same.
+- **Scale on campaign budget.** Nobody argues for ad set budget as the scaling default.
+- **The setting matters less than offer and creative.** It's the most-asked question in paid social and among the least important.
 
-**Pick by the job the campaign does, then by spend.**
+They also mostly agree that under campaign budget, new ads struggle to win spend next to proven ones. That one is contested, though. Some buyers have posted accounts where CBO spread spend across many ads, and others read a new ad's lack of spend as Meta's verdict on it.
 
-| Situation | Use | Why |
-|---|---|---|
-| Lean account, $5K to $30K a month, one campaign | Campaign budget | Too little money to split by hand |
-| Testing campaign at ~$1,000 a day | Ad set budget | Each test gets a fixed, readable slice |
-| Testing campaign at $1M+ a month | Ad set budget, usually | Fast reads on many tests a week |
-| Scaling campaign with one ad set of winners | Either | One ad set leaves nothing to split |
+## Should you test on ABO or CBO?
 
-The testing rows follow Denney's own calls. For small budgets, she runs [one campaign with campaign budget and Advantage+ on](https://www.youtube.com/shorts/PVoC7H44A5w), adding a new test ad set each week.
+Experienced buyers split three ways on this.
 
-Around $1,000 a day, she calls it "a media buyer decision" but [uses ad set budgets herself](https://www.youtube.com/watch?v=7knQyPYLmfo&t=487s), throttling spend to read new creative within a few days.
+**One camp tests on ad set budget.** Equal budgets mean a result reflects the ad, not how Meta happened to allocate. They also say CBO is unstable at small spend. This camp is explicit that it's a math decision, not a preference: ABO works when enough tests win that the winners cover what the losers cost. It wins when budget covers every concept ad set at a readable daily amount and someone will adjust budgets on a schedule.
 
-Above $1M a month, she says only a select few of the testing campaigns she has seen succeed with campaign budget.
+**A second camp tests inside one CBO or Advantage+ campaign,** adding a new ad set per idea each week. With ABO, you decide where the money goes; with CBO, Meta does. Some in this camp found that winners from cheap ABO test ad sets faded once they moved into a big CBO. It wins when budget is small relative to the number of creatives, hit rate is low, or nobody will manage budgets daily.
 
-Her guess at why: creative teams want a quick read so they can start iterating.
+**A third camp says it doesn't matter.** With one ad set per campaign, it doesn't. At least one well-known buyer has switched sides publicly more than once, which tells you something about how decisive the setting is.
 
-## Why ad set budget wins for a testing campaign
+**Our take:** the first camp's switch condition is the right one, because it's arithmetic.
 
-**Under campaign budget, last week's test can starve this week's.**
+## The math: when do winners pay for losers?
 
-Say your testing campaign holds three ad sets, one per week. Labeled inputs:
+Say your target CPA is $50. A fair read on a concept needs about ten conversions' worth of spend, which our [Facebook ads testing guide](/blog/facebook-ads-testing) calls the **read floor**: here, $500.
 
-- Campaign budget: $450 a day
-- Target cost per purchase: $40
-- Ad set A, two weeks old, holds a clear winner
-- Ad set C launched today with 20 new statics
+Under ABO, every concept spends its full read floor before you judge it:
 
-Meta favors what it already knows converts. Suppose it sends $320 a day to A, $90 to B and $40 to C.
+- **4 concepts a week, 1 winner:** $2,000 of testing, $1,500 of it on losers. One winner a week pays for that in most accounts that can afford $2,000 a week of testing.
+- **10 concepts a week, 1 winner:** $5,000 of testing, $4,500 on losers, for the same single winner.
 
-At $40 a day, C buys about one purchase a day, so reaching 50 purchases, a fair point to call a test, takes about 50 days.
+At one win in ten, ABO is paying full price for nine verdicts you could have had cheaper. That's the point practitioners in the ABO camp switch to CBO, which cuts weak ads early at the cost of some ideas never getting a turn.
 
-By then the test is stale.
+Some buyers patch CBO testing with minimum spend per ad set. Treat that as a patch, not a default, and never combine it with a cost cap, which overrides the minimum.
 
-Now put the same $450 on ad set budgets at $150 each, and C buys almost four purchases a day and reaches 50 in about 13 days.
+## What this changes for your launch week
 
-Same money, a read nearly four times sooner. It's the same math we use to size tests in our [Facebook ads testing handbook](/blog/facebook-ads-testing).
+**Your testing structure decides how many ad sets you launch into.** ABO testing means a new ad set per concept every week. Four concepts at four variations is 16 ads a week, each needing a name and UTMs. Winners then get copied into the scaling campaign, with the originals left running.
 
-Denney adds one more warning. A creative test dropped into an otherwise performing campaign tends to drag that campaign down, so keep testing and scaling apart whatever the budget type.
+Building one ad from scratch inside one ad set takes 17+ clicks in Ads Manager. Rebuild those 16 ads and that's 272 clicks before a single winner is copied. Draper Ads builds each ad once and deploys it to every ad set it belongs in, named from the creative file. At one or two concepts a week, Ads Manager is fine.
 
-## When is campaign budget the right call?
+Pick the setting your budget can afford, then spend your time on the creative, where the results come from.
 
-**Below roughly $30K a month, campaign budget is the better default, testing included.**
-
-At $5,000 a month you have about $165 a day. Split it into three $55 ad sets and none buys enough purchases to learn from; one pooled campaign gives the weekly test ad set a fighting chance.
-
-It also suits a buyer who would rather trust Meta's allocation than force it. In [Denney's breakdown of Seed Health's testing](https://www.youtube.com/watch?v=hGCdGNP5oGE), the team stopped forcing even spend because it pushed money toward creative the algorithm had already judged less scalable.
-
-Low spend under campaign budget is information, not unfairness.
-
-And in the scaling campaign, the question mostly disappears. Denney keeps [all winners in a single ad set](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=182s), growing to 50+ ads over time.
-
-With one ad set, both budget types do the same thing.
-
-## What the choice means for launching
-
-**Ad set budgets mean a new ad set for every test, every week.**
-
-At Denney's current sizing of 10 to 25 ads per test ad set, that's 20 ads built into a fresh ad set each time. Ads Manager takes 17+ clicks to build one ad from scratch inside one ad set.
-
-A 20-ad weekly test is 20 × 17 = 340 clicks, before names and UTMs. That's 1,360 clicks a month.
-
-Launching one 10-ad test a month? Ads Manager handles it. Every week is the job Draper Ads does: build the ad once, send it to the right ad sets, with names and UTMs filled in.
-
-Pick the budget for the read, not the setup.
-
-*If launching new test ad sets is eating your week, Draper Ads is what we built to fix it.*
-
-Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Try Draper Ads](https://draperads.com/sign-up).
+*Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and [setup takes under two minutes](https://draperads.com/sign-up).*
 
 <!-- editor-notes
-Angle chosen: "Pick by the job, then by spend" (counter-narrative to the SERP's generic definitions). Verdict table by situation, with the worked math showing why campaign budget starves a new test inside a testing campaign, plus the scaling-campaign point that one ad set makes the choice moot.
-Angles rejected: (1) "CBO is dead for testing": too absolute; Denney recommends CBO for lean accounts. (2) "It doesn't matter anymore because Advantage+ powers both": true in part but leaves the searcher without a verdict.
-Named concept: none coined; the post borrows "days to signal" style math from the pillar without naming it, to keep the short post focused.
-Open TKs: none.
+Angle chosen: "It only matters for testing, and the switch condition is arithmetic" (counter-narrative to the endless CBO vs ABO debate): if/then rule first, then the hit-rate math.
+Angles rejected: (1) "CBO vs ABO is a dead question" (one camp's view; would flatten the split). (2) "Always ABO for testing" (contradicts half the panel).
+Split shown: three-way testing split (ABO for testing / one CBO or Advantage+ campaign / doesn't matter). Verdict: if/then rule (fund each concept to the read floor and winners cover losers → ABO; thin budget or low hit rate → CBO); scale on campaign budget either way. Sub-split on CBO minimums: a patch, never with cost caps.
+Deliberately not used: the "nearly all use CBO at $1M+" line, which the brief shows is a transcription error (at that tier most testing campaigns reportedly use ABO). The article makes no claim about what large accounts use.
 Claims to verify:
-- Meta's current name for CBO is "Advantage campaign budget" (general knowledge; confirm UI label).
-- Scale tier: the knowledge base file says "nearly all use CBO", but the transcript of Test at Every Budget (12:12) reads "nearly all brands are using [term dropped by transcription]... I've seen a select few ad accounts recently that were successfully using CBO at scale like this." The transcript drops "ABO" elsewhere too (e.g. "manual campaigns which included CBO and [ ]"). The draft follows the transcript: ABO is the norm at scale, CBO the exception. Worth confirming by ear.
-- Aug 2025 video: Denney says she "really do[es] prefer to use [term dropped]" for the testing campaign; consistent with ABO but not quoted.
-- Timestamps t=60s, t=487s, t=182s derived from transcript segment markers (1:00, 8:07, 3:02).
-- The $320/$90/$40 split is a labeled hypothetical, not observed data.
-Lint: 0 errors, 0 warnings.
-Self-score: intro 8/10, average section 7.6/10.
-No first-hand account data; the post relies on Denney's cited positions and worked arithmetic.
+(a) Meta's current name: "Advantage campaign budget" for CBO; confirm in Meta Business Help Center.
+(b) A cost cap overriding an ad-set minimum inside a campaign-budget campaign is a practitioner report; confirm in Meta docs.
+(c) "With one ad set, the two settings behave the same": first-principles; confirm no delivery difference in Meta docs.
+(d) 17+ clicks is the Draper site's figure for one ad built from scratch in one ad set; 272 assumes a full build per ad.
+(e) Read floor (target CPA x 10) is our own arithmetic, shared with the hub post.
+Open TKs: none.
+Lint: see final run.
+Self-score: intro 8/10, average section 7.5/10. No first-hand proof; carried on panel consensus and labelled arithmetic.
 -->

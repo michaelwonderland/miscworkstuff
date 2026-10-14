@@ -1,111 +1,99 @@
 ---
-title: "What Is Ad Fatigue? How to Spot It on Facebook and Fix It"
-meta_description: "What ad fatigue is, how to tell it apart from an auction or tracking problem, and why the fix is a new format or concept, not a headline tweak."
+title: "What Is Ad Fatigue? A Label, Not a Diagnosis"
+meta_description: "What is ad fatigue? A decline blamed on repetition, and the blame is often wrong. Six checks to run, in order, before you touch the ad."
 slug: what-is-ad-fatigue
 primary_keyword: what is ad fatigue
 secondary_keywords: [facebook ad fatigue]
 locale: en-US
 profile: draper-ads
-format: E-explainer
+format: E missing explainer
 byline: Draper Ads
-word_count: 947
+word_count: 937
 ---
 
 # What Is Ad Fatigue?
 
-**Ad fatigue is when an ad's results decline because the people Meta keeps showing it to have already seen it and stopped responding.** On Facebook and Instagram it shows up as frequency climbing while click-through rate falls and cost per purchase rises, with nothing in the ad itself having changed.
+**Ad fatigue is when an ad's results decline and the decline gets blamed on people seeing it too often.** CPA climbs, click-through rate slides, and the ad that carried the account last month looks tired.
 
-The usual advice is to "refresh the creative." That's half right.
+The key word is "blamed."
 
-A new headline on the same video rarely fixes Facebook ad fatigue, because to Meta it's still the same ad. The fix is a version that looks different, or a new concept. And the real cost is the days between spotting the problem and getting the replacement live.
+Ad fatigue is a label, not a diagnosis, and experienced media buyers agree the label is often wrong. Below: what they agree on, the five places they look instead, and the order we run those checks in.
 
-## How do you know an ad is fatigued?
+## What experienced buyers agree on
 
-Fatigue has a signature: three numbers move together on one ad, against the same audience, over the same window.
+Ask enough practitioners about Facebook ad fatigue and four points come back from nearly all of them:
 
-- **Frequency rises.** The same people are seeing it again.
-- **CTR falls.** They've stopped stopping.
-- **CPA rises.** Fewer clicks per dollar means fewer purchases per dollar.
+- **"It fatigued, kill it" is the wrong response.** Turning off a spender throws away what Meta learned about who it works for, and nothing guarantees the replacement does better.
+- **The drop often isn't about the creative.** A tracking change, an offer change, a site problem, or a seasonal dip can all look like a tired ad.
+- **Frequency on its own tells you little.** Read it next to cost and reach, trended over weeks. A retargeting ad at high frequency can still be your most profitable line.
+- **Good ads run for months, sometimes years.** So when a winner fades in two weeks, something other than boredom is usually going on.
 
-Take a hypothetical ad at a $12 CPM, a 1.5% CTR, and a 3% conversion rate.
+## Five explanations for a fading winner
 
-Each click costs $0.80, so each purchase costs about $26.67.
+Here the panel splits five ways. Each camp looks somewhere different first:
 
-Now let CTR slide to 1.0% while CPM drifts to $14. Each purchase now costs about $46.67.
+1. **It probably isn't fatigue.** The ad still works, and the drop is ad-level noise or a post-click problem.
+2. **The ready buyers ran out.** A bottom-funnel ad (offer, comparison, "why us") used up the people already close to buying.
+3. **One part wore out.** The opening, the footage, or the face on screen went stale while the body still works.
+4. **The audience pool is saturated.** The account keeps reaching the same people, and new reach dried up.
+5. **The number moved, the ad didn't.** Attribution, click definitions, or tracking changed underneath it.
 
-That's 75% more per purchase for the same ad.
+**Our take: they aren't five contradictory facts; each is right for a different symptom.** So don't pick a camp.
 
-There's no universal frequency cutoff, so be wary of anyone who sells you one. Creative strategist Dara Denney, explaining [Meta's Opportunity Score](https://www.youtube.com/watch?v=2ke5Ms3XNX0), offers 30 to 40 views as roughly where a viewer is done with an ad. Treat that as illustrative, not a rule.
+Run all five checks in order, starting with the ones that are cheapest to run and most often the real culprit.
 
-## When it isn't fatigue
+## How to diagnose ad fatigue, in order
 
-Plenty of drops look like fatigue and aren't, so check these before you kill anything:
+The trap all of this guards against is **false fatigue: an ad gets blamed for a drop that came from the data, the site, or the audience pool.** Here's the order we use to rule it out:
 
-| What you see | Likely cause | Tell |
-|---|---|---|
-| CPM up on every ad, CTR steady | Auction pressure or seasonality | The whole account moved |
-| Conversions down, CTR and CPC steady | Site, offer, or tracking | The problem sits after the click |
-| Strong for a week or two, then a cliff | Bottom-funnel audience used up | Frequency may still look modest |
-| Frequency up, CTR down, CPA up on one ad | Fatigue | The pattern above |
+1. **Check that the drop is real.** Compare Meta's CPA with your blended or backend numbers. Check the activity log for edits and budget changes, and whether the attribution setting or click definition changed mid-window.
+2. **Check what changed outside the ad.** Offer, price, site, stock, seasonality, outages.
+3. **Find where the funnel breaks.** CPM up alone points to the auction. CTR down points to the creative. Conversion rate down points to the site.
+4. **Separate the ad from the audience pool.** Trend 7-day frequency on your top spenders, plus cost per 1,000 people reached and new reach.
+5. **Classify the ad's awareness stage.** A bottom-funnel winner fading at one to two weeks needs top-of-funnel ads feeding it, not a replacement.
+6. **Find the worn part.** If it really is the creative, refresh the opening, the footage, or the face, and keep the body.
 
-The third row is the one people misread. In her [5 Levels of Creative Diversity](https://www.youtube.com/watch?v=ZydGeio1DGQ&t=305s), Dara says an ad that falls off a cliff is usually product-aware content that has run out of people ready to buy.
+Step 4 has a number worth doing by hand. Say (hypothetically) an ad runs at a $12 CPM and a frequency of 2.0. You're paying $24 to reach 1,000 people. Six weeks later CPM is still $12 but frequency is 3.5, so reaching 1,000 people now costs $42.
 
-Her fix is to move the message up-funnel, not to kill the ad.
+Same ad, same auction price, 75% more per person reached.
 
-## What to do about ad fatigue
+That's saturation, and the fix is exclusions and new audiences, not a new edit of the same ad. If CPM had risen while frequency stayed flat, the auction got pricier, and no creative change would fix that either.
 
-Skip the tiny tweaks. A new headline or button color doesn't make the ad look new to someone who's seen it eight times.
+Practitioners' warning lines for 7-day frequency on top spenders run from about 3 to 5. Treat them as a prompt to look, never as a verdict, because several experienced buyers refuse to give a frequency benchmark at all.
 
-Since the Andromeda update, it doesn't look new to Meta either; our post on the [Meta Andromeda update](/blog/meta-andromeda-update) explains why.
+## What to do once you know
 
-Dara has a name for the trap. **Iteration paralysis**, from [her 2024 iterations video](https://www.youtube.com/watch?v=lWpSmxuwSts&t=305s), is when every iteration keeps the same look and feel, so the whole account reads as one ad and tires faster.
+**Keep the spender running and add genuinely new concepts around it.** New concepts means new reasons to buy, for new people, not a fresh thumbnail on the same argument. Our [Andromeda explainer](/blog/meta-andromeda-update) covers why near-copies stopped counting.
 
-Work through these in order:
+Then check blended results one to three days after any change, and reverse it if they got worse.
 
-1. **Change the format, keep the message.** Turn a winning video into statics, add a green screen, or put a response bubble over it.
-2. **Move up-funnel.** Make the same promise to someone who doesn't know they need it yet. Dara says this has almost always extended a creative's life.
-3. **Swap the creator.** If a script won with an older creator, try a younger one.
-4. **Ship a new concept.** A new angle, persona, or desire, not a new edit.
+The teams that handle fatigue calmly have the replacements briefed before the decline starts, so a fade becomes a swap, not a scramble. That makes it a production-schedule problem as much as a creative one. Our [Facebook ads testing guide](/blog/facebook-ads-testing) covers how many new concepts to run at your budget.
 
-One caution. In 2026 she [warned](https://x.com/DenneyDara/status/2041506258008613177) that advertisers chasing diversity often fail to double down on what's working.
+It's also a launch problem. Five new concepts with three variations each is 15 ads, and building each from scratch in one ad set takes 17+ clicks in Ads Manager, so that's 255+ clicks before a single ad set has its batch. That's the part [Draper Ads](https://draperads.com/) removes, and naming each ad from its creative file means steps 5 and 6 can filter by concept or creator.
 
-So don't retire a winner at the first wobble. Iterate on it until it stops working.
+[TK: one decayed winner from a real account, walked through the six steps]
 
-## Replacement lag is the real cost
+Most "fatigued" ads aren't tired. They're misdiagnosed.
 
-**Replacement lag is the time between spotting a fatigued ad and getting its replacement live in every ad set it ran in.** During that gap you pay the fatigued price.
-
-At the inputs above, a week of lag on a $500-a-day ad buys about 75 purchases instead of 131.
-
-Most of the lag is production.
-
-Some of it is pure launching, and it scales badly: four new versions going into six ad sets at 17+ clicks each comes to over 400 clicks, if each one is built from scratch.
-
-That launching part is what we built [Draper Ads](https://draperads.com/) to remove. A testing rhythm that keeps the next batch ready shrinks the rest, and our [Facebook ads testing guide](/blog/facebook-ads-testing) shows how to set one up.
-
-## Catalog ads: the layer that fatigues least
-
-Catalog ads behave differently. Each impression can show a different product, so one person isn't seeing one image over and over.
-
-Dan Pantelo, founder of catalog-ad vendor Marpipe, went further in [his conversation with Dara](https://www.youtube.com/watch?v=MVg_o8WU6mo&t=917s). He argued that well-built catalog ads don't hit creative fatigue the way UGC does.
-
-That's a vendor's claim, so weigh it accordingly.
-
-You also need a real catalog, and by his estimate a new one can take about a month to settle.
-
-Still, a catalog layer is one less ad to replace in a hurry. Our guide to [Meta catalog ads](/blog/meta-catalog-ads) covers the setup.
-
-Fatigue is guaranteed. The lag is the part you control.
-
-## Get your launch time back
-
-Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Try Draper Ads](https://draperads.com/sign-up).
+_Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Try Draper Ads](https://draperads.com/sign-up)._
 
 <!-- editor-notes
-Angle chosen: Snippet definition, then a diagnostic (fatigue vs. causes that mimic it, in a table), then the fix as a ladder (format, up-funnel, creator, concept) instead of tweaks, plus one named concept: replacement lag, the days between spotting fatigue and the replacement going live. Novelty: counter-narrative ("refresh the creative" is half right; a new headline on the same video is still the same ad) and shock-and-awe worked maths (75% more per purchase).
-Angles rejected: (1) "Ad fatigue is a supply problem, not a frequency problem": strong but needs first-hand data we don't have. (2) "Catalog ads don't fatigue": the claim is a vendor's (Pantelo/Marpipe), too thin to carry a whole post honestly.
-Open TKs: none. The post lacks first-hand Draper proof. Best place for it: the replacement lag section (a real measured lag from an account, before and after).
-Claims to verify: "30 to 40 views" is Dara's consumer intuition from the Opportunity Score video (2025-04-07), labeled illustrative in the post, not a threshold. Pantelo's "doesn't hit creative fatigue" and "about a month to warm up a new catalog" are from the 2024 interview (foundational, vendor) and attributed to him. "Each impression can show a different product" restates Pantelo's frequency myth from the 2025 catalog video, presented as mechanism. "Moving up-funnel almost always extends performance" is from her 2024 iterations video (foundational); the iteration types are uncontradicted, but her 90/10 net-new ratio from the same video is retired and deliberately not used. All dollar figures are labeled hypotheticals: $12 CPM, 1.5% CTR, 3% CVR gives $0.80 CPC and $26.67 CPA; $14 CPM, 1.0% CTR gives $1.40 CPC and $46.67 CPA (+75%); $1,000 buys 37.5 vs 21.4 purchases; a week at $500/day ($3,500) buys 131 vs 75, a gap of about 56 (body states 75 vs 131). Clicks: 4 versions × 6 ad sets × 17 = 408, assuming a from-scratch build each time per the profile's unit note.
-Lint: 0 errors, 1 warning kept. Parens 13.6/1k: the counted parentheses are the URL halves of Markdown links (10 inline links); the prose itself has no real parentheses. Stats: one-sentence paragraphs 43%, sentence mean 13.2, SD 7.6, 1 semicolon.
-Self-score: intro 8/10, average section 7.6/10. Peak: the replacement lag section.
+Angle chosen: "Ad fatigue is a label, not a diagnosis." Snippet definition first ("decline blamed on repetition"), then consensus, then the five-way split compressed to one line per camp and turned into our diagnostic order. Novelty: counter-narrative (the label is often wrong) plus a worked cost-per-reach example.
+Angles rejected: (1) "How to fix ad fatigue: 6 refresh tactics": accepts the label the panel rejects. (2) "Ad fatigue doesn't exist": too strong; half the panel says it's real but relocated.
+Named concept: false fatigue (ours), bold-defined in the diagnosis section, echoed in the close.
+Splits shown and verdicts:
+- What is happening when a winner declines (five ways: not fatigue / awareness saturation / worn element / audience saturation / measurement). Verdict: each is right for a different symptom; run all five as an ordered checklist, cheapest and most-often-wrong first.
+- Is fatigue real at all: folded into the definition ("blamed on repetition") rather than shown separately (short-post limit).
+- Duplicate-to-refresh vs leave it alone: default "keep the spender running"; duplication left out for length.
+- Fatigue window shrinking: resolved implicitly ("good ads run for months; a fast fade usually means something else").
+Claims to verify:
+- Exact name of Meta's reach-cost column (brief suggests "Cost per 1,000 Accounts Center accounts reached"). The post says "cost per 1,000 people reached" generically; use Meta's column name once confirmed.
+- The 2026 change to Meta's click definition (date disputed: March to April 2026). Referenced only generally ("click definition changed").
+- Whether Ads Manager currently shows a native fatigue status or diagnostic. Not mentioned.
+- Left out: the 45% drop after four exposures figure (needs a Meta source).
+- 17+ clicks per ad assumes a from-scratch build in one ad set (profile unit note).
+Open TKs: 1 (a real decayed winner walked through the six steps). The post lacks first-hand proof.
+Internal links: /blog/meta-andromeda-update, /blog/facebook-ads-testing, https://draperads.com/, CTA to /sign-up.
+Lint: 0 errors, 1 warning (the open TK, kept deliberately). Stats: 937 words, sentence mean 14.0, SD 7.6, 32% one-sentence paragraphs, 1 semicolon, colons 7.3/1k.
+Self-score: intro 8/10, average section 7.6/10. Peak: the step 4 cost-per-reach worked example.
 -->

@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: C catalog listicle
 byline: Draper Ads
-word_count: 0
+word_count: 1748
 ---
 
 # Static Ads Examples: 12 Meta Formats and How to Make Each
@@ -23,7 +23,7 @@ Most accounts that say "statics don't work for us" tested 20 versions of one ide
 
 **Static ads are single-image ads: one picture, usually a headline on it, and the primary text above it.** No video, no carousel.
 
-Their job has changed. Practitioners agree that static image ads are the cheapest, fastest way to find out which message sells, because a designer can make ten statics in the time it takes to brief, shoot and edit one video.
+Practitioners agree that static image ads are the cheapest, fastest way to find out which message sells, because a designer can make ten statics in the time it takes to brief, shoot and edit one video.
 
 So you test messages as statics, then spend video money on the ones that won.
 
@@ -111,7 +111,7 @@ Check Meta's rules for your category first. Body, skin and weight claims are res
 
 Four to nine products or colorways in a grid. It sells range, which suits apparel, multi-SKU and sale pushes.
 
-Shoot every item the same way so the grid reads as one picture, not a collage.
+Shoot every item the same way so the grid reads as one picture.
 
 ### 12. Offer anchor
 
@@ -151,7 +151,7 @@ But there's a trap. **A cosmetic variant is when two statics differ in color, fo
 
 So which test teaches you more? Three images with eight headline tweaks each, or 24 statics across 3 different messages, each built for a different person or reason to buy? The second one, every time.
 
-That second test is where the work moves. Say you run those 24 statics (3 messages × 8 distinct ads) into 2 ad sets. Assume each ad is built from scratch in each ad set: at 17+ clicks per ad in Ads Manager, that's 24 × 2 × 17 = 816+ clicks before anything goes live. Add a third ad set and it passes 1,200.
+That second test is where the work moves. Say you run those 24 statics (3 messages × 8 distinct ads) into 2 ad sets. Assume each ad is built from scratch in each ad set: at 17+ clicks per ad in Ads Manager, that's 24 × 2 × 17 = 816+ clicks before anything goes live. A third ad set takes it past 1,200.
 
 Making statics got fast.
 
@@ -179,6 +179,6 @@ Claims to verify:
 - Image-ad frequency "well above 2" as a warm-audience tell is a single-practitioner heuristic, presented as the other camp's tell, not as a rule.
 - Draper arithmetic assumes each ad is rebuilt from scratch in each ad set (17+ clicks per the profile); the duplicate cost is not claimed.
 Open TKs: 1 (real static test batch, distinct vs cosmetic, with launch time).
-Lint: see final report.
+Lint: 0 errors, 1 warning (the open TK, kept on purpose). 1,748 words.
 Self-score: intro 8/10, average section 7.6
 -->

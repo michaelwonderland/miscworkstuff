@@ -1,164 +1,144 @@
 ---
-title: "Meta Catalog Ads: When They Pay Off and How to Design Them"
-meta_description: "Meta catalog ads pay off above about 50 SKUs. Here's why boring catalog ads can beat video, and how to design the templates that sell."
+title: "Meta Catalog Ads: When They Pay Off and How to Check"
+meta_description: "Meta catalog ads pay off for stores with a wide range. Here's how to set them up so you can see whether they find new customers or resell to old ones."
 slug: meta-catalog-ads
 primary_keyword: meta catalog ads
-secondary_keywords: [catalog ads, catalog ads meta, facebook catalog ads]
+secondary_keywords: [catalog ads, facebook catalog ads]
 locale: en-US
 profile: draper-ads
 format: G handbook chapter
 byline: Draper Ads
-word_count: 1565
+word_count: 1521
 ---
 
-# Meta Catalog Ads
+# Meta Catalog Ads: When They Pay Off, and How to Tell
 
-Meta catalog ads are worth running if you sell more than about 50 products, and close to mandatory past 250. With a handful of hero SKUs, you're better off spending the effort on concepts.
+Meta catalog ads pay off when you sell a wide range of products people understand at a glance. They don't pay off just because the ROAS column says so.
 
-The harder question is how to make them good, and that's where every setup guide stops.
+That second part is where most accounts go wrong. A catalog campaign often reports the best return in the account, and a large share of that return comes from existing customers who were going to buy anyway. Experienced buyers agree on this more than on almost anything else about catalog ads.
 
-They walk you through connecting a feed, then leave you with the default ad: a product on a white background, the product name as the headline, "Shop Now." That default is the opportunity, because almost everyone else is running it too.
+So this guide covers when catalog ads are worth running, how to set them up so you can see who they reach, and the one number that tells you whether they're finding new customers.
 
-Below we cover what catalog ads are, why creative strategist Dara Denney argues the "boring" format can beat video, five design treatments that make a catalog ad sell, and the one structural rule Meta's own guidance gets wrong.
+## Are Meta catalog ads worth it?
 
-## What are Meta catalog ads?
+**Catalog ads are worth it for range stores and rarely worth it for hero-product stores.** That's the panel's clearest consensus.
 
-**Meta catalog ads are ads Meta builds automatically from your product catalog, matching each product to the shopper most likely to buy it.** Meta now calls them Advantage+ catalog ads. Most media buyers still say DPA, for dynamic product ads.
+**Meta catalog ads are ads built automatically from your product feed, where Meta picks which product each person sees.** You upload the catalog once (titles, prices, images, stock). Meta then matches individual products to individual shoppers, using what they browsed and what similar shoppers bought. You may know them by their old names: dynamic product ads, or Facebook catalog ads.
 
-You upload the feed once. Meta reads every product's price and stock level, plus its size and color, then decides which product to show which person.
+Because matching happens product by product, catalog ads behave differently from your image and video ads. A store with 400 dresses gives Meta 400 chances to show the right one. A store with one supplement gives it one.
 
-That last part is the whole story.
+Practitioners line up on two conditions:
 
-A video ad can't tell Meta that you have the shoe in a size 9 at $120. A catalog ad can.
+- **Range.** If your revenue spreads across many products, sizes and colors, catalog ads earn a place. If most of it comes from one or two hero products, put the money into creative for those instead.
+- **Products that explain themselves.** A sweater, a lamp or a pair of earrings sells from a product photo and a price. A product that needs a reason to believe (a supplement, skincare with a mechanism, software) has no room to make its case in a catalog tile.
 
-In Dara's [2025 conversation with Dan Pantelo](https://www.youtube.com/watch?v=AS0YfAioHT0), founder of the catalog-creative vendor Marpipe, they describe the system matching on purchase intent the way Amazon's "you may also like" shelf does. Dara points out a side effect she calls a competitor hack: when a rival is out of stock in a shopper's size, your matching SKU can take the impression.
+If you pass both, run them.
 
-## Are catalog ads worth it?
+If you fail either, catalog ads can still mop up the long tail, but they shouldn't get a big budget.
 
-It depends on one number, your live SKU count. The thresholds from Dara's catalog episodes:
+## Why catalog ROAS looks better than it is
 
-| Your catalog | Verdict |
-|---|---|
-| A handful of hero SKUs | Don't bother. Make concepts. |
-| About 50 SKUs | Worth testing |
-| 250+ SKUs | A large gap if you're not running them |
+A catalog campaign sits right where your warmest people are. Someone who bought last month and comes back to browse is the easiest person in the world to match with a product. Meta knows that, and so does the delivery system that's optimizing for purchases.
 
-Apparel and beauty are the obvious fits, with marketplaces, travel or ticketing close behind. The less obvious one is high-AOV (average order value) products like jewelry and mattresses, which the episodes call out as working well.
+The result is predictable.
 
-The scale argument comes from the vendor side, so weigh it that way. Pantelo says over 60% of all e-commerce ad spend now goes to catalog ads, and that they make up 40% of Meta's global ad revenue. He also puts about 95% of catalog ads in the plain product-on-white style.
+The catalog campaign drifts toward existing customers, books their repeat orders and reports a strong return.
 
-Put the 60% next to the 95%.
+**Harvest share is the percentage of a catalog campaign's spend that lands on people who have already bought from you.** It's the one number that tells you whether your catalog ads are selling or just collecting.
 
-Most e-commerce money runs through this format, and almost nobody designs for it.
+You can see it in Meta's audience segment breakdown, which splits spend and results into new, engaged and existing customers once you've told Meta who your customers are. Without that setup, the breakdown can't tell a first order from a fifth.
 
-## Why boring catalog ads can beat video
+## A worked example: the 4.0 ROAS that wasn't
 
-Dara herself calls catalog ads boring, then argues they matter more than their reputation. The case has three parts.
+Here's the math on a hypothetical account. Every input is invented to show the shape.
 
-**First, a different algorithm.** Catalog delivery runs on product-level data, not creative-level data. A video or static can reasonably show about five products before it should become a bundle. A store with 400 SKUs can only represent its real inventory through the catalog.
+Say a home goods store spends $10,000 a month on a catalog campaign, and Ads Manager reports a 4.0 ROAS: $40,000 in attributed revenue. It's the best campaign in the account, so it keeps getting more budget.
 
-**Second, free creative diversity.** This is the argument most teams miss. Every product in the feed is a separate ad, and every template you add multiplies them.
+Now open the audience segment breakdown:
 
-Call it **the template multiplier: one catalog template turns every product in your feed into a new ad.** Pantelo's version is 200 products plus one template, roughly 400 ads.
+| Segment | Spend | Attributed revenue | ROAS |
+|---|---|---|---|
+| Existing customers | $7,000 | $32,000 | 4.6 |
+| New customers | $3,000 | $8,000 | 2.7 |
+| **Total** | **$10,000** | **$40,000** | **4.0** |
 
-Run it on a hypothetical 300-SKU apparel store. The raw feed gives you 300 ads. Add the five or six templates Marpipe recommends to start, say five, and each product now exists in six versions.
+Harvest share is 70%; seven of every ten dollars went to people who already knew where the checkout was.
 
-That's 1,800 ads from one campaign and five design files.
+So is this a good campaign?
 
-A team producing statics by hand, even with AI, won't ship 1,800 distinct ads this quarter.
+The headline 4.0 now means less. Some of that $32,000 would have arrived anyway, through email, a direct visit or a search for your name. The honest question is narrower: what does the catalog do for new customers, and how does that compare with the rest of the account?
 
-**Third, the myths are wrong.** Pantelo lists three. Catalog ads don't have to look ugly, and they aren't only for retargeting, which was true in the format's early pixel days and isn't now.
+Flex one input to see the answer move. If your main prospecting campaign brings in new customers at a 2.0 new-customer ROAS, the catalog's 2.7 beats it, and the fix is to cap the existing-customer spend rather than cut the campaign. If your prospecting runs at 3.2, the catalog is the weaker way to acquire, and much of its budget belongs elsewhere.
 
-The third myth is the useful one. High frequency matters less in a catalog campaign, because each impression can show a different product, so the usual [ad fatigue](/blog/what-is-ad-fatigue) rules don't map neatly onto it.
+**Judge catalog ads on new-customer ROAS, never on the blended number.**
 
-Where does video still win? Telling a story, launching a hero product, and anything a product photo can't explain.
+[TK: one real audience-segment split for a catalog campaign, new vs existing, from Wonderland or a Draper user]
 
-Catalog ads don't replace concepts; they stop your concepts from carrying the whole catalog alone.
+## Three questions practitioners split on
 
-## How to design catalog ad creative
+Experienced buyers agree on the measurement warning. They disagree on what to do with it.
 
-There are five design treatments worth building, roughly in order of payoff.
+### 1. Are catalog ads for prospecting or harvesting?
 
-### 1. The sale overlay
+One camp says catalog ads prospect well. Matching works at the product level, so the system finds new shoppers who want exactly what you sell, and treating catalog as retargeting-only leaves that on the table. This camp wins with wide ranges, clean feeds and existing customers capped or excluded.
 
-A template that stamps "Save 25%" or "Sale" across every discounted product, scheduled to run only during the sale.
+The other camp says assume harvest until proven otherwise. In their audits, the catalog campaign is the one most likely to be reselling to existing customers, and moving its budget into prospecting can drop dashboard ROAS while new customers rise. This camp wins wherever the only report anyone reads is platform ROAS.
 
-Pantelo calls it "the lowest hanging fruit and the highest payoff," and says it works so reliably Marpipe stopped writing case studies about it. Dara went further in 2024, calling sale overlays on catalog ads ["always a performance win"](https://www.youtube.com/watch?v=MVg_o8WU6mo).
+**Our take:** both are right about different accounts, and harvest share tells you which account you have. Under about a third, treat it as prospecting. Over half, treat it as retargeting with a retargeting budget.
 
-If you're running a sale and your catalog ads don't mention it, fix that first.
+### 2. Separate campaign, or inside your main one?
 
-### 2. The branded frame
+One camp gives catalog its own campaign, because merged catalog delivery can swallow the budget meant for your tested creative. The other camp runs one or two campaigns and treats catalog as a toggle, on the grounds that every extra campaign splits the data Meta learns from.
 
-A fixed layout around the product: your colors, a border or panel, your logo, a line of copy. On's version puts two angles of the same shoe in opposite corners with a "last season, save 25%" line, pulled from a season category in the feed.
+**Our take:** if catalog is material to the account (wide range, real spend), separate it, so you can see and cap its budget and its harvest share. If it's a small add-on, keep it as a toggle or leave it off until it proves it reaches new people. Our guide to [campaign budget vs ad set budget](/blog/campaign-budget-vs-ad-set-budget) covers the budget side.
 
-Dara guessed On's ad wasn't a catalog ad. It was.
+### 3. Is high frequency on catalog ads a fatigue problem?
 
-Good frames hide the template.
+Not on its own.
 
-### 3. Dynamic copy
+A catalog ad can show a different product on every impression, so frequency doesn't wear it out the way it wears out a single video. But a catalog campaign running at a frequency several times your prospecting campaigns is a strong hint it's reaching the same buyers again and again.
 
-The template inserts the product name into a line of copy. Reformation runs "Everyone loves [product name]" across four product angles.
+**Our take:** read frequency next to the audience breakdown. High frequency on existing buyers means harvest, not fatigue. For single-creative ads, see [what ad fatigue looks like](/blog/what-is-ad-fatigue).
 
-One line written once becomes a personalized headline on every SKU, which is the same specificity rule that drives [good static ads](/blog/static-ads-examples), applied at feed scale.
+## How to set up catalog ads so you can see what they do
 
-### 4. Lifestyle images and product video
+Here's the order we'd run it:
 
-Swap or add lifestyle shots in the feed so the product appears in use, not floating on white.
+1. **Clean the feed first.** Plain product titles, a sharp main image and correct prices and stock. Meta can only match what it can read.
+2. **Tell Meta who your customers are.** Upload or connect your customer list and define existing customers in the ad account, so the audience segment breakdown works.
+3. **Decide the structure.** Separate campaign if catalog will get real budget, a toggle if not.
+4. **Cap existing-customer spend.** Where your campaign type allows a limit on spend to existing customers, set one and check it hasn't been switched back.
+5. **Audit Meta's automatic enhancements.** Review what Meta adds to catalog creative by default, and turn off anything you haven't looked at.
+6. **Read harvest share weekly.** Judge the campaign on new-customer ROAS against your other prospecting, then move budget.
 
-For video, Pantelo says product-level video in the catalog placement works "usually every time." It doesn't need a video team, because a slideshow template of each product's existing images is enough.
+Some practitioners add one more step for catalogs with wide price ranges: use value-based bidding, so delivery doesn't pile onto your cheapest product because it converts most often. That stands on first principles. A system rewarded for purchases will chase the easiest purchase.
 
-### 5. A deliberate test of treatments
+## What catalog ads don't replace
 
-Don't pick one template and stop. Cozy Earth tested 30 design treatments, per Marpipe's 2024 case study on Dara's show: the winner took 90% of its DPA spend, DPA spend grew 220%, and ROAS rose 60%.
+Catalog covers the long tail. Your best-sellers and offers still need hand-made creative (a comparison, a review card, a founder's reason to buy) and the panel wants those tested in volume, not one at a time. Our [static ads examples](/blog/static-ads-examples) cover the formats.
 
-Those are vendor numbers about a vendor's customer.
+That's the only part of this where launching speed matters. The feed builds the catalog ads for you. The hand-made ads beside them still get built one ad set at a time in Ads Manager, unless you use something like [Draper Ads](https://draperads.com/) to build each once and deploy it everywhere.
 
-The method holds regardless. Build several treatments on one feed and let spend pick the winner. [TK: first-hand result from an account comparing a raw catalog ad with a sale-overlay or framed template]
+A catalog campaign that reports 4.0 and acquires nobody is a coupon for people who already love you. Measure the new customers, then decide.
 
-Two things to switch off or fix before you design anything:
-
-- **Meta's AI-generated backgrounds.** Pantelo says Meta switched these on by default for many advertisers, and his team keeps hearing some version of "why is my couch SKU floating on a beach?" Check the setting.
-- **Thin feed data.** Missing descriptions and categories mean worse matching. Enrich the feed before buying more templates.
-
-## How to set up the campaign so it doesn't eat your account
-
-**Run catalog ads in their own campaign, separate from your main Advantage+ campaign.** Pantelo gave Dara that answer on air, against Meta's own guidance, and her [account-structure advice](https://www.youtube.com/watch?v=BIVnOWcGnfA) lands in the same place, because merged catalog ads tend to absorb the spend. With a real catalog, that makes three campaigns: one to test, one to scale, one for the catalog.
-
-Inside it, organize ad sets by product category. Pact, which runs about 500 SKUs, treats each category ad set "like an individual business," with its own product set and creative.
-
-Then protect margin.
-
-A catalog campaign on volume bidding will happily scale your cheapest SKU. Dara's [Pact breakdown](https://www.youtube.com/watch?v=R3Z1VvvgtzU) shows value-based bidding with ROAS goals per ad set instead, because seven $100 customers ($700) beat ten $25 customers ($250).
-
-And watch stock. The competitor-substitution trick runs both ways, so an out-of-stock hero SKU hands its impression to someone else's feed.
-
-## Beyond Meta: Pinterest, Snap and Reddit
-
-A working catalog setup transfers to other platforms more cleanly than image or video creative, per the Pantelo interview:
-
-- **Pinterest:** worth testing at 50+ SKUs and strongly recommended past 100. Less hands-on than Meta.
-- **Snap:** recently rebuilt catalog targeting. The audience skews older and more affluent than most buyers assume.
-- **Reddit:** catalog targeting aimed at shoppers who search "[product] Reddit." Promising, early.
-- **Connected TV:** catalog-driven video templates ("today's top 3 best sellers") instead of one-to-one targeting.
-
-Ridge, Simple Modern and Hexclad each grew from a hero SKU into a full catalog and onto Pinterest.
-
-## Where this leaves your week
-
-Catalog ads are the one part of a Meta account where the platform builds the ads for you. Your job shrinks to a clean feed and five templates, plus one campaign rule.
-
-That frees time for the ads Meta can't build, the concepts and statics your team still launches by hand into ad sets. Those are the ones that eat the week, and the job [Draper Ads](https://draperads.com/) was built for.
-
-Design the template once and let the feed do the volume.
-
-*Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Get your time back](https://draperads.com/sign-up).*
+_Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Get your time back](https://draperads.com/sign-up)._
 
 <!-- editor-notes
-Angle chosen: "The template multiplier": setup guides stop at the feed; the real lever is creative, because ~95% of catalog ads (per Marpipe's founder) are plain product-on-white. One template turns every SKU into a new ad, a bigger diversity unlock than making ads by hand. Novelty: counter-narrative ("boring" catalog ads can beat video) + shock and awe (300 SKUs x 6 versions = 1,800 ads). Honesty against interest: catalog is where Meta does the bulk work, not Draper.
-Angles rejected: (1) "Catalog ads are 60% of e-commerce spend and you're ignoring them": vendor stat as the spine is weak sourcing. (2) "Separate your catalog campaign": a strong contrarian rule but too narrow for the head term.
-Open TKs: 1, first-hand raw vs. templated catalog result.
-Claims to verify: "Advantage+ catalog ads" as Meta's current name (general knowledge). All vendor figures attributed to Dan Pantelo/Marpipe: 60%+ of e-commerce ad spend, 40% of Meta global ad revenue, ~95% plain product-on-white, 200 products + 1 template = ~400 ads, 5-6 templates to start, product video "usually every time", AI backgrounds default-on, Cozy Earth 30 treatments / 90% / +220% / +60% ROAS (2024 interview, MVg_o8WU6mo). From Dara's catalog material (speaker not always separable from Pantelo, so the post says "Dara's catalog episodes"): SKU thresholds, high-AOV fit. Separate-campaign rule: in the transcript (AS0YfAioHT0 58:02) Pantelo answers "separate them" and Dara defers to him; her own reason (catalog absorbs spend) is from BIVnOWcGnfA, and the post attributes it that way. Dara's own: "always a performance win" (2024), Pact value bidding (R3Z1VvvgtzU). Pinterest/Snap/Reddit/CTV details from the Pantelo interview; CTV (Universal Ads) segment was a sponsor offer, so it's kept generic and unnamed. Marpipe is listed among Dara's sponsors; the post names Pantelo as a vendor wherever his figures appear. The 300-SKU store is a labelled hypothetical.
-No published Draper posts beyond the cluster; links to /blog/what-is-ad-fatigue and /blog/static-ads-examples per PLAN.md.
-Lint: 0 errors, 1 warning (the open TK, kept by design).
-Self-score: intro 8/10, average section 7.5/10. Peak: "Why boring catalog ads can beat video" (template multiplier maths).
+Angle chosen: "Catalog ads pay off for range stores, but headline ROAS is often existing customers buying anyway, so set them up to see new-customer share" (counter-narrative to the SERP's "catalog ads are a ROAS machine" framing). Named concept: harvest share.
+Angles rejected: (1) "Catalog ads are a prospecting tool, not retargeting" (one camp of a split; would take a side the panel doesn't support). (2) "How to design catalog templates that sell" (the old draft's angle; rests on vendor-only claims the brief bans).
+Splits shown and verdicts:
+- Prospecting vs harvesting. Verdict: harvest share decides; under about a third treat as prospecting, over half treat as retargeting budget. (The one-third / one-half cut-offs are our own rule of thumb, not a panel number.)
+- Separate campaign or toggle. Verdict: separate when material (to see and cap budget and harvest share); toggle or off when a small add-on.
+- Frequency. Verdict: not a fatigue signal alone; read it with the audience breakdown; high frequency on existing buyers means harvest.
+Do-not-use list observed: no sale overlays, no SKU thresholds (range is described, never counted), no vendor share-of-spend or uplift stats, no brand cases, no "money machine"/"competitor hack" labels. The single-account audit figures (4.0 vs 0.7, frequency 15, 70% cut) are not used; the worked example uses invented, labelled numbers.
+Claims to verify:
+- Meta's audience segment reporting (new, engaged, existing customers): current name, where it lives, and that it needs a customer list or defined existing-customer audience. Link exact Meta docs if available.
+- Existing-customer budget cap in Advantage+ sales campaigns: current name, default, which campaign types offer it.
+- Current Meta naming: "Advantage+ catalog ads" vs "dynamic product ads"; whether catalog runs inside Advantage+ sales campaigns by default.
+- Advantage+ creative enhancements on catalog ads (for example AI-generated backgrounds): current defaults and how to switch them off. Kept generic in step 5.
+- Product-level matching mechanism ("matches individual products to individual shoppers"): stated at the level of Meta's public description; confirm wording.
+Draper fit: weak, used once inline in the last section (hand-made creative beside the catalog), plus the standard CTA. No claim that Draper builds catalog ads or feeds.
+Open TKs: 1 (a real new vs existing audience-segment split).
+Lint: 0 errors, 1 warning (the open TK, kept on purpose). 1,521 words.
+Self-score: intro 8/10, average section 7.6
 -->

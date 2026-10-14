@@ -15,7 +15,7 @@ word_count: 0
 
 **Hook rate is a video metric: the share of impressions where someone watched at least three seconds of your ad.** The hook rate formula is 3-second video plays ÷ impressions × 100. Statics don't have one.
 
-So what is a good hook rate? There's no universal number. For DTC video, experienced Meta buyers commonly report 25% to 30% as the low end and 35% to 45% as strong, while lead gen and B2B accounts often run under 10% and stay perfectly healthy. The bar that holds is your own account average, read next to hold rate and cost per acquisition (CPA).
+So what is a good hook rate? There's no universal number. For DTC video, experienced Meta buyers commonly report 25% to 30% as the low end and 35% to 45% as strong, while lead gen and B2B accounts often run under 10% and stay healthy. The bar that holds is your own account average, read next to hold rate and cost per acquisition (CPA).
 
 And a high hook rate can be bad news.
 
@@ -74,7 +74,7 @@ Hold rate tells you whether the middle of the ad keeps the people the hook stopp
 - **Per impression:** 15-second plays (or ThruPlays) ÷ impressions. Buyers using this version commonly land around 7% to 15%.
 - **Per hooked viewer:** 15-second plays ÷ 3-second plays.
 
-Take that 40,000-impression ad again. With 3,600 fifteen-second plays, it has a 9% hold rate on the first formula and a 30% hold rate on the second, for the same ad in the same week.
+Take that 40,000-impression ad again. With 3,600 fifteen-second plays, its hold rate is 9% on the first formula and 30% on the second.
 
 Pick one, label the column, and never judge it against a benchmark built the other way.
 
