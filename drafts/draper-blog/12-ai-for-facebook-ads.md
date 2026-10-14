@@ -1,287 +1,232 @@
 ---
 title: "AI for Facebook Ads: Where It Helps and Where It Hurts"
-meta_description: "How to use AI for Facebook ads at each stage from research to statics, where it hurts, which Meta AI features to use, and why launching is the bottleneck."
+meta_description: "AI for Facebook ads, stage by stage: where it saves days, where it costs money, and the four calls experienced Meta buyers still split on, with our verdicts."
 slug: ai-for-facebook-ads
 primary_keyword: ai for facebook ads
 secondary_keywords: [ai facebook ads, meta ai ads]
 locale: en-US
 profile: draper-ads
-format: G handbook chapter
+format: G-handbook
 byline: Draper Ads
-word_count: 3120
+word_count: 0
 ---
 
-# AI for Facebook Ads: The Creative Workflow, Stage by Stage
+# AI for Facebook Ads
 
-Use AI for Facebook ads the way creative strategist Dara Denney does, as a junior strategist that gathers research, drafts copy, and varies what already works. A person still picks the angle, picks the winners, and signs off every ad. Skip full-AI ads that pretend to be real people.
+Use AI for Facebook ads where a mistake is cheap and the evidence is yours: research, first drafts, concept tests, B-roll, and report summaries. Keep people on everything that costs money when it's wrong. That means what launches, what gets budget, what gets killed, and anything a synthetic person says about your product.
 
-That part is fairly settled, but the part most guides skip comes next.
+That's where experienced Meta buyers land, and they agree on more than the hype suggests. AI multiplies a team that already knows its customer. It doesn't replace one, and nothing it makes should ship without a human pass.
 
-**AI makes creative cheap, so the bottleneck moves to launching and analyzing it.** Say your team made 10 ads a week and AI takes it to 40. Ads Manager still wants every one of them built by hand.
+The real danger isn't ugly AI ads. It's fifty good-looking versions of one idea.
 
-We built Draper Ads inside a paid social agency, as the media buyers doing those uploads. Below we cover what AI does well and badly at each of six workflow stages, which of Meta's own AI features to switch on, the tools by job, and the math on the new bottleneck.
+Below: each stage of the creative workflow, where AI earns its place and where it costs you, the four questions practitioners still argue about (with our verdict on each), and what Meta's own AI features change.
 
 ## How should you use AI for Facebook ads?
 
-**Use AI to gather, draft, and vary, and keep the deciding human.**
+**AI is a multiplier on judgment, not a substitute for it.** Point it at a team with a clear view of its customer and it compresses days of work into hours. Point it at a team without one and it produces confident nonsense at speed.
 
-Dara says AI only clicked for her when she "stopped using it as my replacement" and started treating it as a junior creative strategist or marketing assistant ([Claude Cowork video, May 2026](https://www.youtube.com/watch?v=UGiN8aVy2l8)). She calls her own AI builds assistants or interns, never the head of strategy.
+Practitioners who use AI daily agree on three rules:
 
-Her read on the market in January 2026 was blunter. "The hype around AI is starting to die and reality is really starting to settle in," she said in her [AirPost video](https://www.youtube.com/watch?v=gJrKogm75xg&t=488s), after watching teams spend heavily on AI creative that didn't stick.
+1. **Nothing ships raw.** Every output gets a human pass for accuracy, claims, brand voice, and the tells that make an ad read as machine-made.
+2. **Cheap doesn't lower the bar.** An AI ad pays the same CPM as a shot one. It stops people or it doesn't; it sells or it doesn't.
+3. **Distinct beats many.** Fifty rewordings of one hook are one ad to the person scrolling, and Meta tends to treat them that way too.
 
-A month later she settled her position on output. Full-AI ads are ["generally a disaster,"](https://x.com/DenneyDara/status/2018393739060744315) while mixed media was producing consistent winners for her agency.
+The cost of making an ad has collapsed. Practitioners now report single dollars to tens of dollars per AI-made asset, against thousands for a traditional shoot. What hasn't got cheaper is deciding which ads deserve to exist, checking them, and getting them live.
 
-**Mixed media is creative that combines real footage, real people, or real product shots with parts that AI generated or assembled.**
+**The judgment bottleneck is when making ads stops being the slow part of the week, and choosing, checking, and launching genuinely different ones takes its place.** Think of a printing press arriving in a newsroom that still has one editor. The press isn't the problem. The editor's afternoon is.
 
-That definition is ours, not hers.
+Most of what follows is about managing the judgment bottleneck.
 
-One rule has held through every phase of her AI views since 2024: humans are the editors.
+## Where AI fits, stage by stage
 
-She has said she would ["never, ever"](https://www.youtube.com/watch?v=5C5VhqW9HCc&t=1345s) describe an AI platform's output as ready to use.
+There are seven stages in a creative workflow. AI's value falls, and the cost of its mistakes rises, as you move from research toward the account itself:
 
-So the question isn't whether to use AI but which stage you hand it, and what you do with the extra ads it makes.
+| Stage | AI's job | The human's job | Risk if unchecked |
+|---|---|---|---|
+| 1. Research | Sort reviews, comments, transcripts | Decide what's true and what matters | Invented customers |
+| 2. Concepts | Vary proven structures | Pick the distinct ones | Fifty versions of one idea |
+| 3. Copy and scripts | First drafts | Voice, claims, AI tells | Unbackable claims |
+| 4. Visuals and video | B-roll, product shots, animation | Quality control, compliance | Fake-real people |
+| 5. Testing | Cheap concept versions | Fund the winners properly | Testing sameness |
+| 6. Launch and account | Draft changes | Approve launches, budgets, kills | Spend you didn't approve |
+| 7. Reporting | Collect and summarize | Decide what it means | Confident wrong analysis |
 
-## What AI does at each stage of the creative workflow
+### 1. Research: the safest, highest-value use
 
-There are six stages between "we need new ads" and "we know which ones worked." AI helps most at the start, unevenly in the middle, and least at the end, which is where the work now piles up.
+Almost every practitioner who uses AI starts here: review mining, comment analysis, competitor ad-library summaries, sorting customer call transcripts, and first drafts of personas and angles. Work that took a strategist a day now takes an hour.
 
-### 1. Research: let AI do the gathering
+The catch is that a general chatbot will invent what it doesn't have. **Fence it in: AI research is only as good as the evidence you restrict it to.** Ask about "women aged 30 to 45 who buy skincare" and you get the internet's average customer. Ask about your own 400 reviews, and only those, and you get something a competitor can't copy.
 
-Dara uses Claude Cowork, the agent mode in Claude's desktop app, for research she used to do by hand every month. It breaks down a competitor's Ads Library, sends a weekly social performance report to Slack, and turns thousands of reviews into a persona deck.
+The difference shows in the prompt:
 
-For Ridge Wallet, her worked example, Cowork counted 291 active ads, four creator partners, a 4.5% partnership-ad share, and 94 ads launched in a single day.
+- **Weak:** "Write three customer personas for a protein powder brand."
+- **Strong:** "Using only the 412 reviews below, group the reasons people bought. Quote the review behind each reason. Mark anything you inferred rather than read. If fewer than 20 reviews support a group, say so instead of naming it."
 
-Hold on to that last number. It comes back later.
+The second prompt gives the model no room to make things up, and it tells you when the evidence is thin.
 
-She also built an agent that writes a brand's reputation analysis from press, Reddit, reviews, and YouTube comments. By hand that takes her 3 to 4 hours per brand.
+Here's the test to run on the output: can every claim be traced to a line you supplied? If not, it's invention, however well written. And if you only have a few dozen reviews, get more evidence first (a customer survey, five sales calls). A model will happily build a vivid persona off three reviews.
 
-Her reason for automating it is the interesting part: her manual version, she says, was ["often incomplete"](https://www.youtube.com/watch?v=Uh0TE6nZs5A&t=183s) and tilted toward whatever she already thought mattered most.
+### 2. Concepts and angles: vary what already works
 
-**Where it hurts:** AI reports are confident and sometimes wrong. On camera, Cowork told her a post had gone viral. It hadn't; there was ad spend behind it.
+Asking a chatbot cold for ten ad ideas gets you the ten ideas it gives everyone else. Practitioners agree this is the least useful way to use it.
 
-Access is limited too. By Dara's account, Meta blocks AI tools from freely pulling Ads Library data, so an AI-only competitor audit works from copy and thumbnails.
+What works is feeding it structure. Give it your five best-converting hooks and your research, and ask for new angles built the same way. Or ask which buyer motivations your current winners don't cover yet. The model is good at variation and coverage; it's poor at originating an insight about your customer.
 
-**The test:** check every AI report the way you'd check an intern's.
+Then a person chooses. The bar for "different" is what the person scrolling would notice: a new person on screen, a new reason to buy, or a new format. A synonym swap isn't a new concept. Quick test: **would a customer who saw both ads say they'd seen two different ads?**
 
-### 2. Strategy and personas: AI proposes, you decide
+### 3. Copy and scripts: how much should AI write?
 
-In Dara's [one-sitting research method](https://www.youtube.com/watch?v=yRgPbqywUJ8), an LLM reads the reviews and the reputation analysis, then drafts a persona deck. The goal is to find personas the account isn't reaching yet.
+Experienced buyers split on this.
 
-The next step stays manual: she compares the personas your current ads target with the personas your customers reveal, and the gaps fall out.
+One camp lets AI write the large majority of primary text, headlines, and scripts, then edits lightly. It wins when the input is strong: a research-fed brief, a library of past winners, and a voice the model can imitate.
 
-Typical finds are personas nobody is talking to, a mix skewed to bottom-of-funnel offers, or too few angles per persona.
+The other camp treats AI copy as a rough first draft and rewrites it by hand, because raw output reads generic and occasionally promises things the product can't back. It wins when the brand voice is distinctive or the category is regulated.
 
-**Where it hurts:** ask an AI for strategy and it tends to hand back a summary of what's already common. Dara calls copying competitors "the worst creative strategy that you can do," even when you pick from the Ads Library by impressions.
+Both camps agree the input decides the output. A briefed, research-fed draft beats a cold prompt every time.
 
-She also rates trigger-based personas (people whose problem started after a life event) above demographic ones ("45+ women"). Tell the model which kind you want.
+**Our take: AI drafts, a person edits for voice, claims, and AI tells.** The tells are the stock phrases ("elevate your routine"), the rhythm of three, and the confident claim nobody checked. And if editing a draft takes longer than writing it, fix the brief rather than the model.
 
-No model fixes the economics, either. In the same video she says you can't sell a $20 product on Meta, however good you are, because the costs are too high.
+### 4. Visuals and video: production-grade, with conditions
 
-**The test:** for every planned ad, can someone on your team say why this persona, why this angle, and why this creative?
+B-roll and fill footage are production-grade now. Practitioners ask the model for a phone-shot look on purpose, because polished stock-style footage reads as an ad and gets scrolled past.
 
-### 3. Briefs, copy, and hooks: vary what's proven
+The generation is the small part. Practitioners report that post-production (pacing, cuts, grain, voiceover sync) takes more of the work than generating the clips does. A few habits recur:
 
-Copy is where AI earned its place first. In 2024 Dara rated the copy from Meta's gen-AI tools in Ads Manager as [comparable to her human teams', or better](https://www.youtube.com/watch?v=PmVv2i1UUWY), with the warning that humans still need to edit it.
+- **Keep AI scenes short,** a few seconds each, so drift doesn't show.
+- **Never let the model render final on-screen text.** Add it in your editor.
+- **Check every frame of the product.** A label or shape that drifts is a claim you can't back.
 
-Her current split comes from [a July 2026 video on hiring](https://www.youtube.com/watch?v=gqnp-IdEEI8&t=733s). She uses ChatGPT or Poppy for copy and briefs, and Claude for reporting, because Claude's copywriting, in her words, "kind of sucks."
+One pattern shows up across most corpora of experience: **AI that's honest about being AI beats AI pretending to be real.** Animation, a cartoon character, clay-style scenes, or deliberately rough AI visuals tend to outperform a realistic synthetic person posing as a customer. Viewers forgive a cartoon. They punish a fake.
 
-Treat that as a snapshot. Model rankings change by the quarter.
+#### Should you run realistic AI people or fully AI ads?
 
-Her most production-ready use is hooks: she uploads a brand's top five hooks and has Claude inject trigger words into structures that already convert.
+This is where experienced buyers split hardest.
 
-**The structure is proven; the AI only varies the words.** She tests [3 to 6 hook variants per video](https://www.youtube.com/watch?v=I8tXqqfjIX4&t=551s).
+One camp runs AI-actor ads end to end: synthetic presenters matched to the customer, scripted in third person, launched in volume. It wins when speed matters, the offer doesn't depend on who's speaking, and the script never pretends.
 
-The difference shows up in the prompt:
+The other camp keeps real people as the face of the ad. It reports standard creator content still beating AI versions across many tests, calls fully AI ads a miss more often than not, and notes regulators starting to look at synthetic endorsers. It wins when trust carries the sale: skincare, health, and anything where the viewer is judging the person.
 
-- **Weak prompt:** "Write 20 hooks for our deodorant."
-- **Strong prompt:** "Here are our five best hooks by spend. Keep each structure. Swap in trigger words from these reviews, such as regret, embarrassed, and scam."
+Neither side has shown a clean head-to-head against a human version. The evidence on both sides is account experience.
 
-The strong prompt fences the AI inside what your account has already proved.
+**Our take:** if the AI is plainly AI (animation, a character, voiceover over B-roll), test it freely. If it's a realistic synthetic person, treat it as a discovery tool. Use it to find the script and the angle, then reshoot the winner with a real person.
 
-The weak one returns the average of every deodorant ad it has read.
+One rule holds whichever camp you're in. **Never let an AI person claim to have used the product.** "This problem is exhausting, here's what fixed it for thousands of customers" is a script. "I've used this for three months and my skin cleared up," from someone who doesn't exist, is a fake testimonial. The same goes for credentials: no AI dermatologists, no AI doctors. Check Meta's advertising policies and the endorsement rules in your market before you run either kind.
 
-### 4. Video production: mixed media, not fake people
+### 5. Testing: cheap concepts, expensive winners
 
-AI earns its keep in video when real footage sits underneath. Dara's agency uses AI voiceovers on client content "a lot."
+AI's biggest effect on testing is economic. You can make a concept for a few dollars, test it, and spend real production money only on what the market already picked.
 
-The one AI video service she has endorsed, AirPost, starts from real actors and real studio footage. AI then assembles it into about 30 new ads a week, for roughly $8K a month. A test on a friend's brand produced a $35 CPA, better than that brand had seen ([video](https://www.youtube.com/watch?v=gJrKogm75xg)).
+Say you have 10 concepts. Shooting each with a creator at a hypothetical $3,000 is $30,000 before you know which one works. Making AI versions at a hypothetical $20 each is $200. If one wins, you reshoot it properly for $3,000, and you've spent $3,200 on production instead of $30,000.
 
-The other format that works is the opposite of realism: outrageous AI animated characters perform because they never pretend to be real.
+Flex one variable. If AI versions undersell the concept (a weaker version of an idea that would have won), you lose some winners to false negatives. That's the honest cost, and it's why practitioners test the concept rather than the polish. A clear angle survives a rough execution.
 
-**Where it hurts:** AI avatars posing as customers. In 2024 Dara said she avoided deepfake and UGC-clone tools ["for candidly ethical reasons."](https://www.youtube.com/watch?v=hvVPepEu7W8)
+Two cautions. The test still costs media spend, because AI changes the production budget, not the testing one. And near-identical variants are punished: our post on the [Meta Andromeda update](/blog/meta-andromeda-update) explains why similar ads tend to be treated as one. Some practitioners also report ads wearing out in roughly two weeks rather than six to eight, which raises how many distinct concepts you need each month.
 
-She hasn't repeated that since. She hasn't retracted it either.
+For test structure and how many ads to put in each ad set, see our guide to [Facebook ads testing](/blog/facebook-ads-testing).
 
-When she later praised an AI campaign, it was for being ["honest AI,"](https://x.com/DenneyDara/status/1995587521217179720) not AI pretending to be real life.
+### 6. Launching and running the account: how far should AI act?
 
-We draw the same line, and our reason is commercial as much as ethical.
+Experienced buyers split on this too.
 
-**An AI avatar reading a testimonial is a testimonial from nobody.**
+One camp connects an AI agent to the ad account. It reads results, generates variants of the winners, and launches them, while a strategist curates the last stretch. It wins when tests are small and reversible, budgets are capped, and someone reviews the account daily.
 
-A UGC ad persuades because a real person like the viewer tried the product. Fake the person and you've removed the reason it works. Our guide to [what makes UGC ads work](/blog/what-are-ugc-ads) goes deeper on that.
+The other camp keeps AI out of the account entirely. People make every launch, bid, and budget call. Some still key daily numbers by hand, because typing them is how they absorb them. It wins when spend is large or the account is fragile.
 
-**The test:** would the ad still feel honest if the viewer knew exactly how it was made?
+What separates them is the cost of an error. A bad image costs one regeneration. A bad budget change spends real money before anyone notices. Even the agent camp keeps a human approval step somewhere.
 
-### 5. Static ads: the fastest win, with a QA pass
+**Our take: AI drafts and reports; humans approve launches, budgets, and kills.** The test fits in one line: if the action spends money or stops spending it, a person clicks the button.
 
-Statics are where AI production is most usable today. They're cheaper to make than video, and they produce messaging lessons you can carry into video later.
+Be most skeptical of AI advice on budgets. General chatbots give confident, outdated advice on Meta settings. Meta's own recommendations lean toward spending more, and some can be applied automatically if the account allows it. Check what your account is set to accept.
 
-Dara's pipeline comes from a [June 2026 video sponsored by Super Scale](https://www.youtube.com/watch?v=5C5VhqW9HCc), and it runs in four moves:
+### 7. Reporting and analysis: automate the collection, not the conclusion
 
-1. Build a brand-brain document in Claude with a reusable prompt.
-2. Load it into Super Scale, which pulls the brand from its URL and researches competitors in 2 to 5 minutes.
-3. Review its gap analysis of missing personas, awareness levels, and formats.
-4. Generate three variations at a time, then fix them with plain-language edits.
+Practitioners split on this one along working style. One camp automates heavily: a summary of yesterday's creative results in Slack every morning, weekly competitor scans, a year of audits mined for patterns. The other keeps daily numbers manual, because entering them is the review.
 
-That editing loop, not the first draft, is why she rates the tool.
+**Our take: automate collection and summaries, and keep "what does this mean and what do we do" human.** Then check each claim against the numbers. An AI summary that calls a post "viral" when its reach was paid is a small error that leads to a large wrong decision.
 
-**Where it hurts:** clutter and typos slip through, and so do over-used formats. In the demo she rejected the tool's review-collage direction outright.
+To compare AI-made ads with shot ones later, tag them at launch. Put "AI" or "shot" in each ad's name, next to the concept and variant, and the comparison is one filter away. Our [ad set name examples](/blog/ad-set-name-examples) show a scheme that does this.
 
-The category record is poor, too. After a month testing instant AI ad makers in 2025, her verdict was that ["none of these ad makers do the thing yet that they say they're going to do."](https://x.com/DenneyDara/status/1951003249202663645) Super Scale is a pressure-tested exception, not a reversal.
+## What about Meta's own AI ad tools?
 
-There's a platform trap as well: Meta's Andromeda system [only counts visual difference as creative diversity](https://www.youtube.com/watch?v=kxLjzws-pNg&t=243s), per what Dara learned from Meta.
+Meta builds generative AI into Ads Manager itself. Under Advantage+ creative, optional creative enhancements can adjust images and video, generate image variations and backgrounds, expand images to fit placements, add music, and suggest text variations. Meta has also added an AI assistant that suggests changes. Feature names and defaults change often, so check what's on before every launch.
 
-Twenty AI variants of one layout with twenty headlines look like one ad to the algorithm.
+The old advice was all on or all off. Both are retired. Decide per toggle:
 
-Her static tests run 20 to 25 ads per ad set, with only 2 or 3 variations of any one concept. For layouts that look different at a glance, see our [static ads examples](/blog/static-ads-examples).
+- **Turn off anything that rewrites or overlays text on an image whose message is the text.** A rewritten headline is a claim you didn't approve.
+- **Keep image variations only if someone reviews them.** They can be useful, and they can also put AI imagery on an ad you hand-edited.
+- **Listen to any music Meta adds** before it runs on your brand.
+- **Read the assistant's suggestions as suggestions.** It's useful for spotting issues and weakest on budget advice, for the reasons above.
 
-**The test:** can a stranger tell what you're selling within a second?
+## What to stop doing
 
-### 6. Launch and analysis: where AI helps least
+Five habits from the last two years have aged badly:
 
-AI can draft the readout, but the launching and the deciding still land on a person.
+- **"Generate hundreds of ads in minutes."** Practitioners who tested instant AI ad makers found they don't do what they promise, and volume of one idea is the failure mode anyway.
+- **"Ask a chatbot for ten ad ideas."** Vary your winners instead.
+- **"Dump 50 to 100 AI images into one campaign and see what sticks."** Most of them are one concept, and the account learns little.
+- **"AI will replace your creative strategist."** Every serious practitioner rejects this. The strategist's job moved toward choosing and checking.
+- **"Trust the chatbot on account settings."** Its Meta knowledge is often out of date and always confident.
 
-For analysis, Dara calls Motion "non-negotiable" (disclosure: she is Motion's Chief Evangelist) and uses Runith to pull in-platform creative data into LLMs.
+## The judgment bottleneck: why launching becomes the slow part
 
-Her rule for reading the numbers is strict: only [spend, purchases, CPA, and ROAS](https://www.youtube.com/watch?v=CCsty8R0UaA&t=670s) may trigger a scale or a pause, while hook rate and CTR explain but never decide.
+Here's the maths that changes once AI does the making.
 
-So an AI summary that recommends pausing an ad for low CTR breaks the rule, however well it's written.
+Say your team uses AI to produce 20 distinct concepts this month, with 3 variants each, for 4 ad sets. That's 240 ads. At a hypothetical $20 per concept, production costs $400.
 
-Launching gets no help from a static generator. Every extra ad still needs a name, UTMs, placements, and a home in one or more ad sets.
+Now launch them. In Ads Manager, building one ad from scratch in one ad set takes 17+ clicks. If you rebuild each ad, 240 ads × 17 clicks is 4,080 clicks. Say each click and its page load takes 5 seconds: that's about 5.7 hours of clicking for one month's tests.
 
-That's the stage the rest of this post is about.
+Flex it. Cut to 10 concepts after review and it's still 2,040 clicks, nearly 3 hours.
 
-## Meta's own AI ad tools: which to switch on
+Making the ads got a lot cheaper. Clicking them into Ads Manager didn't get cheaper at all.
 
-Most searches for "Meta AI ads" are about the features inside Ads Manager. Dara reviewed a batch of them after Meta's 2025 Performance Summit and a Cannes press briefing ([video](https://www.youtube.com/watch?v=rqUuP-uc0SE&t=246s)). Her verdicts:
+**When concepts are cheap, judgment and launching become the scarce resources.** Judgment decides which 20 concepts deserve to exist and catches the fake testimonial before it runs. Launching gets the distinct ones live while the idea is still fresh. Spend the hours AI saved on the first, and stop spending them on the second.
 
-- **Persona-based text generation:** use it after you find winning copy, to adapt that copy for broader or narrower audiences.
-- **Translation text generation:** the one she was most excited about. A founder on a panel she joined said ads in Spanish were a major growth lever for brands spending high six to low seven figures on Meta.
-- **Brand-aware image generation:** uses your logo, fonts, and colors. She expects mostly new brands without a creative team to use it.
-- **Video from multiple images:** worth a test with imagery that has already worked, especially for small teams.
-- **Virtual try-on:** for apparel, showing clothes on different body sizes.
-- **AI question bubbles on ads:** she's skeptical. They may signal "this is an ad" and pull people away from the comments, where trust gets built.
+We built Draper Ads inside a paid social agency for that second half. It doesn't make creative. It pulls the files your team approved straight from Google Drive, names each ad from its file (so "AI" versus "shot" stays readable in reporting), keeps your creative-enhancement choices saved between sessions, and launches each ad to every ad set it belongs in at once. If you launch a handful of ads a week, Ads Manager is fine. At 240, it's most of a day.
 
-She also suspects, unofficially, that Meta rewards early adopters of new gen-AI features. She says plainly that this isn't a Meta statement, so treat it as a hypothesis worth one test.
+## Which approach fits your team?
 
-And check one setting today. Meta's AI-generated backgrounds for catalog ads were switched on by default for many accounts, and she calls the output a failure. ["Why is my couch SKU floating on a beach?"](https://www.youtube.com/watch?v=AS0YfAioHT0&t=1402s)
+The right amount of AI depends on who's using it:
 
-## The launch gap: when making ads gets cheaper than launching them
-
-**The launch gap is the distance between how many ads your team can make and how many it can launch, name, and read.**
-
-Before AI, production was the limit. Now it often isn't.
-
-Start with the test sizes Dara uses today, [10 to 15 ads per video test ad set and 20 to 25 per static test](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=121s), with 3 to 6 hooks per video. Those numbers assume you can produce that much, and AI is what makes it possible.
-
-Here's a hypothetical weekly test cadence for a two-person team:
-
-| | Before AI | With AI |
-|---|---|---|
-| Video concepts × hooks | 2 × 4 = 8 | 3 × 5 = 15 |
-| Statics | 8 | 20 |
-| New ads per week | 16 | 35 |
-
-Now launch them. Draper's figure for building one ad from scratch in Ads Manager is 17+ clicks, so 35 ads come to 595 clicks a week, into one ad set each.
-
-Winners rarely stay in one place. Say every ad also goes to a scaling campaign and an evergreen ad set, rebuilt each time, at a hypothetical 3 minutes per build:
-
-- **One ad set:** 35 ads × 3 minutes = 105 minutes.
-- **Three ad sets:** 315 minutes, or 5 hours 15 minutes a week.
-
-Flex one variable. If the static generator doubles your statics to 40, you have 55 new ads, and the three-ad-set version takes 8 hours 15 minutes.
-
-That's a full working day of uploading, every single week, handed to the person on your team who should be reading last week's results and writing next week's briefs.
-
-Remember Ridge Wallet's 94 ads in one day? That's what launching looks like once production is solved.
-
-The reading suffers next. If half your ads are named "IMG_4471 copy," no report can group them by hook or persona, and Dara's own reports compare exactly those things.
-
-A test you can't read wastes the AI time that made it.
-
-**Volume isn't the goal, though.** In April 2026 Dara warned that many brands, ["in the name of creative diversity and volume,"](https://x.com/DenneyDara/status/2041506258008613177) were failing to double down on what was working.
-
-The strongest case for AI volume she cites is Monks' work for Headspace. It made 460 assets in a third of the normal production time and lifted conversion rate 62%, and Monks credited personalized creative across 20 use cases plus Meta's targeting, [not volume alone](https://www.youtube.com/watch?v=9SiRt3uvv-s&t=305s).
-
-So the job is diverse ads, launched quickly, named so you can read them.
-
-That's the gap we built Draper to close. You build the ad once and deploy it to every ad set, with names taken from the creative file, UTMs set once, and creative pulled straight from Google Drive. Our site puts the saving at 16+ hours a week across teams. [TK: one team's weekly launch time before and after Draper, with ad count]
-
-If you launch a dozen ads a week, Ads Manager's duplicate button is fine, but at 50 the launch gap is your bottleneck.
-
-## AI tools for Facebook ads, by job
-
-Pick tools by the job, not the demo. These are the tools Dara names, with her disclosures, plus our own:
-
-| Job | Tools Dara names | Watch out for |
-|---|---|---|
-| Research and reporting | Claude Cowork, plus Perplexity Computer for custom agents | Confident errors and limited Ads Library access |
-| Copy and briefs | ChatGPT, Poppy | Generic hooks if the prompt isn't fenced |
-| Static generation | Super Scale (sponsored her video) | Clutter and typos, so review every output |
-| Video assembly | AirPost (enterprise, about $8K a month) | Price, which only pays off at high spend |
-| AI avatar video | None. She avoided these tools on ethical grounds in 2024 | Avatars posing as customers |
-| In-platform generation | Meta's gen-AI features in Ads Manager | Defaults switched on without notice |
-| Swipe files | Foreplay | Inspiration, never the strategy |
-| Creative analytics | Motion (she is its Chief Evangelist), Runith | Storytelling metrics triggering kills |
-| Sales and bundle data | Particle (one of her sponsors) | A complement to your own store data |
-| Decks | Gamma (a partner of hers), Canva | Nothing notable |
-| Launching | None named. Ours is Draper Ads | Ads Manager works at low volume |
-
-Dara discloses her Motion role, her Gamma partnership, and her sponsors on camera. We do the same: we built Draper, so weigh the last row accordingly.
-
-Her list is a mid-2026 snapshot. The jobs will outlast the names.
-
-## Which AI setup fits your team?
-
-The right amount of AI depends on who's doing the work:
-
-- **A founder running their own ads:** start with Meta's text features and one chat model for hook variants. Make statics first. Check the economics before any of it, because better creative won't rescue a $20 product.
-- **A two- or three-person in-house team:** add a research agent for weekly reports and a static generator. You'll hit the launch gap first, so fix naming and launching before buying a third tool.
-- **An agency:** a reputation-analysis agent like Dara's can save the 3 to 4 hours she spends on each new brand. Standard naming across every client account matters more than any generator.
-- **Enterprise budgets:** a service like AirPost, at about $8K a month for around 30 ads a week, only pays off if your spend can absorb that many new ads.
+- **A founder running their own ads:** start with research on your own reviews and first drafts of copy. Use AI B-roll for fill. Keep agents off the account.
+- **An in-house team of two to five:** add cheap concept tests and an automated morning summary. A person approves every launch and budget change.
+- **An agency with several clients:** fence research to each client's evidence, tag AI and shot ads by name so you can compare them across accounts, and add a compliance review for anything with a synthetic person in it.
 
 ## Recap
 
-- **AI is a junior strategist:** it gathers, drafts, and varies. People choose angles, winners, and what ships.
-- **Mixed media, not fake people:** real footage assembled by AI works. Avatars posing as customers remove the reason UGC persuades.
-- **Vary what's proven:** inject trigger words into converting hooks, generate statics three at a time, and make visual differences rather than headline swaps.
-- **Meta's AI features:** try translation and persona text. Check your catalog ads for AI backgrounds you didn't choose.
-- **The launch gap:** once AI fills production, launching and reading become the limit. If your team spends more hours uploading ads than briefing them, fix launching before you buy another AI tool.
+- **AI is a multiplier on judgment, not a substitute for it.** Nothing ships without a human pass.
+- **Research:** restrict AI to your own evidence, and trace every claim back to a line you supplied.
+- **Concepts:** vary proven structures. Distinct beats many.
+- **Copy:** AI drafts, a person edits for voice, claims, and AI tells.
+- **Visuals:** obviously AI beats fake real. Never let an AI person claim to have used the product.
+- **Testing:** test concepts cheaply with AI, then produce the winners with people.
+- **Account:** AI drafts and reports. Humans approve launches, budgets, and kills.
+- **The judgment bottleneck:** once making ads is cheap, choosing and launching distinct ones is the work.
 
-Next: [how to size a Facebook ads test](/blog/facebook-ads-testing), so the extra ads land in a structure that tells you something.
+Cheap ads are only an advantage if you can choose well and launch fast.
 
-AI made the ads cheap. Make the launching cheap too.
+Next: our [static ads examples](/blog/static-ads-examples) and [what UGC ads are](/blog/what-are-ugc-ads) cover the two formats AI changes most.
 
-*Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and [setup takes under two minutes](https://draperads.com/sign-up).*
+_Draper Ads is free during beta. Connect your ad account, build the ad once, and launch it to every ad set in one go. No credit card, and setup takes under two minutes. [Get your time back from manual ad work](https://draperads.com/sign-up)._
 
 <!-- editor-notes
-Angle chosen: "AI by workflow stage, and the bottleneck it creates" (counter-narrative to the SERP's tool listicles: the tools matter less than where you put them, and once AI fills production, launching and reading become the limit). Named concept: the launch gap.
-Angles rejected: (1) "Best AI tools for Facebook ads, ranked" (matches the SERP but we haven't tested the tools first-hand, and a ranked list without proof fails the byline-swap test; kept as an honest tools-by-job table instead). (2) "AI won't replace your creative strategist" (elegant but already Dara's own take and the Takeflyte-style opinion piece; no information gain for us).
-Open TKs: 1. Draper before/after weekly launch time in the launch gap section.
+Angle chosen: "AI makes concepts cheap, so judgment and launching distinct concepts become the scarce resources," carried by the named concept "the judgment bottleneck" (elegant articulation + counter-narrative to "AI does it all").
+Angles rejected: (1) "The AI ad is the same ad: it pays the same CPM" (good line, too narrow for a pillar; kept as rule 2). (2) "Obviously AI beats fake real" (strong but only covers the visuals stage; kept as its bold thesis).
+Splits shown and verdicts:
+- Realistic AI people and full-AI ads: run-them camp vs real-people camp. Verdict: plainly-AI formats test freely; realistic synthetic people are a discovery tool, reshoot winners with real people; never a first-person use claim or credential.
+- Agents acting on the account: let-it-act vs keep-it-out. Verdict: AI drafts and reports; humans approve launches, budgets, and kills.
+- Automated reporting: automate vs manual. Verdict: automate collection and summaries, keep interpretation human, check claims against numbers.
+- How much copy AI writes: most of it vs rough draft only. Verdict: AI drafts, a person edits for voice, claims, and AI tells; fix the brief if editing takes longer than writing.
+Open TKs: none in body. Strongest candidate if one is wanted: an anonymized Wonderland comparison of AI-made vs shot ads, tagged via naming (would go in stage 4's split).
 Claims to verify:
-- Ridge Wallet figures (291 ads, 4 creator partners, 4.5% partnership share, 94 in one day) are from Dara's Claude Cowork demo (UGiN8aVy2l8); KB gives no timestamp.
-- "Cowork told her a post had gone viral" paraphrases her on-camera correction in the same video.
-- "Meta blocks AI tools from freely pulling Ads Library data" is Dara's statement (KB), not Meta documentation.
-- Super Scale steps and the "three at a time" detail: 5C5VhqW9HCc. The video is sponsored by Super Scale; disclosed in text.
-- AirPost $8K/month, ~30 ads/week, $35 CPA on a friend's brand (Marea): gJrKogm75xg. Vendor-adjacent claims; attributed to her video.
-- "Her agency uses AI voiceovers a lot": KB static-and-ai-creative.md, no timestamp.
-- Monks x Headspace (460 assets, 1/3 time, 62% conversion-rate increase, 20 use cases): Meta Agency Awards, via 9SiRt3uvv-s. Third-party figures, attributed.
-- Meta feature list and verdicts: rqUuP-uc0SE (July 31, 2025). Feature names may have changed since; the post says to check what the account has.
-- Hype10 panel figure: transcript says "high six figures, low seven figures on meta ads" with no time unit; the post keeps it unitless.
-- 16+ hours saved per week is a Draper site claim ("across teams"); 17+ clicks is the build-from-scratch unit, and the multi-ad-set math states it assumes a rebuild each time.
-- The 3-minutes-per-build input is a labelled hypothetical.
-Attribution and disclosures: Motion (Chief Evangelist), Gamma (partnership), Super Scale and Particle (sponsors) all disclosed where named. The 2024 ethical objection to deepfake/UGC-clone tools is presented as "not repeated, not retracted", per the KB's instruction to treat it as unresolved. The 2025 "dump 50-100 AI images into an ASC" tactic is deliberately not used (in tension with her 2026 position). The retired Ads-Library-copying tactic appears only as something she rejects.
-Draper: no claim that Draper uses AI or improves performance; only profile features and proof points.
-Lint: 0 errors, 1 warning (the one deliberate open [TK]). One-sentence paragraphs 45%, sentence SD 7.7, colons 8.7/1k.
-Self-score: intro 8/10, average section 7.6/10. Peak section: the launch gap. Lacks first-hand Draper proof (one TK).
+- Meta feature names and scope: "Advantage+ creative", "creative enhancements" (image/video adjustments, image variations, background generation, image expansion, music, text variations), and Meta's AI assistant in Ads Manager. Check each against Meta's Business Help Center and newsroom; no URLs cited because exact ones weren't available.
+- That some Meta recommendations can be auto-applied if the account allows it (practitioner-documented; verify the current setting name).
+- Meta's advertising policy on AI-generated or altered content and any AI disclosure labels for ads; FTC Endorsement Guides on testimonials; state-level moves on synthetic endorsers (only referred to generally as "regulators starting to look").
+- "Similar ads tend to be treated as one" is practitioner observation, not Meta documentation (linked to /blog/meta-andromeda-update).
+- Production cost range (single dollars to tens of dollars per AI asset vs thousands per shoot) is a panel range from self-reported, partly sponsored figures; the $20, $3,000, and 5-seconds-per-click inputs are labelled hypotheticals.
+- "Ads wearing out in roughly two weeks rather than six to eight" is one practitioner's self-report, framed as "some practitioners report".
+Tool-agnostic: no tools named; only categories (chatbot, model, AI agent, AI ad makers). No individual named or quoted.
+Draper claims used: 17+ clicks per ad built from scratch in one ad set (rebuild assumption stated), Google Drive pull, automatic naming from file, saved preferences incl. creative enhancements, create once deploy many, origin credential, beta CTA. Explicitly says Draper doesn't make creative; no "AI-powered" or AI implication.
+Lacks first-hand proof: yes; carried on panel consensus and labelled hypothetical arithmetic.
+Lint: see final run.
+Self-score: intro 8/10, average section 7.5/10
 -->

@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: C catalog listicle
 byline: Draper Ads
-word_count: 0
+word_count: 1743
 ---
 
 # Testimonial Ads Examples: 8 Formats for Meta
@@ -19,7 +19,7 @@ Most testimonial Facebook ads break the rule in the first line.
 
 "Highly recommend" over a smiling stock model reads as an ad, and people have spent a decade learning to scroll past anything that reads as an ad.
 
-Experienced Meta buyers agree on more here than on most creative questions. Where they split (before/afters, ugly vs polished, where to dig for the words), we show both sides and pick one.
+Experienced Meta buyers mostly agree here. Where they split (before/afters, ugly vs polished, where to dig for the words), we show both sides and pick one.
 
 ## What makes a testimonial ad convert?
 
@@ -54,21 +54,21 @@ The majority mine reviews first. A minority mine them last, because your reviews
 
 **Our take: reviews for the lines, comments for the objections.**
 
-Mine ad comments and Reddit threads for the doubt, then find the review that answers it. Reviews tell you why your buyers bought; comments tell you why everyone else didn't.
+Mine ad comments and Reddit threads for the doubt the testimonial has to beat, then go back to the reviews and find the customer who had that exact doubt and got over it. Reviews tell you why your buyers bought; comments tell you why everyone else didn't.
 
 ## 8 examples of testimonial ads
 
 ### 1. The quote-headline static
 
-A found line as the headline, over a plain shot of the product in use, with a first name and stars underneath. A static gets about a second of attention, and in that second a stranger's plain sentence about their own life is more believable than anything your copywriter could put there. Use one quote per image and keep the reviewer's wording. Our [static ads examples](/blog/static-ads-examples) cover the layouts.
+A found line as the headline, over a plain shot of the product in use, with a first name and stars underneath. A static gets about a second of attention, and in that second a stranger's plain sentence about their own life is more believable than anything your copywriter could put there. One quote per image, in the reviewer's wording. Our [static ads examples](/blog/static-ads-examples) cover the layouts.
 
 ### 2. The real-review screenshot
 
-The review itself, styled as it appears on the review site or as a text to a friend, stars and typos included. The interface does the persuading: it reads as evidence, not copy. The rule is simple: only use text a real customer wrote, and make sure any review count you show matches the reviews people can find.
+The review itself, styled as it appears on the review site or as a text to a friend, stars and typos included. The interface does the persuading: it reads as evidence, not copy. Only use text a real customer wrote, and make sure any review count you show matches the reviews people can find.
 
 ### 3. The phone-shot customer video
 
-A real customer, phone in hand, telling what happened. Nothing looks less like an ad. Expect most raw customer videos to be unusable, so ask far more customers than you need.
+A real customer, phone in hand, telling what happened. Nothing looks less like an ad. Expect most raw customer videos to be unusable, because most people freeze, ramble, or film sideways, so ask far more customers than you think you need.
 
 The picture can be rough. The sound can't.
 
@@ -122,7 +122,7 @@ Both cheap-and-native and expensive-and-native are live. Glossy and branded is t
 
 **Nobody says "I used it and it worked" unless they did.** An actor or an AI character can endorse ("this problem is miserable, try this"), but can't claim personal use. The same goes for credentials: no hired doctor, synthetic or human, who isn't one.
 
-True testimonials carry risk too. A specific result with a timeframe ("lost 20 pounds in a month") can read as a promise even when a real customer said it. Keep claims to what's typical, label "verified buyer" only for real orders, and check disclosure rules for paid creators and actors with someone qualified before you launch.
+True testimonials carry risk too, since a specific result with a timeframe ("lost 20 pounds in a month") can read as a promise even when a real customer said it. Keep claims to what's typical, label "verified buyer" only for real orders, and check disclosure rules for paid creators and actors with someone qualified before you launch.
 
 ## What to stop doing
 
@@ -141,9 +141,9 @@ Building one ad from scratch in one ad set takes 17+ clicks in Ads Manager, so i
 
 For three ads, Ads Manager is fine. At forty, it eats a morning.
 
-Naming matters just as much. Put the objection and the messenger in the file name (`price-objection_skeptic_v1`) and a month later you can see which *kind* of testimonial wins, not only which file. Our [ad set name examples](/blog/ad-set-name-examples) show a scheme that holds up.
+Naming matters too. Put the objection and the messenger in the file name (`price-objection_skeptic_v1`) and a month later you can see which *kind* of testimonial wins, not only which file. Our [ad set name examples](/blog/ad-set-name-examples) show a scheme that holds up.
 
-Draper Ads was built inside a paid social agency, by the media buyers who were doing those uploads. It pulls the clips and statics straight from Google Drive, names every ad from its file, and launches the batch to every ad set in one go.
+Draper Ads was built inside a paid social agency, by the media buyers who were doing those uploads. It pulls clips and statics from Google Drive, names every ad from its file, and launches the batch to every ad set in one go.
 
 A testimonial ad is a customer's sentence aimed at a stranger's doubt. Find ten of them and you have ten ads, not one.
 
@@ -168,6 +168,6 @@ Claims to verify:
 Draper claims used: 17+ clicks per ad built from scratch in one ad set (rebuild assumption stated), automatic naming from creative file, Google Drive pull, launch to every ad set, origin credential, beta CTA. No claim that Draper finds testimonials, improves performance or runs partnership ads.
 Internal links: /blog/static-ads-examples, /blog/what-are-ugc-ads, /blog/ad-set-name-examples.
 Lacks first-hand proof: yes; carried on panel consensus, splits and labelled hypothetical arithmetic.
-Lint: see final run.
+Lint: 0 errors, 1 warning (the one open TK, kept deliberately). 1,743 words.
 Self-score: intro 8/10, average section 7.6/10
 -->
