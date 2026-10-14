@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: E explainer
 byline: Draper Ads
-word_count: 0
+word_count: 947
 ---
 
 # Campaign Budget vs Ad Set Budget
@@ -23,7 +23,7 @@ The rest of this page is why, with the math that tells you which side of the lin
 
 ## What's the difference?
 
-**Ad set budget means you set the spend for each ad set. Campaign budget means you set one figure and Meta moves it between ad sets.** With ABO, every concept gets the money you gave it, winner or not. With CBO, Meta shifts spend toward whatever looks best early.
+**Ad set budget means you set the spend for each ad set. Campaign budget means you set one figure and Meta moves it between ad sets.** With ABO, every concept gets the money you gave it whether it wins or not, while with CBO, Meta shifts spend toward whatever looks best in the first day or two, often before slower ideas have had a chance.
 
 That trade is the whole debate.
 
@@ -44,7 +44,7 @@ They also mostly agree that under campaign budget, new ads struggle to win spend
 
 Experienced buyers split three ways on this.
 
-**One camp tests on ad set budget.** Equal budgets mean a result reflects the ad, not how Meta happened to allocate. They also say CBO is unstable at small spend. This camp is explicit that it's a math decision, not a preference: ABO works when enough tests win that the winners cover what the losers cost. It wins when budget covers every concept ad set at a readable daily amount and someone will adjust budgets on a schedule.
+**One camp tests on ad set budget.** Equal budgets mean a result reflects the ad, not how Meta happened to allocate. CBO, they add, is unstable at small spend. This camp is explicit that it's a math decision, not a preference: ABO works when enough tests win that the winners cover what the losers cost. It wins when budget covers every concept ad set at a readable daily amount and someone will adjust budgets on a schedule.
 
 **A second camp tests inside one CBO or Advantage+ campaign,** adding a new ad set per idea each week. With ABO, you decide where the money goes; with CBO, Meta does. Some in this camp found that winners from cheap ABO test ad sets faded once they moved into a big CBO. It wins when budget is small relative to the number of creatives, hit rate is low, or nobody will manage budgets daily.
 
@@ -73,7 +73,7 @@ Some buyers patch CBO testing with minimum spend per ad set. Treat that as a pat
 
 **Your testing structure decides how many ad sets you launch into.** ABO testing means a new ad set per concept every week. Four concepts at four variations is 16 ads a week, each needing a name and UTMs. Winners then get copied into the scaling campaign, with the originals left running.
 
-Building one ad from scratch inside one ad set takes 17+ clicks in Ads Manager. Rebuild those 16 ads and that's 272 clicks before a single winner is copied. Draper Ads builds each ad once and deploys it to every ad set it belongs in, named from the creative file. At one or two concepts a week, Ads Manager is fine.
+Building one ad from scratch inside one ad set takes 17+ clicks in Ads Manager. Rebuild those 16 ads and that's 272 clicks before a single winner is copied. Draper Ads builds each ad once and deploys it to every ad set it belongs in, named from the creative file, so the weekly ABO routine stops eating the afternoon you'd rather spend on next week's concepts. At one or two concepts a week, Ads Manager is fine.
 
 Pick the setting your budget can afford, then spend your time on the creative, where the results come from.
 
@@ -91,6 +91,6 @@ Claims to verify:
 (d) 17+ clicks is the Draper site's figure for one ad built from scratch in one ad set; 272 assumes a full build per ad.
 (e) Read floor (target CPA x 10) is our own arithmetic, shared with the hub post.
 Open TKs: none.
-Lint: see final run.
+Lint: 0 errors, 0 warnings. Sentence SD 8.4, one-sentence paragraphs 41%.
 Self-score: intro 8/10, average section 7.5/10. No first-hand proof; carried on panel consensus and labelled arithmetic.
 -->

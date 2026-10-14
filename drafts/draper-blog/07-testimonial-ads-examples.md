@@ -36,7 +36,7 @@ The first part carries the rest, so give it a name.
 
 **A found line is a sentence a customer wrote that no copywriter would have.**
 
-It holds a number, a timeframe, an age, an odd detail, or the thing they tried first. "Love it, highly recommend" isn't one. "I'm 54 and it's the first face cream that doesn't sting after I shave" is (an invented example, but you'll recognize the type).
+It holds a number, a timeframe, an age, an odd detail, or the thing they tried first. "Love it, highly recommend" isn't one. "I'm 54 and it's the first face cream that doesn't sting after I shave" is. (We invented that one, but you know the type.)
 
 Keep found lines raw. Leave the typos in, and don't set them in your brand font.
 
@@ -60,7 +60,7 @@ Mine ad comments and Reddit threads for the doubt, then find the review that ans
 
 ### 1. The quote-headline static
 
-A found line as the headline, over a plain shot of the product in use, with a first name and stars underneath. A static gets about a second of attention, and a customer's sentence is the most believable thing you can put in that second. Use one quote per image and keep the reviewer's wording. Our [static ads examples](/blog/static-ads-examples) cover the layouts.
+A found line as the headline, over a plain shot of the product in use, with a first name and stars underneath. A static gets about a second of attention, and in that second a stranger's plain sentence about their own life is more believable than anything your copywriter could put there. Use one quote per image and keep the reviewer's wording. Our [static ads examples](/blog/static-ads-examples) cover the layouts.
 
 ### 2. The real-review screenshot
 
@@ -96,7 +96,7 @@ Body, skin, hair, teeth, or weight: show the after or a day-1-to-day-30 progress
 
 ### 7. The reaction reel
 
-A few seconds each of several customers' first reactions, with the offer only in the copy. This is the one exception to one person per ad, and it holds because these are reactions, not stacked speeches. It works when the viewer already knows what the service does, which is why local services lean on it. If the viewer needs an explanation, go back to one person.
+A few seconds each of several customers' first reactions, with the offer only in the copy. This is the one exception to one person per ad. Seconds, not speeches. It works when the viewer already knows what the service does, which is why local services lean on it. If the viewer needs an explanation, go back to one person.
 
 ### 8. The creator who used it
 
@@ -104,7 +104,7 @@ A paid creator who used the product for weeks, telling the story in their own wo
 
 ## Ugly or polished? Match production to the price
 
-Practitioners agree a testimonial must not look like an ad. They split three ways on what that costs.
+Practitioners agree a testimonial must not look like an ad. Cost is the fight.
 
 One camp shoots everything on a phone. Ugly means real, not bad, and native footage is cheaper, so you can make more of it. A second camp wants native-looking but expensive: a studio, two people, several cameras, good microphones, and real money on casting a believable skeptic. They argue a cheap-looking podcast ad hurts the brand. The third camp says it depends on the stakes.
 
@@ -133,7 +133,7 @@ True testimonials carry risk too. A specific result with a timeframe ("lost 20 p
 
 ## Ten found lines become ten ads to launch
 
-Follow the rule and the work changes shape. A review-mining pass that ends with ten found lines gives you ten ads, each one person and one objection. Each needs testing in every ad set where it belongs.
+A review-mining pass that ends with ten found lines gives you ten ads, each one person and one objection. Each needs testing in every ad set where it belongs.
 
 Here's the math. Say you test across four ad sets. That's 40 ads.
 

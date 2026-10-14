@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: G handbook (pillar)
 byline: Draper Ads
-word_count: 3154
+word_count: 3159
 ---
 
 # Facebook Ads Testing
