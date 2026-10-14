@@ -1,6 +1,6 @@
 ---
 title: "AI for Facebook Ads: Where It Helps and Where It Hurts"
-meta_description: "How to use AI for Facebook ads at each stage, from research to statics: where it hurts, which Meta AI features to use, and why launching is now the bottleneck."
+meta_description: "How to use AI for Facebook ads at each stage from research to statics, where it hurts, which Meta AI features to use, and why launching is the bottleneck."
 slug: ai-for-facebook-ads
 primary_keyword: ai for facebook ads
 secondary_keywords: [ai facebook ads, meta ai ads]
@@ -8,7 +8,7 @@ locale: en-US
 profile: draper-ads
 format: G handbook chapter
 byline: Draper Ads
-word_count: 0
+word_count: 3120
 ---
 
 # AI for Facebook Ads: The Creative Workflow, Stage by Stage
@@ -51,17 +51,15 @@ Dara uses Claude Cowork, the agent mode in Claude's desktop app, for research sh
 
 For Ridge Wallet, her worked example, Cowork counted 291 active ads, four creator partners, a 4.5% partnership-ad share, and 94 ads launched in a single day.
 
-Hold on to that last number, because it comes back later.
+Hold on to that last number. It comes back later.
 
 She also built an agent that writes a brand's reputation analysis from press, Reddit, reviews, and YouTube comments. By hand that takes her 3 to 4 hours per brand.
 
 Her reason for automating it is the interesting part: her manual version, she says, was ["often incomplete"](https://www.youtube.com/watch?v=Uh0TE6nZs5A&t=183s) and tilted toward whatever she already thought mattered most.
 
-**Where it hurts:** AI reports are confident and sometimes wrong.
+**Where it hurts:** AI reports are confident and sometimes wrong. On camera, Cowork told her a post had gone viral. It hadn't; there was ad spend behind it.
 
-On camera, Cowork told her a post had gone viral. It hadn't; there was ad spend behind it.
-
-Access is limited too, because Meta blocks AI tools from freely pulling Ads Library data, by Dara's account, so an AI-only competitor audit works from copy and thumbnails.
+Access is limited too. By Dara's account, Meta blocks AI tools from freely pulling Ads Library data, so an AI-only competitor audit works from copy and thumbnails.
 
 **The test:** check every AI report the way you'd check an intern's.
 
@@ -73,13 +71,11 @@ The next step stays manual: she compares the personas your current ads target wi
 
 Typical finds are personas nobody is talking to, a mix skewed to bottom-of-funnel offers, or too few angles per persona.
 
-**Where it hurts:** ask an AI for strategy and it tends to hand back a summary of what's already common.
+**Where it hurts:** ask an AI for strategy and it tends to hand back a summary of what's already common. Dara calls copying competitors "the worst creative strategy that you can do," even when you pick from the Ads Library by impressions.
 
-Dara calls copying competitors "the worst creative strategy that you can do," even when you pick from the Ads Library by impressions.
+She also rates trigger-based personas (people whose problem started after a life event) above demographic ones ("45+ women"). Tell the model which kind you want.
 
-She also rates trigger-based personas (people whose problem started after a life event) above demographic ones ("45+ women"). A model left alone will usually give you the demographic version.
-
-No model fixes the economics either, and in the same video she says you can't sell a $20 product on Meta, however good you are, because the costs are too high.
+No model fixes the economics, either. In the same video she says you can't sell a $20 product on Meta, however good you are, because the costs are too high.
 
 **The test:** for every planned ad, can someone on your team say why this persona, why this angle, and why this creative?
 
@@ -89,7 +85,7 @@ Copy is where AI earned its place first. In 2024 Dara rated the copy from Meta's
 
 Her current split comes from [a July 2026 video on hiring](https://www.youtube.com/watch?v=gqnp-IdEEI8&t=733s). She uses ChatGPT or Poppy for copy and briefs, and Claude for reporting, because Claude's copywriting, in her words, "kind of sucks."
 
-Treat that as a snapshot, since model rankings change by the quarter.
+Treat that as a snapshot. Model rankings change by the quarter.
 
 Her most production-ready use is hooks: she uploads a brand's top five hooks and has Claude inject trigger words into structures that already convert.
 
@@ -106,19 +102,15 @@ The weak one returns the average of every deodorant ad it has read.
 
 ### 4. Video production: mixed media, not fake people
 
-AI earns its keep in video when real footage sits underneath.
-
-Dara's agency uses AI voiceovers on client content "a lot."
+AI earns its keep in video when real footage sits underneath. Dara's agency uses AI voiceovers on client content "a lot."
 
 The one AI video service she has endorsed, AirPost, starts from real actors and real studio footage. AI then assembles it into about 30 new ads a week, for roughly $8K a month. A test on a friend's brand produced a $35 CPA, better than that brand had seen ([video](https://www.youtube.com/watch?v=gJrKogm75xg)).
 
 The other format that works is the opposite of realism: outrageous AI animated characters perform because they never pretend to be real.
 
-**Where it hurts:** AI avatars posing as customers.
+**Where it hurts:** AI avatars posing as customers. In 2024 Dara said she avoided deepfake and UGC-clone tools ["for candidly ethical reasons."](https://www.youtube.com/watch?v=hvVPepEu7W8)
 
-In 2024 Dara said she avoids deepfake and UGC-clone tools ["for candidly ethical reasons."](https://www.youtube.com/watch?v=hvVPepEu7W8)
-
-She hasn't repeated that since, and she hasn't retracted it.
+She hasn't repeated that since. She hasn't retracted it either.
 
 When she later praised an AI campaign, it was for being ["honest AI,"](https://x.com/DenneyDara/status/1995587521217179720) not AI pretending to be real life.
 
@@ -126,9 +118,7 @@ We draw the same line, and our reason is commercial as much as ethical.
 
 **An AI avatar reading a testimonial is a testimonial from nobody.**
 
-A UGC ad persuades because a real person like the viewer tried the product. Fake the person and you've removed the reason it works.
-
-Our guide to [what makes UGC ads work](/blog/what-are-ugc-ads) goes deeper on that.
+A UGC ad persuades because a real person like the viewer tried the product. Fake the person and you've removed the reason it works. Our guide to [what makes UGC ads work](/blog/what-are-ugc-ads) goes deeper on that.
 
 **The test:** would the ad still feel honest if the viewer knew exactly how it was made?
 
@@ -145,9 +135,7 @@ Dara's pipeline comes from a [June 2026 video sponsored by Super Scale](https://
 
 That editing loop, not the first draft, is why she rates the tool.
 
-**Where it hurts:** clutter and typos slip through, and so do over-used formats.
-
-In the demo she rejected the tool's review-collage direction outright.
+**Where it hurts:** clutter and typos slip through, and so do over-used formats. In the demo she rejected the tool's review-collage direction outright.
 
 The category record is poor, too. After a month testing instant AI ad makers in 2025, her verdict was that ["none of these ad makers do the thing yet that they say they're going to do."](https://x.com/DenneyDara/status/1951003249202663645) Super Scale is a pressure-tested exception, not a reversal.
 
@@ -169,9 +157,7 @@ Her rule for reading the numbers is strict: only [spend, purchases, CPA, and ROA
 
 So an AI summary that recommends pausing an ad for low CTR breaks the rule, however well it's written.
 
-Launching gets no help from a static generator.
-
-Every extra ad still needs a name, UTMs, placements, and a home in one or more ad sets.
+Launching gets no help from a static generator. Every extra ad still needs a name, UTMs, placements, and a home in one or more ad sets.
 
 That's the stage the rest of this post is about.
 
@@ -194,7 +180,7 @@ And check one setting today. Meta's AI-generated backgrounds for catalog ads wer
 
 **The launch gap is the distance between how many ads your team can make and how many it can launch, name, and read.**
 
-Before AI, production was the limit, and now it often isn't.
+Before AI, production was the limit. Now it often isn't.
 
 Start with the test sizes Dara uses today, [10 to 15 ads per video test ad set and 20 to 25 per static test](https://www.youtube.com/watch?v=MmXb2JmWDj8&t=121s), with 3 to 6 hooks per video. Those numbers assume you can produce that much, and AI is what makes it possible.
 
@@ -213,13 +199,11 @@ Winners rarely stay in one place. Say every ad also goes to a scaling campaign a
 - **One ad set:** 35 ads × 3 minutes = 105 minutes.
 - **Three ad sets:** 315 minutes, or 5 hours 15 minutes a week.
 
-Flex one variable.
+Flex one variable. If the static generator doubles your statics to 40, you have 55 new ads, and the three-ad-set version takes 8 hours 15 minutes.
 
-If the static generator doubles your statics to 40, you have 55 new ads, and the three-ad-set version takes 8 hours 15 minutes.
+That's a full working day of uploading, every single week, handed to the person on your team who should be reading last week's results and writing next week's briefs.
 
-That's a full working day of uploading, every week, for the person who should be reading the results.
-
-Remember Ridge Wallet's 94 ads in one day? That's this cadence at full volume.
+Remember Ridge Wallet's 94 ads in one day? That's what launching looks like once production is solved.
 
 The reading suffers next. If half your ads are named "IMG_4471 copy," no report can group them by hook or persona, and Dara's own reports compare exactly those things.
 
@@ -231,22 +215,21 @@ The strongest case for AI volume she cites is Monks' work for Headspace. It made
 
 So the job is diverse ads, launched quickly, named so you can read them.
 
-That's the gap we built Draper to close. You build the ad once and deploy it to every ad set, with names taken from the creative file, UTMs set once, and creative pulled straight from Google Drive. Teams using it report saving 16+ hours a week. [TK: one team's weekly launch time before and after Draper, with ad count]
+That's the gap we built Draper to close. You build the ad once and deploy it to every ad set, with names taken from the creative file, UTMs set once, and creative pulled straight from Google Drive. Our site puts the saving at 16+ hours a week across teams. [TK: one team's weekly launch time before and after Draper, with ad count]
 
 If you launch a dozen ads a week, Ads Manager's duplicate button is fine, but at 50 the launch gap is your bottleneck.
 
 ## AI tools for Facebook ads, by job
 
-Pick tools by the job, not the demo.
-
-These are the tools Dara names, with her disclosures, plus our own:
+Pick tools by the job, not the demo. These are the tools Dara names, with her disclosures, plus our own:
 
 | Job | Tools Dara names | Watch out for |
 |---|---|---|
 | Research and reporting | Claude Cowork, plus Perplexity Computer for custom agents | Confident errors and limited Ads Library access |
 | Copy and briefs | ChatGPT, Poppy | Generic hooks if the prompt isn't fenced |
 | Static generation | Super Scale (sponsored her video) | Clutter and typos, so review every output |
-| Video assembly | AirPost (enterprise, about $8K a month) | Price, and avatar tools posing as customers |
+| Video assembly | AirPost (enterprise, about $8K a month) | Price, which only pays off at high spend |
+| AI avatar video | None. She avoided these tools on ethical grounds in 2024 | Avatars posing as customers |
 | In-platform generation | Meta's gen-AI features in Ads Manager | Defaults switched on without notice |
 | Swipe files | Foreplay | Inspiration, never the strategy |
 | Creative analytics | Motion (she is its Chief Evangelist), Runith | Storytelling metrics triggering kills |
@@ -256,7 +239,7 @@ These are the tools Dara names, with her disclosures, plus our own:
 
 Dara discloses her Motion role, her Gamma partnership, and her sponsors on camera. We do the same: we built Draper, so weigh the last row accordingly.
 
-Her list is a mid-2026 snapshot, and the jobs will outlast the names.
+Her list is a mid-2026 snapshot. The jobs will outlast the names.
 
 ## Which AI setup fits your team?
 
@@ -264,7 +247,7 @@ The right amount of AI depends on who's doing the work:
 
 - **A founder running their own ads:** start with Meta's text features and one chat model for hook variants. Make statics first. Check the economics before any of it, because better creative won't rescue a $20 product.
 - **A two- or three-person in-house team:** add a research agent for weekly reports and a static generator. You'll hit the launch gap first, so fix naming and launching before buying a third tool.
-- **An agency:** the reputation-analysis agent saves 3 to 4 hours per new brand. Standard naming across every client account matters more than any generator.
+- **An agency:** a reputation-analysis agent like Dara's can save the 3 to 4 hours she spends on each new brand. Standard naming across every client account matters more than any generator.
 - **Enterprise budgets:** a service like AirPost, at about $8K a month for around 30 ads a week, only pays off if your spend can absorb that many new ads.
 
 ## Recap
@@ -299,6 +282,6 @@ Claims to verify:
 - The 3-minutes-per-build input is a labelled hypothetical.
 Attribution and disclosures: Motion (Chief Evangelist), Gamma (partnership), Super Scale and Particle (sponsors) all disclosed where named. The 2024 ethical objection to deepfake/UGC-clone tools is presented as "not repeated, not retracted", per the KB's instruction to treat it as unresolved. The 2025 "dump 50-100 AI images into an ASC" tactic is deliberately not used (in tension with her 2026 position). The retired Ads-Library-copying tactic appears only as something she rejects.
 Draper: no claim that Draper uses AI or improves performance; only profile features and proof points.
-Lint: see final run.
+Lint: 0 errors, 1 warning (the one deliberate open [TK]). One-sentence paragraphs 45%, sentence SD 7.7, colons 8.7/1k.
 Self-score: intro 8/10, average section 7.6/10. Peak section: the launch gap. Lacks first-hand Draper proof (one TK).
 -->

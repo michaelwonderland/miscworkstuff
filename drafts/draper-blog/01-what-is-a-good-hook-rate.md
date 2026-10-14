@@ -97,6 +97,6 @@ Angles rejected: (1) "Hook rate is a targeting signal" (counter-intuitive, but t
 Open TKs: 1. A real Draper batch of hook variants (count and time) in the final section.
 Claims to verify: (a) Hold rate as ThruPlays ÷ impressions: Dara's KB gives "15-second (or ThruPlay) ÷ impressions"; confirm the column name in current Ads Manager. (b) The 25% median is Varos's figure, spoken by the Varos guest on Dara's October 2024 video; Dara's own floor is 35% and 40% impressive (transcript ~12:18). (c) The ~30% account average and "nearly double" are from CCsty8R0UaA at ~17:21; the link uses t=1041s. (d) The 55% interview scenario is in her hiring material (career-and-hiring.md); no timestamp in the KB, so it is stated without a link. (e) 17+ clicks is the site's figure for building one ad from scratch; the 1,020 figure assumes a full rebuild per ad set, as stated in the text.
 Attribution: all Dara figures linked to the specific video. No retired tactics used (2-4 hook variants is retired; the post uses 3-6).
-Lint: 0 errors, 2 warnings. Kept: (1) parens 9.7/1k: every parenthesis in the prose is a Markdown link (7 links); the post has no parenthetical asides, so the lint is counting link syntax. (2) one open [TK], deliberate.
+Lint: 0 errors, 1 warning (the one deliberate open [TK]). One-sentence paragraphs 43%, sentence SD 7.8.
 Self-score: intro 8/10, average section 7.5/10. Lacks first-hand Draper proof (one TK).
 -->
