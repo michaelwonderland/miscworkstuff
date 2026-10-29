@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Beware of this innocent checkbox</title>
+<link rel="stylesheet" href="geist.css">
+<style>
+  /* Values follow elayadesign/ai-design-skills landing-page-design: Geist only, no italics,
+     Tailwind type scale, B2 spacing tokens, Tailwind radii, flat dark background,
+     hero heading gradient #FFFFFF to #9B9B9B, heading capped at 680px. */
+  :root {
+    --bg: #000000; --fuchsia: #E54D7B; --muted: #9B9B9B;
+    --s-75: 8px; --s-100: 12px; --s-200: 16px; --s-300: 24px; --s-400: 32px;
+    --s-500: 40px; --s-600: 48px; --s-700: 64px; --s-800: 80px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); -webkit-font-smoothing: antialiased; }
+  .canvas { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: var(--bg);
+            font-family: 'Geist', sans-serif; color: #fff; padding: var(--s-800); }
+
+  .lockup { display: flex; align-items: center; gap: var(--s-100); }
+  .lockup img { height: 40px; }
+  .lockup span { font-size: 30px; line-height: 36px; font-weight: 500; letter-spacing: -0.02em; }
+
+  h1 { position: absolute; left: var(--s-800); top: 440px; max-width: 680px;
+       font-size: 60px; line-height: 1; font-weight: 500; letter-spacing: -0.03em;
+       background: linear-gradient(90deg, #FFFFFF, #9B9B9B); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+  h1 span { display: block; white-space: nowrap; }
+  .card { position: absolute; left: var(--s-800); right: var(--s-800); top: 684px;
+          background: #fff; border-radius: 24px; padding: var(--s-500) var(--s-300); }
+  .img { position: relative; }
+  .img img { display: block; width: 100%; height: auto; }
+  .ring { position: absolute; left: 21.4%; top: 62%; width: 46.8%; height: 37%;
+          border: 3px solid var(--fuchsia); border-radius: 12px; box-shadow: 0 0 0 6px rgba(229,77,123,.18); }
+
+  .foot { position: absolute; left: var(--s-800); bottom: var(--s-800); display: flex; align-items: center; gap: var(--s-100);
+          font-size: 24px; line-height: 32px; color: var(--muted); }
+  .foot i { width: 12px; height: 12px; border-radius: 9999px; background: var(--fuchsia); }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div>
+
+  <h1><span>Beware of this</span><span>innocent checkbox</span><span>in your PMax campaigns</span></h1>
+
+  <div class="card">
+    <div class="img">
+      <img src="checkbox-crop.png" alt="Google Ads brand exclusions setting with 'Allow Shopping ads on searches that mention excluded brands' ticked">
+      <div class="ring"></div>
+    </div>
+  </div>
+
+  <div class="foot"><i></i>wonderland.marketing</div>
+</div>
+</body>
+</html>
