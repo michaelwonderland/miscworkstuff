@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Beware of this innocent checkbox</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root {
+    --black: #0a0a0a; --fuchsia: #E54D7B; --fuchsia-light: #F06A92;
+    --light: #f5f5f5; --muted: #8a8a8a; --line-light: rgba(255,255,255,0.12);
+    --display: 'Instrument Serif', Georgia, serif; --body: 'Instrument Sans', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--black); -webkit-font-smoothing: antialiased; }
+  .canvas { width: 1080px; height: 1350px; position: relative; overflow: hidden; background: var(--black); color: var(--light); font-family: var(--body); padding: 0 72px; }
+  .glow { position: absolute; top: -380px; right: -320px; width: 1100px; height: 1100px; border-radius: 50%;
+          background: radial-gradient(circle, rgba(229,77,123,0.28) 0%, rgba(229,77,123,0) 66%); }
+  .glow2 { position: absolute; bottom: -420px; left: -360px; width: 900px; height: 900px; border-radius: 50%;
+           background: radial-gradient(circle, rgba(229,77,123,0.12) 0%, rgba(229,77,123,0) 66%); }
+
+  .top { position: absolute; top: 56px; left: 72px; right: 72px; display: flex; justify-content: space-between; align-items: center; z-index: 2; }
+  .lockup { display: flex; align-items: center; gap: 12px; }
+  .lockup img { height: 34px; }
+  .lockup span { font-family: var(--display); font-size: 28px; letter-spacing: -0.02em; line-height: 1; }
+  .crumb { font-size: 14px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+  .crumb b { color: var(--fuchsia); font-weight: 600; }
+
+  .head { position: absolute; top: 188px; left: 72px; right: 72px; z-index: 2; }
+  .label { display: inline-flex; align-items: center; gap: 12px; color: var(--fuchsia); font-size: 15px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
+  .label::before { content: ''; width: 22px; height: 2px; background: currentColor; }
+  h1 { font-family: var(--display); font-weight: 400; font-size: 104px; line-height: .98; letter-spacing: -0.03em; margin-top: 26px; }
+  h1 em { font-style: italic; color: var(--fuchsia); }
+
+  .shot { position: absolute; top: 640px; left: 52px; right: 52px; z-index: 2; }
+  .card { position: relative; background: #fff; border-radius: 20px; padding: 26px 22px 22px; box-shadow: 0 30px 80px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.06); }
+  .chrome { display: flex; gap: 7px; margin: 0 0 16px 6px; }
+  .chrome i { width: 11px; height: 11px; border-radius: 50%; background: #e3e1de; }
+  .img { position: relative; }
+  .img img { display: block; width: 100%; height: auto; }
+  .ring { position: absolute; left: 21.4%; top: 62%; width: 46.8%; height: 37%; border: 3px solid var(--fuchsia); border-radius: 12px;
+          box-shadow: 0 0 0 7px rgba(229,77,123,.16), 0 0 34px rgba(229,77,123,.45); }
+  .callout { position: relative; margin: 26px 0 0 calc(22px + 21.4% * 0.957); display: inline-flex; align-items: center; gap: 14px; }
+  .callout::before { content: ''; position: absolute; left: 40px; top: -26px; width: 2px; height: 26px; background: var(--fuchsia); }
+  .tag { background: var(--fuchsia); color: #fff; font-size: 16px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+         padding: 13px 22px; border-radius: 999px; white-space: nowrap; box-shadow: 0 10px 30px rgba(229,77,123,.35); }
+  .callout span.note { font-size: 17px; color: #b8b8b8; }
+  .split { position: absolute; top: 1030px; left: 72px; right: 72px; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line-light); z-index: 2; }
+  .split > div { padding: 30px 34px 0 0; }
+  .split > div + div { padding-left: 34px; border-left: 1px solid var(--line-light); }
+  .split h4 { font-size: 13px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+  .split .yes h4 { color: var(--fuchsia); }
+  .split p { font-family: var(--display); font-size: 34px; line-height: 1.12; letter-spacing: -0.015em; color: #d8d8d8; }
+  .split .yes p { color: #fff; }
+  .split p em { font-style: italic; color: var(--fuchsia-light); }
+
+  .foot { position: absolute; bottom: 52px; left: 72px; right: 72px; display: flex; justify-content: space-between; align-items: center; font-size: 15px; color: var(--muted); z-index: 2; }
+  .foot .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--fuchsia); margin-right: 10px; vertical-align: 1px; }
+  .foot b { color: var(--light); font-weight: 600; letter-spacing: .14em; text-transform: uppercase; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="glow"></div><div class="glow2"></div>
+
+  <div class="top">
+    <div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div>
+    <span class="crumb">Performance Max · <b>Settings check</b></span>
+  </div>
+
+  <div class="head">
+    <span class="label">Go check this now</span>
+    <h1>Beware of this <em>innocent checkbox</em> in your PMax campaigns</h1>
+  </div>
+
+  <div class="shot">
+    <div class="card">
+      <div class="chrome"><i></i><i></i><i></i></div>
+      <div class="img">
+        <img src="checkbox-crop.png" alt="Google Ads brand exclusions setting with 'Allow Shopping ads on searches that mention excluded brands' ticked">
+        <div class="ring"></div>
+      </div>
+    </div>
+    <div class="callout"><span class="tag">Ticked</span><span class="note">= brand isn't really excluded</span></div>
+  </div>
+
+  <div class="split">
+    <div>
+      <h4>What it looks like</h4>
+      <p>Brand excluded. Non-brand PMax. Incremental growth.</p>
+    </div>
+    <div class="yes">
+      <h4>What it actually does</h4>
+      <p>Shopping ads still serve on brand searches. <em>Brand Shopping in disguise.</em></p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span><span class="dot"></span>wonderland.marketing</span>
+    <b>Incrementality-first</b>
+  </div>
+</div>
+</body>
+</html>
