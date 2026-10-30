@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Wonderland × Workshop Coffee</title>
+<!--FONTS-->
+<style>
+  @page { size: 794px 1123px; margin: 0; }
+  :root {
+    --black: #0a0a0a; --fuchsia: #E54D7B; --fuchsia-light: #F06A92; --fuchsia-dark: #C73D67;
+    --tint: #FBE3EB; --bg-light: #f8f7f5; --bg-cream: #f1efec;
+    --ink: #1a1a1a; --ink-2: #5a5a5a; --muted: #8a8a8a; --light: #f5f5f5;
+    --line-dark: rgba(0,0,0,0.08); --line-light: rgba(255,255,255,0.12);
+    --display: 'Instrument Serif', Georgia, serif; --body: 'Instrument Sans', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--body); -webkit-font-smoothing: antialiased; -webkit-print-color-adjust: exact; print-color-adjust: exact; background: #ccc; }
+  .page { width: 794px; height: 1123px; position: relative; overflow: hidden; page-break-after: always; padding: 108px 64px 0; }
+  .page:last-child { page-break-after: auto; }
+  .light { background: var(--bg-light); color: var(--ink); }
+  .cream { background: var(--bg-cream); color: var(--ink); }
+  .dark { background: var(--black); color: var(--light); }
+  .fuchsia { background: var(--fuchsia); color: #000; }
+  .glow { position: absolute; top: -300px; right: -260px; width: 900px; height: 900px; border-radius: 50%;
+          background: radial-gradient(circle, rgba(229,77,123,0.26) 0%, rgba(229,77,123,0) 68%); pointer-events: none; }
+  .glow.low { top: auto; bottom: -420px; right: auto; left: -320px; opacity: .8; }
+
+  /* furniture */
+  .top { position: absolute; top: 40px; left: 64px; right: 64px; display: flex; justify-content: space-between; align-items: center; z-index: 2; }
+  .lockup { display: flex; align-items: center; gap: 10px; }
+  .lockup img { height: 26px; }
+  .lockup span { font-family: var(--display); font-size: 20px; letter-spacing: -0.02em; line-height: 1; }
+  .crumb { font-size: 10px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--muted); }
+  .crumb b { color: var(--fuchsia); font-weight: 600; }
+  .foot { position: absolute; bottom: 36px; left: 64px; right: 64px; display: flex; justify-content: space-between; align-items: center; font-size: 10px; color: var(--muted); letter-spacing: .02em; z-index: 2; }
+  .foot .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--fuchsia); margin-right: 8px; vertical-align: 1px; }
+  .foot .mid-f { letter-spacing: .12em; text-transform: uppercase; font-weight: 600; font-size: 9px; }
+
+  /* type */
+  .label { display: inline-flex; align-items: center; gap: 8px; color: var(--fuchsia); font-size: 10.5px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; }
+  .label::before { content: ''; width: 16px; height: 2px; background: currentColor; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 400; letter-spacing: -0.025em; }
+  h1 em, h2 em, h3 em { font-style: italic; color: var(--fuchsia); }
+  h2 { font-size: 46px; line-height: 1.04; margin: 18px 0 20px; }
+  p { font-size: 13.5px; line-height: 1.62; color: var(--ink-2); }
+  .dark p { color: #9a9a9a; }
+  p + p { margin-top: 12px; }
+  .lede { font-size: 17px; line-height: 1.5; color: var(--ink); font-weight: 500; }
+  .dark .lede { color: #c8c8c8; font-weight: 400; }
+  strong { color: var(--ink); font-weight: 600; }
+  .dark strong { color: var(--light); }
+
+  /* cover */
+  .cover { padding-top: 64px; }
+  .cover .mid { position: absolute; left: 64px; right: 64px; top: 300px; z-index: 2; }
+  .rule { height: 3px; width: 80px; background: var(--fuchsia); border-radius: 2px; margin-bottom: 30px; }
+  .cover .pre { font-size: 12px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: #9a9a9a; margin-bottom: 22px; }
+  .cover .pre b { color: var(--fuchsia); font-weight: 600; }
+  .cover h1 { font-size: 84px; line-height: 1.0; }
+  .cover .sub { font-size: 19px; font-weight: 500; color: #9a9a9a; line-height: 1.5; margin-top: 30px; max-width: 540px; }
+  .cover .chips { display: flex; gap: 10px; margin-top: 44px; flex-wrap: wrap; }
+  .chip { border: 1px solid var(--line-light); color: #c8c8c8; font-size: 11px; font-weight: 500; padding: 8px 14px; border-radius: 999px; }
+  .chip b { color: var(--fuchsia); font-weight: 600; }
+  .cover .meta { position: absolute; left: 64px; right: 64px; bottom: 64px; display: flex; justify-content: space-between; align-items: flex-end; z-index: 2; }
+  .cover .url { font-size: 15px; font-weight: 500; color: var(--light); display: flex; align-items: center; gap: 12px; }
+  .cover .url i { width: 8px; height: 8px; border-radius: 50%; background: var(--fuchsia); display: block; }
+  .tag { border: 1px solid var(--fuchsia); color: var(--fuchsia); font-size: 9.5px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; padding: 8px 14px; }
+
+  /* grid cards */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line-dark); border-left: 1px solid var(--line-dark); }
+  .grid2 > div { background: #fff; border-right: 1px solid var(--line-dark); border-bottom: 1px solid var(--line-dark); padding: 22px 24px 20px; }
+  .card .top-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .num { font-family: var(--display); font-size: 36px; line-height: 1; color: var(--fuchsia-light); }
+  .when { font-size: 9.5px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .card h3 { font-size: 23px; line-height: 1.15; margin: 12px 0 7px; color: var(--ink); }
+  .card p { font-size: 12.5px; line-height: 1.55; }
+  .card .icon { width: 30px; height: 30px; border-radius: 50%; background: var(--tint); display: flex; align-items: center; justify-content: center; }
+  .card .icon svg { width: 15px; height: 15px; stroke: var(--fuchsia-dark); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 26px; background: var(--black); }
+  .stats div { padding: 20px 20px 18px; border-right: 1px solid var(--line-light); }
+  .stats div:last-child { border-right: 0; }
+  .stats small { display: block; font-size: 9px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--fuchsia); }
+  .stats b { display: block; font-family: var(--display); font-weight: 400; font-size: 28px; line-height: 1.05; color: #fff; margin-top: 8px; letter-spacing: -0.02em; }
+  .stats span { display: block; font-size: 10.5px; color: #8a8a8a; margin-top: 4px; }
+
+  /* flow diagram */
+  .flow { margin-top: 22px; background: #fff; border: 1px solid var(--line-dark); padding: 18px 20px 16px; }
+  .flow .cols { display: grid; grid-template-columns: 1fr 16px 1.25fr 16px 1.15fr 16px .85fr; align-items: stretch; }
+  .flow .colhead { font-size: 9px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--muted); margin-bottom: 9px; }
+  .flow .col { display: flex; flex-direction: column; }
+  .flow .stack { display: flex; flex-direction: column; gap: 7px; flex: 1; justify-content: center; }
+  .node { border: 1px solid var(--line-dark); background: var(--bg-light); padding: 9px 11px; }
+  .node b { display: block; font-size: 12px; font-weight: 600; color: var(--ink); }
+  .node span { display: block; font-size: 10px; color: var(--muted); margin-top: 2px; line-height: 1.35; }
+  .node.hot { background: var(--tint); border-color: rgba(229,77,123,.35); }
+  .node.out { background: var(--black); border-color: var(--black); }
+  .node.out b { color: #fff; } .node.out span { color: #9a9a9a; }
+  .arrow { display: flex; align-items: center; justify-content: center; padding-top: 20px; }
+  .arrow svg { width: 14px; height: 14px; stroke: var(--fuchsia); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .flow figcaption, figcaption { font-size: 10px; color: var(--muted); margin-top: 12px; letter-spacing: .02em; }
+  figcaption b { color: var(--fuchsia); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; font-size: 9px; margin-right: 6px; }
+
+  /* principles */
+  .principles { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; margin-top: 4px; }
+  .principles div { padding: 14px 0 12px; border-top: 1px solid var(--line-dark); }
+  .principles h4 { font-size: 13px; font-weight: 600; color: var(--ink); display: flex; gap: 10px; align-items: baseline; }
+  .principles h4 i { font-style: normal; font-family: var(--display); font-size: 18px; color: var(--fuchsia); }
+  .principles p { font-size: 12px; line-height: 1.5; margin-top: 4px; padding-left: 22px; }
+
+  /* table */
+  table.plan { width: 100%; border-collapse: collapse; margin-top: 18px; background: #fff; border: 1px solid var(--line-dark); font-size: 12px; }
+  table.plan th { text-align: left; font-size: 9px; font-weight: 600; letter-spacing: .13em; text-transform: uppercase; color: var(--muted); padding: 10px 14px; border-bottom: 1px solid var(--line-dark); }
+  table.plan td { padding: 10px 14px; border-bottom: 1px solid var(--line-dark); color: var(--ink-2); vertical-align: top; line-height: 1.4; }
+  table.plan td.ch { font-size: 9.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--fuchsia); white-space: nowrap; }
+  table.plan td.nm b { display: block; color: var(--ink); font-weight: 600; }
+  table.plan td.nm span { font-size: 10.5px; color: var(--muted); }
+  table.plan td.amt { font-family: var(--display); font-size: 18px; color: var(--ink); white-space: nowrap; text-align: right; letter-spacing: -0.01em; }
+  table.plan th:last-child { text-align: right; }
+  table.plan tr.sub td { background: var(--bg-light); }
+  table.plan tr.tot td { background: var(--black); color: #fff; border-bottom: 0; }
+  table.plan tr.tot td.amt { color: #fff; }
+  .bar { height: 5px; background: var(--bg-cream); margin-top: 6px; width: 90px; margin-left: auto; }
+  .bar i { display: block; height: 100%; background: var(--fuchsia); }
+
+  /* rhythm (dark) */
+  .loop { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 28px; border-top: 1px solid var(--line-light); }
+  .loop div { padding: 18px 16px 0 0; position: relative; }
+  .loop div + div { padding-left: 16px; border-left: 1px solid var(--line-light); }
+  .loop small { display: block; font-size: 9.5px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--fuchsia); }
+  .loop h3 { font-size: 30px; margin: 8px 0 6px; color: #fff; }
+  .loop p { font-size: 12px; line-height: 1.5; }
+  .tests { margin-top: 12px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .tests span { border: 1px solid var(--line-light); padding: 11px 13px; font-size: 12px; color: #d8d8d8; display: flex; gap: 9px; align-items: center; }
+  .tests span::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--fuchsia); flex: none; }
+  .sublabel { font-size: 10px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: #8a8a8a; margin-top: 36px; }
+  .timeline { margin-top: 14px; }
+  .tl-scale { display: grid; grid-template-columns: repeat(12, 1fr); font-size: 9px; color: #6a6a6a; letter-spacing: .08em; }
+  .tl-scale span { padding-left: 4px; border-left: 1px solid var(--line-light); padding-bottom: 6px; }
+  .tl-row { display: grid; grid-template-columns: repeat(12, 1fr); margin-top: 6px; gap: 0; }
+  .tl-row div { padding: 10px 12px; font-size: 11.5px; font-weight: 600; color: #000; }
+  .tl-row div small { display: block; font-weight: 500; font-size: 10px; opacity: .7; margin-top: 2px; }
+  .seg-a { grid-column: 1 / 3; background: #F7B3C7; }
+  .seg-b { grid-column: 3 / 5; background: var(--fuchsia-light); }
+  .seg-c { grid-column: 5 / 12; background: var(--fuchsia); }
+  .seg-d { grid-column: 12 / 13; background: #fff; text-align: center; padding-left: 4px !important; padding-right: 4px !important; }
+  .rot { margin-top: 30px; border-left: 3px solid var(--fuchsia); padding: 4px 0 4px 20px; }
+  .rot span { font-family: var(--display); font-size: 22px; line-height: 1.3; letter-spacing: -0.01em; color: #fff; }
+
+  /* credentials */
+  .match { display: grid; grid-template-columns: 230px 1fr; background: var(--black); color: #fff; margin-top: 22px; }
+  .match .big { padding: 24px 22px; border-right: 1px solid var(--line-light); }
+  .match .big b { display: block; font-family: var(--display); font-weight: 400; font-size: 46px; line-height: .9; color: var(--fuchsia); letter-spacing: -0.03em; white-space: nowrap; }
+  .match .big span { display: block; font-size: 10.5px; color: #9a9a9a; margin-top: 8px; line-height: 1.4; }
+  .match .txt { padding: 22px 24px; }
+  .match .txt small { font-size: 9.5px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--fuchsia); }
+  .match .txt h3 { font-size: 24px; margin: 8px 0 6px; color: #fff; }
+  .match .txt p { font-size: 12.5px; color: #9a9a9a; }
+  .clients { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; margin-top: 22px; }
+  .clients h4 { font-size: 9.5px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--muted); padding-bottom: 8px; border-bottom: 1px solid var(--line-dark); }
+  .clients ul { list-style: none; }
+  .clients li { padding: 9px 0; border-bottom: 1px solid var(--line-dark); font-size: 12px; line-height: 1.4; color: var(--ink-2); }
+  .clients li b { color: var(--ink); font-weight: 600; }
+  .testi { margin-top: 24px; background: var(--fuchsia); padding: 24px 28px; }
+  .testi blockquote { font-family: var(--display); font-style: italic; font-size: 21px; line-height: 1.32; color: #000; letter-spacing: -0.01em; }
+  .testi cite { display: block; margin-top: 12px; font-style: normal; font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: #000; }
+  .team { display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 22px; border-top: 1px solid var(--line-dark); border-left: 1px solid var(--line-dark); }
+  .team > div { background: #fff; border-right: 1px solid var(--line-dark); border-bottom: 1px solid var(--line-dark); padding: 16px 18px; }
+  .team small { font-size: 9px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--fuchsia); }
+  .team b { display: block; font-size: 13px; color: var(--ink); margin-top: 6px; }
+  .team p { font-size: 11.5px; line-height: 1.45; margin-top: 4px; }
+
+  /* commercials */
+  .price { display: grid; grid-template-columns: 1fr 1fr; margin-top: 22px; background: var(--black); color: #fff; position: relative; overflow: hidden; }
+  .price .l { padding: 24px 26px 22px; border-right: 1px solid var(--line-light); }
+  .price .r { padding: 24px 26px 22px; }
+  .price small { font-size: 9.5px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--fuchsia); }
+  .price .amt { font-family: var(--display); font-size: 66px; line-height: .95; letter-spacing: -0.035em; margin-top: 12px; }
+  .price .amt sub { font-family: var(--body); font-size: 13px; vertical-align: baseline; color: #9a9a9a; letter-spacing: 0; margin-left: 6px; bottom: 0; }
+  .price p { font-size: 12.5px; margin-top: 10px; color: #9a9a9a; }
+  .price ul { list-style: none; margin-top: 12px; }
+  .price li { font-size: 12px; color: #c8c8c8; padding: 5px 0 5px 16px; position: relative; border-bottom: 1px solid var(--line-light); }
+  .price li:last-child { border-bottom: 0; }
+  .price li::before { content: ''; position: absolute; left: 0; top: 12px; width: 7px; height: 2px; background: var(--fuchsia); }
+  .fork-head { display: flex; align-items: center; gap: 14px; margin-top: 20px; }
+  .fork-head span { font-size: 10px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--ink); white-space: nowrap; }
+  .fork-head i { flex: 1; height: 1px; background: var(--line-dark); }
+  .fork { display: grid; grid-template-columns: 1fr 1fr; margin-top: 14px; border-top: 1px solid var(--line-dark); border-left: 1px solid var(--line-dark); }
+  .fork > div { background: #fff; border-right: 1px solid var(--line-dark); border-bottom: 1px solid var(--line-dark); padding: 16px 20px; }
+  .fork small { font-size: 9.5px; font-weight: 600; letter-spacing: .15em; text-transform: uppercase; color: var(--fuchsia); }
+  .fork h3 { font-size: 22px; margin: 6px 0 5px; }
+  .fork .fee { font-family: var(--display); font-size: 28px; color: var(--ink); margin-top: 10px; letter-spacing: -0.02em; line-height: 1; }
+  .fork .fee span { font-family: var(--body); font-size: 11px; color: var(--muted); letter-spacing: 0; margin-left: 4px; }
+  .fork p { font-size: 12px; line-height: 1.5; }
+  .terms { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; margin-top: 16px; }
+  .terms li { list-style: none; font-size: 11.5px; line-height: 1.5; color: var(--ink-2); padding: 7px 0 7px 16px; position: relative; border-top: 1px solid var(--line-dark); }
+  .terms li::before { content: ''; position: absolute; left: 0; top: 14px; width: 7px; height: 2px; background: var(--fuchsia); }
+  .next { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 14px; background: var(--tint); }
+  .next div { padding: 13px 18px; }
+  .next div + div { border-left: 1px solid rgba(229,77,123,.25); }
+  .next .n { font-family: var(--display); font-size: 26px; color: var(--fuchsia-dark); line-height: 1; }
+  .next b { display: block; font-size: 12.5px; color: var(--ink); margin-top: 6px; }
+  .next p { font-size: 11px; line-height: 1.45; margin-top: 3px; }
+</style>
+</head>
+<body>
+
+<!-- ====================== COVER ====================== -->
+<section class="page dark cover">
+  <div class="glow"></div>
+  <div class="top"><div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div><span class="crumb">Proposal · <b>November 2026</b></span></div>
+  <div class="mid">
+    <div class="rule"></div>
+    <p class="pre">Wonderland <b>×</b> Workshop Coffee</p>
+    <h1>Performance marketing, <em>built properly.</em></h1>
+    <p class="sub">A proposal to set up and run Meta and Google for Workshop Coffee: foundations first, creative that looks like Workshop, and a weekly testing rhythm that finds what scales.</p>
+    <div class="chips">
+      <span class="chip"><b>Meta</b> & <b>Google</b></span>
+      <span class="chip">Shopify + Klaviyo data layer</span>
+      <span class="chip">£15k initial test budget</span>
+      <span class="chip">Weekly iteration</span>
+    </div>
+  </div>
+  <div class="meta">
+    <div class="url"><i></i>wonderland.marketing</div>
+    <div class="tag">Prepared for Workshop Coffee</div>
+  </div>
+</section>
+
+<!-- ====================== 01 ENGAGEMENT ====================== -->
+<section class="page light">
+  <div class="top"><div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div><span class="crumb">The engagement</span></div>
+  <span class="label">01 · The engagement</span>
+  <h2>Workshop has the brand.<br>Paid media <em>hasn't started yet.</em></h2>
+  <p class="lede">Today every Workshop customer arrives through the cafés, word of mouth, organic search, wholesale and email. That's a strong base, and it means paid media starts from a clean slate with no bad habits to unwind.</p>
+  <p style="margin-top:14px">We'd build Workshop's performance marketing from the ground up: the data and measurement layer first, then a focused launch on Meta and Google, then a weekly testing rhythm that finds what's worth scaling. Every ad should look and read like Workshop. Paid media that cheapens a brand to hit a short-term number is a bad trade, and we won't make it.</p>
+
+  <div class="grid2" style="margin-top:26px">
+    <div class="card"><div class="top-row"><span class="num">01</span><span class="when">Weeks 1–2</span></div><h3>Foundations</h3><p>Server-side tracking, a clean product feed, audience segments and automated data syncs from Shopify and Klaviyo.</p></div>
+    <div class="card"><div class="top-row"><span class="num">02</span><span class="when">Weeks 3–4</span></div><h3>Launch</h3><p>The first campaigns live on Meta and Google, built to best practice and funded from a £15k initial test budget.</p></div>
+    <div class="card"><div class="top-row"><span class="num">03</span><span class="when">Every week</span></div><h3>Iterate</h3><p>A weekly read on backend numbers, decisions agreed with you, and new tests in market the same week.</p></div>
+    <div class="card"><div class="top-row"><span class="num">04</span><span class="when">End of month 3</span></div><h3>Review</h3><p>We decide together whether the account needs a higher rhythm to scale, or settles into an always-on channel.</p></div>
+  </div>
+
+  <div class="stats">
+    <div><small>Initial term</small><b>3 months</b><span>Then reviewed together</span></div>
+    <div><small>Test budget</small><b>£15,000</b><span>Initial, built to scale up</span></div>
+    <div><small>Rhythm</small><b>Weekly</b><span>Our fastest iteration cycle</span></div>
+    <div><small>Retainer</small><b>£3,500</b><span>Per month, months 1–3</span></div>
+  </div>
+  <div class="foot"><span><span class="dot"></span>Wonderland × Workshop Coffee</span><span class="mid-f">Proposal</span><span>02</span></div>
+</section>
+
+<!-- ====================== 02 FOUNDATIONS ====================== -->
+<section class="page light">
+  <div class="top"><div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div><span class="crumb">Phase 01 · Foundations</span></div>
+  <span class="label">02 · Foundations</span>
+  <h2>The plumbing, <em>done once<br>and done right.</em></h2>
+  <p>Most of what makes paid media work is decided before the first ad goes live. In the first two weeks we connect Shopify and Klaviyo to Meta and Google, so the platforms see accurate sales, know who your customers already are, and have a clean catalogue to advertise from.</p>
+
+  <figure class="flow">
+    <div class="cols">
+      <div class="col"><div class="colhead">Your data</div><div class="stack">
+        <div class="node"><b>Shopify</b><span>Orders, products, customers</span></div>
+        <div class="node"><b>Klaviyo</b><span>Profiles, engagement, subscriptions</span></div>
+      </div></div>
+      <div class="arrow"><svg viewBox="0 0 14 14"><path d="M2 7h10M8 3l4 4-4 4"/></svg></div>
+      <div class="col"><div class="colhead">Signal layer</div><div class="stack">
+        <div class="node hot"><b>Server-side conversions</b><span>Meta CAPI · Google Enhanced Conversions</span></div>
+        <div class="node hot"><b>Product feed</b><span>Merchant Center · Meta catalogue</span></div>
+      </div></div>
+      <div class="arrow"><svg viewBox="0 0 14 14"><path d="M2 7h10M8 3l4 4-4 4"/></svg></div>
+      <div class="col"><div class="colhead">Audience layer</div><div class="stack">
+        <div class="node hot"><b>Customer segments</b><span>Synced automatically, refreshed daily</span></div>
+        <div class="node hot"><b>Exclusions & seeds</b><span>Who to skip, who to find more of</span></div>
+      </div></div>
+      <div class="arrow"><svg viewBox="0 0 14 14"><path d="M2 7h10M8 3l4 4-4 4"/></svg></div>
+      <div class="col"><div class="colhead">Channels</div><div class="stack">
+        <div class="node out"><b>Meta</b><span>Facebook · Instagram</span></div>
+        <div class="node out"><b>Google</b><span>Search · Shopping · PMax</span></div>
+      </div></div>
+    </div>
+    <figcaption><b>Fig. 1</b>One data layer feeding both channels. Set up once in weeks 1–2, then it runs itself.</figcaption>
+  </figure>
+
+  <div class="grid2" style="margin-top:20px">
+    <div class="card">
+      <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div>
+      <h3>Measurement</h3>
+      <p>Meta Pixel with Conversions API and Google Ads with Enhanced Conversions, both server-side via Shopify and deduplicated. Consent Mode v2, GA4 aligned, one UTM taxonomy. The platforms optimise on real purchases; we report on Shopify's numbers.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg></div>
+      <h3>Product feed</h3>
+      <p>One feed from Shopify into Merchant Center and the Meta catalogue. Titles rewritten the way people shop for coffee: origin, process, roast and tasting notes. Labels for bestsellers, new releases, subscriptions and margin, so spend goes where it should.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M16 4.8a3.5 3.5 0 0 1 0 6.4M18.5 14.8c1.6.8 2.6 2.5 3 5.2"/></svg></div>
+      <h3>Audience segments</h3>
+      <p>Built from Shopify order history and Klaviyo engagement: subscribers, repeat buyers, one-time buyers, lapsing customers, and engaged email readers who haven't bought yet. Each segment has a job: exclude, retain, win back, or seed lookalikes.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><svg viewBox="0 0 24 24"><path d="M20 7a8 8 0 0 0-14.3-2.5M4 4v4h4M4 17a8 8 0 0 0 14.3 2.5M20 20v-4h-4"/></svg></div>
+      <h3>Data syncs</h3>
+      <p>Klaviyo and Shopify segments sync automatically to Meta Custom Audiences and Google Customer Match, so audiences stay current without anyone re-uploading lists. New-customer goals on both platforms weight spend towards people who've never bought from you.</p>
+    </div>
+  </div>
+  <div class="foot"><span><span class="dot"></span>Wonderland × Workshop Coffee</span><span class="mid-f">Proposal</span><span>03</span></div>
+</section>
+
+<!-- ====================== 03 LAUNCH ====================== -->
+<section class="page light">
+  <div class="top"><div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div><span class="crumb">Phase 02 · Launch</span></div>
+  <span class="label">03 · Launch</span>
+  <h2>Meta and Google,<br><em>in Workshop's voice.</em></h2>
+  <p>The first campaigns follow current best practice on both platforms: simple structures, broad targeting led by creative, and feed-led shopping. The guardrails below keep the work adding to the brand rather than spending it down.</p>
+
+  <div class="principles" style="margin-top:18px">
+    <div><h4><i>i.</i>Product and craft first</h4><p>Creative built from the coffee, the roasting, the cafés and the people behind them, not from discount codes.</p></div>
+    <div><h4><i>ii.</i>Offers used deliberately</h4><p>First-order and subscription incentives are tested as levers, not left running as the default.</p></div>
+    <div><h4><i>iii.</i>Frequency kept in check</h4><p>Caps on retargeting, so no one sees the same ad a dozen times in a week.</p></div>
+    <div><h4><i>iv.</i>The name protected</h4><p>Brand search covered, so competitors and resellers don't sit above Workshop when people search for you.</p></div>
+  </div>
+
+  <table class="plan">
+    <thead><tr><th style="width:84px">Channel</th><th>Campaign</th><th>Job</th><th>Initial split</th></tr></thead>
+    <tbody>
+      <tr><td class="ch">Meta</td><td class="nm"><b>Prospecting</b><span>Advantage+ Sales, broad, creative-led</span></td><td>Find new customers who've never heard of Workshop</td><td class="amt">£6,750<div class="bar"><i style="width:45%"></i></div></td></tr>
+      <tr><td class="ch">Meta</td><td class="nm"><b>Catalogue & retargeting</b><span>Feed-led, in brand frames</span></td><td>Bring back browsers and abandoned baskets</td><td class="amt">£2,250<div class="bar"><i style="width:15%"></i></div></td></tr>
+      <tr><td class="ch">Google</td><td class="nm"><b>Performance Max / Shopping</b><span>Feed-led, new-customer goal</span></td><td>Show up when people are already shopping for coffee</td><td class="amt">£3,750<div class="bar"><i style="width:25%"></i></div></td></tr>
+      <tr><td class="ch">Google</td><td class="nm"><b>Non-brand search</b><span>Speciality beans, subscriptions, gifting</span></td><td>Capture high-intent category searches</td><td class="amt">£1,500<div class="bar"><i style="width:10%"></i></div></td></tr>
+      <tr><td class="ch">Google</td><td class="nm"><b>Brand search</b><span>Exact and phrase, tightly capped</span></td><td>Protect the name and catch direct demand</td><td class="amt">£750<div class="bar"><i style="width:5%"></i></div></td></tr>
+      <tr class="tot"><td class="ch" style="color:var(--fuchsia)">Total</td><td class="nm"><b style="color:#fff">Meta 60% · Google 40%</b></td><td style="color:#9a9a9a">Rebalanced weekly on backend results</td><td class="amt">£15,000</td></tr>
+    </tbody>
+  </table>
+  <figcaption><b>Fig. 2</b>Indicative split of the £15,000 initial test budget. Weighted to Meta to create demand; money moves between lines every week, following what Shopify says rather than what the platforms claim.</figcaption>
+  <div class="foot"><span><span class="dot"></span>Wonderland × Workshop Coffee</span><span class="mid-f">Proposal</span><span>04</span></div>
+</section>
+
+<!-- ====================== 04 RHYTHM ====================== -->
+<section class="page dark">
+  <div class="glow low"></div>
+  <div class="top"><div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div><span class="crumb">Phase 03 · Iteration</span></div>
+  <div style="position:relative;z-index:2">
+  <span class="label">04 · Rhythm</span>
+  <h2 style="color:#fff">Weekly. The fastest<br>rhythm <em>we recommend.</em></h2>
+  <p class="lede">Any faster and you're reacting to noise. Any slower and a test budget spends a month learning what it could have learned in a week.</p>
+
+  <div class="loop">
+    <div><small>Monday</small><h3>Read</h3><p>Performance reviewed on Shopify backend data: new customers, cost per new customer, first-order return.</p></div>
+    <div><small>Tuesday</small><h3>Decide</h3><p>Priorities agreed with you: what to cut, what to keep, what to scale, what to test next.</p></div>
+    <div><small>Wed – Thu</small><h3>Build</h3><p>New creative, audiences and feed changes built, QA'd and live in the accounts the same week.</p></div>
+    <div><small>Friday</small><h3>Write</h3><p>A short written note: what changed, what we learned, and what's coming next week.</p></div>
+  </div>
+
+  <p class="sublabel">What we test, week to week</p>
+  <div class="tests">
+    <span>Creative angles & formats</span>
+    <span>Audiences & segments</span>
+    <span>Offers, bundles & gifting</span>
+    <span>Subscription vs one-off</span>
+    <span>Landing & product pages</span>
+    <span>Feed titles & imagery</span>
+  </div>
+
+  <p class="sublabel">The first twelve weeks</p>
+  <div class="timeline">
+    <div class="tl-scale"><span>W1</span><span>W2</span><span>W3</span><span>W4</span><span>W5</span><span>W6</span><span>W7</span><span>W8</span><span>W9</span><span>W10</span><span>W11</span><span>W12</span></div>
+    <div class="tl-row">
+      <div class="seg-a">Foundations<small>Data layer live</small></div>
+      <div class="seg-b">Launch<small>First campaigns</small></div>
+      <div class="seg-c">Weekly iteration & scaling<small>Budget follows what works</small></div>
+      <div class="seg-d">Review</div>
+    </div>
+  </div>
+
+  <div class="rot"><span>Every test is designed to be read. If something doesn't work, you hear it from us first, in writing, with what we're doing about it.</span></div>
+  </div>
+  <div class="foot"><span><span class="dot"></span>Wonderland × Workshop Coffee</span><span class="mid-f">Proposal</span><span>05</span></div>
+</section>
+
+<!-- ====================== 05 WHO ====================== -->
+<section class="page light">
+  <div class="top"><div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div><span class="crumb">Team & track record</span></div>
+  <span class="label">05 · Who you'd work with</span>
+  <h2>We've built this <em>from zero</em> before.</h2>
+  <p>Wonderland runs performance marketing for consumer brands and B2B companies, with the same senior team doing the work that sells it.</p>
+
+  <div class="match">
+    <div class="big"><b>£0 → £50k</b><span>monthly paid social spend, built from scratch</span></div>
+    <div class="txt"><small>Closest match</small><h3>Bleach London</h3><p>A brand-led consumer business with no paid social. We introduced it, built the foundations and scaled it to £50k a month. The same starting point as Workshop today.</p></div>
+  </div>
+
+  <div class="clients">
+    <div><h4>Current</h4><ul>
+      <li><b>Sunday Citizen</b> · all growth marketing, multi-market ecommerce, $400k monthly spend</li>
+      <li><b>Huel</b> · Google Ads</li>
+      <li><b>Personio</b> · Google, LinkedIn and Meta Ads</li>
+      <li><b>Rollr</b> · paid media and performance creative</li>
+    </ul></div>
+    <div><h4>Previously</h4><ul>
+      <li><b>Dropps</b> · £300k/month of Meta at first-order profitable CAC</li>
+      <li><b>Manual</b> · organic traffic from zero to 140k monthly visits</li>
+      <li><b>Silverbird</b> · paid spend from £30k to £250k/month</li>
+      <li><b>Ethique</b>, <b>Peakon</b>, <b>WeGift</b>, <b>Ooodles</b></li>
+    </ul></div>
+  </div>
+
+  <div class="testi">
+    <blockquote>“Before Michael, our growth was a set of channels. Now it's an engine. He set P&amp;L-first targets from day one, which changed every conversation we have about spend.”</blockquote>
+    <cite>Fiona Kuzian · CMO, Sunday Citizen</cite>
+  </div>
+
+  <div class="team">
+    <div><small>Lead</small><b>Michael Lorenzos</b><p>Main point of contact. Strategy and senior oversight across both channels.</p></div>
+    <div><small>Day to day</small><b>Senior Performance Manager</b><p>Builds, QA, pacing, bidding and weekly tests on Meta and Google.</p></div>
+    <div><small>Availability</small><b>Weekly call · daily Slack</b><p>One-day lag between an agreed action and it landing in the account.</p></div>
+  </div>
+  <div class="foot"><span><span class="dot"></span>Wonderland × Workshop Coffee</span><span class="mid-f">Proposal</span><span>06</span></div>
+</section>
+
+<!-- ====================== 06 COMMERCIALS ====================== -->
+<section class="page light">
+  <div class="top"><div class="lockup"><img src="icon.png" alt=""><span>Wonderland</span></div><span class="crumb">Commercials</span></div>
+  <span class="label">06 · Commercials</span>
+  <h2>Simple to start. <em>Priced to the work.</em></h2>
+  <p>One flat monthly fee for the first three months. After that, the fee follows the workload the account needs, in either direction.</p>
+
+  <div class="price">
+    <div class="l">
+      <small>Months 1–3</small>
+      <div class="amt">£3,500<sub>/ month + VAT</sub></div>
+      <p>Everything in this proposal, from the data layer to weekly iteration.</p>
+    </div>
+    <div class="r">
+      <small>Included</small>
+      <ul>
+        <li>Tracking, product feed, segments and data syncs</li>
+        <li>Campaign build and launch on Meta and Google</li>
+        <li>Weekly iteration, budget pacing and QA</li>
+        <li>Weekly call and written weekly note</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fork-head"><span>At the end of month 3, we review together</span><i></i></div>
+  <div class="fork">
+    <div>
+      <small>Path A · Scale</small>
+      <h3>Higher rhythm</h3>
+      <p>The account is capturing more spend and needs more testing to keep growing: more creative, more campaigns, more tests a week. The retainer steps up to match, agreed with you before anything changes.</p>
+      <div class="fee">Steps up<span>/ scoped to the workload</span></div>
+    </div>
+    <div>
+      <small>Path B · Always-on</small>
+      <h3>Steady state</h3>
+      <p>Paid media settles into a reliable, lower-intensity channel that mainly needs maintaining, refreshing and pacing. The retainer drops to reflect the lighter workload.</p>
+      <div class="fee">£2,500<span>/ month + VAT</span></div>
+    </div>
+  </div>
+
+  <ul class="terms">
+    <li>Three-month initial term, then rolling monthly with same-month notice.</li>
+    <li>Flat fee, not a percentage of spend. Media is paid directly to Meta and Google and never marked up.</li>
+    <li>We work from your existing photography and video, cut for each placement, and brief new assets when tests call for them.</li>
+    <li>Reporting on Shopify backend data, so results are measured in new customers and revenue, not platform claims.</li>
+  </ul>
+
+  <div class="next">
+    <div><span class="n">1</span><b>Access</b><p>Shopify, Klaviyo, Meta Business Manager, Google Ads, Merchant Center, GA4.</p></div>
+    <div><span class="n">2</span><b>Kick-off</b><p>Goals, margins, hero products and what the brand must never look like.</p></div>
+    <div><span class="n">3</span><b>Live</b><p>Foundations in two weeks. First campaigns in market in week three.</p></div>
+  </div>
+  <div class="foot"><span><span class="dot"></span>wonderland.marketing · michael@wonderland-marketing.com</span><span>07</span></div>
+</section>
+
+</body>
+</html>
