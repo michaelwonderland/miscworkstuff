@@ -1,0 +1,269 @@
+[
+ {
+  "name": "D+H Mechatronic",
+  "linkedin_query": "D+H Mechatronic AG",
+  "country": "Germany",
+  "employees": "430",
+  "industry": "Building technology",
+  "evidence_url": "https://www.personio.de/references/case-study-d-h-mechatronic/",
+  "linkedin_slugs": [
+   "d-h-mechatronic-ag"
+  ]
+ },
+ {
+  "name": "Harren Group",
+  "linkedin_query": "Harren Group",
+  "country": "Germany",
+  "employees": "450",
+  "industry": "Maritime & logistics",
+  "evidence_url": "https://www.personio.de/references/case-study-harren-group/",
+  "linkedin_slugs": [
+   "harren-group"
+  ]
+ },
+ {
+  "name": "Statista",
+  "linkedin_query": "Statista",
+  "country": "Germany",
+  "employees": "600",
+  "industry": "Software / data",
+  "evidence_url": "https://www.personio.de/referenzen/case-study-statista/",
+  "linkedin_slugs": [
+   "statista"
+  ]
+ },
+ {
+  "name": "orderbird",
+  "linkedin_query": "orderbird AG",
+  "country": "Germany",
+  "employees": "140",
+  "industry": "Restaurant tech",
+  "evidence_url": "https://www.personio.com/references/case-study-orderbird/",
+  "linkedin_slugs": [
+   "orderbird"
+  ]
+ },
+ {
+  "name": "Getsafe",
+  "linkedin_query": "Getsafe",
+  "country": "Germany",
+  "employees": "300+",
+  "industry": "Insurtech",
+  "evidence_url": "https://www.personio.com/references/case-study-getsafe-conversations/",
+  "linkedin_slugs": [
+   "getsafe-personal-insurance"
+  ]
+ },
+ {
+  "name": "ic! berlin",
+  "linkedin_query": "ic! berlin",
+  "country": "Germany",
+  "employees": "200",
+  "industry": "Eyewear",
+  "evidence_url": "https://www.personio.com/references/case-study-ic-berlin/",
+  "linkedin_slugs": [
+   "ic-berlin"
+  ]
+ },
+ {
+  "name": "Raisin",
+  "linkedin_query": "Raisin",
+  "country": "Germany",
+  "employees": "320+",
+  "industry": "Fintech",
+  "evidence_url": "https://www.personio.com/references/case-study-raisin/",
+  "linkedin_slugs": [
+   "join-raisin",
+   "raisinbank"
+  ]
+ },
+ {
+  "name": "swisspeace",
+  "linkedin_query": "swisspeace",
+  "country": "Switzerland",
+  "employees": "100",
+  "industry": "Nonprofit / research",
+  "evidence_url": "https://www.personio.ch/referenzen/casestudy-swisspeace/",
+  "linkedin_slugs": [
+   "swisspeace"
+  ]
+ },
+ {
+  "name": "Teufel",
+  "linkedin_query": "Lautsprecher Teufel",
+  "country": "Germany",
+  "employees": "300+",
+  "industry": "Consumer electronics",
+  "evidence_url": "https://www.personio.ch/referenzen/case-study-teufel/",
+  "linkedin_slugs": [
+   "teufel-audio"
+  ]
+ },
+ {
+  "name": "EQS Group",
+  "linkedin_query": "EQS Group",
+  "country": "Germany",
+  "employees": "350+",
+  "industry": "RegTech software",
+  "evidence_url": "https://www.personio.ch/referenzen/case-study-eqs/",
+  "linkedin_slugs": [
+   "eqs-group"
+  ]
+ },
+ {
+  "name": "Verivox",
+  "linkedin_query": "Verivox",
+  "country": "Germany",
+  "employees": "500",
+  "industry": "Comparison portal",
+  "evidence_url": "https://www.personio.de/references/case-study-verivox/",
+  "linkedin_slugs": [
+   "verivox-gmbh"
+  ]
+ },
+ {
+  "name": "Haus des Stiftens",
+  "linkedin_query": "Haus des Stiftens",
+  "country": "Germany",
+  "employees": "130",
+  "industry": "Nonprofit",
+  "evidence_url": "https://www.personio.de/referenzen/case-study-haus-des-stiftens/",
+  "linkedin_slugs": [
+   "haus-des-stiftens"
+  ]
+ },
+ {
+  "name": "KU64",
+  "linkedin_query": "KU64",
+  "country": "Germany",
+  "employees": "100",
+  "industry": "Dental healthcare",
+  "evidence_url": "https://www.personio.de/referenzen/case-study-ku64/",
+  "linkedin_slugs": [
+   "ku64-dr-ziegler-&-partner-zahn-rzte"
+  ]
+ },
+ {
+  "name": "Toyota Material Handling Austria",
+  "linkedin_query": "Toyota Material Handling Austria",
+  "country": "Austria",
+  "employees": "180",
+  "industry": "Intralogistics",
+  "evidence_url": "https://www.personio.de/references/toyotamaterialhandling/",
+  "linkedin_slugs": [
+   "toyota-material-handling-austria"
+  ]
+ },
+ {
+  "name": "Emma – The Sleep Company",
+  "linkedin_query": "https://www.linkedin.com/company/lifeatemma/",
+  "country": "Germany",
+  "employees": "1300",
+  "industry": "Consumer goods",
+  "evidence_url": "https://www.personio.com/references/case-study-emma/",
+  "linkedin_slugs": [
+   "lifeatemma"
+  ]
+ },
+ {
+  "name": "auxmoney",
+  "linkedin_query": "auxmoney",
+  "country": "Germany",
+  "employees": "300+",
+  "industry": "Fintech",
+  "evidence_url": "https://www.personio.ch/referenzen/case-study-auxmoney/",
+  "linkedin_slugs": [
+   "auxmoney-gmbh",
+   "auxmoney-nl"
+  ]
+ },
+ {
+  "name": "audibene / hear.com",
+  "linkedin_query": "audibene",
+  "country": "Germany",
+  "employees": "1300",
+  "industry": "Health tech",
+  "evidence_url": "https://www.personio.de/referenzen/case-study-audibene/",
+  "linkedin_slugs": [
+   "audibene"
+  ]
+ },
+ {
+  "name": "fritz-kola",
+  "linkedin_query": "fritz-kola",
+  "country": "Germany",
+  "employees": "250+",
+  "industry": "Beverages",
+  "evidence_url": "https://www.personio.com/references/case-study-fritz-kulturgueter-gmbh/",
+  "linkedin_slugs": [
+   "fritz-kola-gmbh"
+  ]
+ },
+ {
+  "name": "1. FC Köln",
+  "linkedin_query": "1. FC Köln",
+  "country": "Germany",
+  "employees": "1000",
+  "industry": "Sports",
+  "evidence_url": "https://www.personio.com/references/case-study-1fckoeln/",
+  "linkedin_slugs": [
+   "fckoeln",
+   "1.-fc-köln"
+  ]
+ },
+ {
+  "name": "idealworks",
+  "linkedin_query": "idealworks",
+  "country": "Germany",
+  "employees": "100+",
+  "industry": "Robotics / logistics",
+  "evidence_url": "https://www.personio.de/referenzen/case-study-idealworks/",
+  "linkedin_slugs": [
+   "idealworks-gmbh"
+  ]
+ },
+ {
+  "name": "Degura",
+  "linkedin_query": "Degura",
+  "country": "Germany",
+  "employees": "50",
+  "industry": "HR tech",
+  "evidence_url": "https://www.personio.de/referenzen/case-study-degura/",
+  "linkedin_slugs": [
+   "degura-gmbh"
+  ]
+ },
+ {
+  "name": "HIIG",
+  "linkedin_query": "Alexander von Humboldt Institute for Internet and Society",
+  "country": "Germany",
+  "employees": "50+",
+  "industry": "Research",
+  "evidence_url": "https://www.personio.ch/referenzen/case-study-alexander-von-humboldt-institut/",
+  "linkedin_slugs": [
+   "hiigberlin"
+  ]
+ },
+ {
+  "name": "Thermondo",
+  "linkedin_query": "Thermondo",
+  "country": "Germany",
+  "employees": "300",
+  "industry": "Energy / heating",
+  "evidence_url": "https://www.personio.ch/referenzen/case-study-thermondo/",
+  "linkedin_slugs": [
+   "thermondo"
+  ]
+ },
+ {
+  "name": "Dierkes Partner",
+  "linkedin_query": "Dierkes Partner",
+  "country": "Germany",
+  "employees": "300",
+  "industry": "Tax & legal",
+  "evidence_url": "https://www.personio.de/referenzen/case-study-dierkes-partner/",
+  "linkedin_slugs": [
+   "dierkes-partner"
+  ]
+ }
+]
